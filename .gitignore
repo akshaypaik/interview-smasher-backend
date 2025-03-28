@@ -1,0 +1,4 @@
+.env
+node_modules
+src/user-uploads
+dist
