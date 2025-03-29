@@ -47,6 +47,30 @@ class CoursesService {
             throw messageModel;
         }
     }
+
+    async getCourseDetailsByCourseId(courseId: number) {
+        try {
+            console.log(`[CoursesService] get course detail service started for courseId: ${courseId}`);
+            let courseDetails: [] = [];
+            const coursesInfoCollection = db.dbConnector.db("InterviewSmasher").collection("courseInfo");
+            const response = await coursesInfoCollection.findOne({ courseId: courseId });
+            if (response) {
+                courseDetails = response;
+            }
+            console.log("[CoursesService] get course detail api fetching completed");
+            return courseDetails;
+        } catch (error) {
+            console.log(
+                "[CoursesService] getCourseDetailsByCourseId: error occured: ",
+                error
+            );
+            let messageModel = {
+                statusMessage: "Error while reading course by id!",
+                statusCode: -1,
+            };
+            throw messageModel;
+        }
+    }
 }
 
 const coursesService = new CoursesService();

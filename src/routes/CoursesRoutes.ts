@@ -11,4 +11,6 @@ CoursesRoutes.get(`${coursesBaseURL}/getAllCourses`, coursesController.getAllCou
 
 CoursesRoutes.post(`${coursesBaseURL}/postCourse`, coursesController.postCourse);
 
+CoursesRoutes.get(`${coursesBaseURL}/getCourseDetailsByCourseId`, coursesController.getCourseDetailsByCourseId);
+
 export default CoursesRoutes;

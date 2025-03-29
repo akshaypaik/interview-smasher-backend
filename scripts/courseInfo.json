@@ -1,0 +1,15 @@
+{
+    "courseId": 1,
+    "basicInfo": {
+        "name": "Javascript",
+        "iconURL": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+        "overviewText": "JavaScript is a must-have skill for web development, used heavily in both client-side and server-side applications. In this JavaScript full course, you'll get all high-quality lessons."
+    },
+    "topicsInfo": [
+        {
+            "topicName": "Closures",
+            "description": "A closure gives a function access to all variables of its parent function even after that parent function is returned. The function keeps a reference to its outer scope which preserves the scope chain throughout time.",
+            "codeSnippet": "const secureBooking = function () {\n    let passengerCount = 0;\n    return function(){\n        passengerCount++;\n        console.log('passengerCount: ', passengerCount);\n    }\n}\n\nconst booker = secureBooking();\nbooker();\nbooker();\nbooker();"
+        }
+    ]
+}
