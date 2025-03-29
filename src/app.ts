@@ -7,6 +7,7 @@ import { default as connectMongoDBSession } from "connect-mongodb-session";
 import { environmentVariables } from "./configurations/EnvironmentVariables";
 import { db } from "./db";
 import CoursesRoutes from "./routes/CoursesRoutes";
+import TopicsRoutes from "./routes/TopicsRoutes";
 
 const app = express();
 
@@ -89,7 +90,7 @@ app.use((req, res, next) => {
 db.initializeDB();
 
 // Routes
-//app.use('/', router);
 app.use(CoursesRoutes);
+app.use(TopicsRoutes);
 
 export { app };

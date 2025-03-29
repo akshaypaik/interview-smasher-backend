@@ -7,9 +7,16 @@
     },
     "topicsInfo": [
         {
-            "topicName": "Closures",
+            "topicName": "closures",
+            "topicDisplayName": "Closures",
             "description": "A closure gives a function access to all variables of its parent function even after that parent function is returned. The function keeps a reference to its outer scope which preserves the scope chain throughout time.",
             "codeSnippet": "const secureBooking = function () {\n    let passengerCount = 0;\n    return function(){\n        passengerCount++;\n        console.log('passengerCount: ', passengerCount);\n    }\n}\n\nconst booker = secureBooking();\nbooker();\nbooker();\nbooker();"
+        },
+        {
+            "topicName": "thisKeyword",
+            "topicDisplayName": "This Keyword",
+            "description": "this keyword behaves differently in strict mode and non strict mode. If the value of this keyword is undefined or null, this keyword will be replaced with globalObject only in non strict mode",
+            "codeSnippet": ""
         }
     ]
 }
