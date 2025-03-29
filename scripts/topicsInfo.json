@@ -25,5 +25,32 @@
         "module": "arrays",
         "courseId": 1,
         "topicId": 3
+    },
+    {
+        "topicName": "reactHooks",
+        "topicDisplayName": "React Hooks",
+        "description": "React Hooks are functions that let you use React features (like state and lifecycle methods) in functional components, offering a simpler and more efficient way to manage component logic compared to class components.",
+        "codeSnippet": "// Most important 2 hooks \n// useState() - super powerful local state variable in React\n// useEffect()\n\n// useState core concepts\n// - useState variables are declared like:\n//   const [name, setName] = useState(\"akshay\");\n// - \"akshay\" is the default value for name.\n// - useState returns an array where the first element is the variable,\n//   and the second element is a function to update that variable.\n// - React re-renders the component whenever this variable changes,\n//   using the diff algorithm to check for changes.\n\n// useEffect core concepts\n// - If no dependency array => useEffect is called on every component render \n// - If dependency array is empty = [] => useEffect is called only once (on initial render)  \n// - If dependency array is [isLoggedIn] => useEffect runs every time isLoggedIn updates\nuseEffect(() => {\n    console.log(\"useEffect called\");\n}, []);\n\n// Cleaning up resources when a component unmounts\nuseEffect(() => {\n    const timer = setInterval(() => {\n        console.log(\"React is OP\");\n    }, 1000);\n    \n    // Clear timer in return function\n    return () => {\n        clearTimeout(timer);\n    };\n}, []);",
+        "module": "basics",
+        "courseId": 4,
+        "topicId": 4
+    },
+    {
+        "topicName": "reconciliationAlgorithm",
+        "topicDisplayName": "Reconciliation Algorithm",
+        "description": "In the context of front-end frameworks like React, a reconciliation algorithm is the process of comparing a new virtual DOM with the previous one and efficiently updating only the parts of the real DOM that have changed. This optimization helps improve performance by minimizing unnecessary DOM manipulations.",
+        "codeSnippet": "// React uses the Reconciliation Algorithm, also known as React Fiber (introduced in React 16)\n// Virtual DOM is a representation of the Actual DOM\n// Virtual DOM consists of React Elements (JS objects)\n// console.log(<Component />) outputs a React Element, which is a normal JS object\n\n// Diff Algorithm:\n// - Finds the difference between the updated Virtual DOM and the previous Virtual DOM\n// - Updates only the necessary parts of the actual DOM instead of re-rendering everything\n\n// Example:\n// Suppose there are 15 restaurants initially loaded in a component.\n// When the user clicks the 'Top Rated' filter button, the restaurant data updates to only 7 restaurants.\n// React creates a new Virtual DOM object with these 7 restaurants.\n// The Diff Algorithm compares the new 7-restaurant Virtual DOM with the old 15-restaurant Virtual DOM.\n// React then updates only the necessary parts of the Actual DOM efficiently.",
+        "module": "advanced",
+        "courseId": 4,
+        "topicId": 5
+    },
+    {
+        "topicName": "classBasedComponent",
+        "topicDisplayName": "Class Based Component",
+        "description": "Before React 16.8, Class components were the only way to track state and lifecycle on a React component. Function components were considered 'state-less'.",
+        "codeSnippet": "import React from \"react\";\nimport UserClass from \"./User/User\";\n\nclass ContactClass extends React.Component {\n\n    // React class-based component lifecycle flow:\n    // 1. Constructor is called\n    // 2. Render method is called\n    // 3. componentDidMount is called\n\n    // If a component has a child component, the lifecycle flow is:\n    // 1. Parent constructor\n    // 2. Parent render\n    // 3. Child constructor\n    // 4. Child render\n    // 5. Child componentDidMount\n    // 6. Parent componentDidMount\n\n    // If a component has multiple child components, React batches renders:\n    // 1. Parent constructor\n    // 2. Parent render\n    // 3. First child's constructor\n    // 4. First child's render\n    // 5. Second child's constructor\n    // 6. Second child's render\n    // 7. First child's componentDidMount\n    // 8. Second child's componentDidMount\n    // 9. Parent componentDidMount\n\n    constructor(props) {\n        super(props);\n        console.log(\"parent constructor called\");\n    }\n\n    componentDidMount() {\n        console.log(\"parent component did mount called\");\n    }\n\n    render() {\n        console.log(\"parent render called\");\n        return (\n            <div>\n                <UserClass name=\"Akshay Pai\" />\n                {/* <UserClass name=\"Radhe Pai\" /> Uncomment to test multiple children behavior */}\n            </div>\n        );\n    }\n}\n\nexport default ContactClass;",
+        "module": "basics",
+        "courseId": 4,
+        "topicId": 6
     }
 ]

@@ -1,25 +1,52 @@
-{
-    "courseId": 1,
-    "basicInfo": {
-        "name": "Javascript",
-        "iconURL": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-        "overviewText": "JavaScript is a must-have skill for web development, used heavily in both client-side and server-side applications. In this JavaScript full course, you'll get all high-quality lessons."
+[
+    {
+        "courseId": 1,
+        "basicInfo": {
+            "name": "Javascript",
+            "iconURL": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+            "overviewText": "JavaScript is a must-have skill for web development, used heavily in both client-side and server-side applications. In this JavaScript full course, you'll get all high-quality lessons."
+        },
+        "topicsInfo": [
+            {
+                "topicName": "closures",
+                "topicDisplayName": "Closures",
+                "module": "basics"
+            },
+            {
+                "topicName": "thisKeyword",
+                "topicDisplayName": "This Keyword",
+                "module": "basics"
+            },
+            {
+                "topicName": "arrayFilter",
+                "topicDisplayName": "Array Filter",
+                "module": "arrays"
+            }
+        ]
     },
-    "topicsInfo": [
-        {
-            "topicName": "closures",
-            "topicDisplayName": "Closures",
-            "module": "basics"
+    {
+        "courseId": 4,
+        "basicInfo": {
+            "name": "React",
+            "iconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+            "overviewText": "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library that aims to make building user interfaces based on components more seamless. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies."
         },
-        {
-            "topicName": "thisKeyword",
-            "topicDisplayName": "This Keyword",
-            "module": "basics"
-        },
-        {
-            "topicName": "arrayFilter",
-            "topicDisplayName": "Array Filter",
-            "module": "arrays"
-        }
-    ]
-}
+        "topicsInfo": [
+            {
+                "topicName": "reactHooks",
+                "topicDisplayName": "React Hooks",
+                "module": "basics"
+            },
+            {
+                "topicName": "reconciliationAlgorithm",
+                "topicDisplayName": "Reconciliation Algorithm",
+                "module": "advanced"
+            },
+            {
+                "topicName": "classBasedComponent",
+                "topicDisplayName": "Class Based Component",
+                "module": "basics"
+            }
+        ]
+    }
+]
