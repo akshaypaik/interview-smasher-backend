@@ -5,21 +5,10 @@ class TopicsService {
         try {
             console.log(`[CoursesService] get course detail service started for courseId: ${topicName}`);
             let courseDetails: [] = [];
-            const coursesInfoCollection = db.dbConnector.db("InterviewSmasher").collection("courseInfo");
+            const coursesInfoCollection = db.dbConnector.db("InterviewSmasher").collection("topicsInfo");
             const response = await coursesInfoCollection.aggregate([
                 {
-                    $match: { "topicsInfo.topicName": topicName } // Find the document containing the topic
-                },
-                {
-                    $project: {
-                        topicsInfo: {
-                            $filter: {
-                                input: "$topicsInfo",
-                                as: "topic",
-                                cond: { $eq: ["$$topic.topicName", topicName] }
-                            }
-                        }
-                    }
+                    $match: { "topicName": topicName } // Find the document containing the topic
                 }
             ]).toArray();
             if (response) {

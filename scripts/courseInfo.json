@@ -10,15 +10,22 @@
             "topicName": "closures",
             "topicDisplayName": "Closures",
             "description": "A closure gives a function access to all variables of its parent function even after that parent function is returned. The function keeps a reference to its outer scope which preserves the scope chain throughout time.",
-            "codeSnippet": "const secureBooking = function () {\n    let passengerCount = 0;\n    return function(){\n        passengerCount++;\n        console.log('passengerCount: ', passengerCount);\n    }\n}\n\nconst booker = secureBooking();\nbooker();\nbooker();\nbooker();",
+            "codeSnippet": "const secureBooking = function () {\n    let passengerCount = 0;\n    return function(){  // any function always has access to variable environment of execution context in which function is created even after that execution context is gone\n        passengerCount++;\n        console.log(\"passengerCount: \", passengerCount);\n    }\n}\n\nconst booker = secureBooking();\nbooker();\nbooker();\nbooker();\n\n// A closure gives a function access to all variables of its parent function even after that parent function is returned.\n// The function keeps a reference to its outer scope which preserves the scope chain throughout time.",
             "module": "basics"
         },
         {
             "topicName": "thisKeyword",
             "topicDisplayName": "This Keyword",
-            "description": "this keyword behaves differently in strict mode and non strict mode. If the value of this keyword is undefined or null, this keyword will be replaced with globalObject only in non strict mode",
-            "codeSnippet": "",
+            "description": "The behavior of the 'this' keyword depends on the execution context, whether in global scope, inside functions, object methods, or arrow functions. It also behaves differently in strict and non-strict mode. If the value of this keyword is undefined or null, this keyword will be replaced with globalObject only in non strict mode",
+            "codeSnippet": "\"use strict\" // this keyword behaves differently in strict mode and non strict mode.\n\n// this in global space\nconsole.log(this);  // global object (browser - window, nodejs - global) (depends on js runtime)\n\n// this inside a function\nfunction x() {\n    console.log(this);\n}\n\nx();    // undefined in strict mode\n\n// this inside an object's method\nconst obj = {\n    name: \"akshay\",\n    age: 30,\n    print: function (city) {\n        console.log(this);\n        console.log(`my name is ${this.name} and I belong to ${city}`);\n    }\n}\n\nobj.print(\"bangalore\");\n\n// call, apply, and bind methods\nconst obj2 = { name: \"radhe\", age: 28 };\nobj.print.call(obj2, \"bangalore\");\n\nconst obj3 = { name: \"kavitha\", age: 62 };\nobj.print.apply(obj3, [\"bangalore\"]);\n\nconst obj4 = { name: \"krishnadas\", age: 66 };\nconst result = obj.print.bind(obj4);\nresult(\"bangalore\");\n\n// this inside arrow functions\nconst objGlobalArrow = {\n    name: \"akshay\",\n    print: () => {\n        console.log(`my arrow name is ${this.name}`);   \n    }\n}\nobjGlobalArrow.print(); // 'this' is undefined\n\nconst objArrow = {\n    name: \"krishnadas\",\n    child: function () {\n        const printName = () => {\n            console.log(`my arrow name is ${this.name}`);\n        }\n        printName();\n    }\n}\nobjArrow.child();\n\n// this inside DOM elements => reference to HTML element",
             "module": "basics"
+        },
+        {
+            "topicName": "arrayFilter",
+            "topicDisplayName": "Array Filter",
+            "description": "The filter() method of Array instances creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.",
+            "codeSnippet": "const numbersArray = [2, 25, 15, 45, 36, 91, 16, 29, 43, 52, 63, 78, 81, 99, 104];\n\n// filter returns new array\nconst newNumbersArray = numbersArray.filter(item => item > 80);\nconsole.log(\"newNumbersArray: \", newNumbersArray);  // [ 91, 81, 99, 104 ]\nconsole.log(\"numbersArray: \", numbersArray);    // [2, 25, 15, 45, 36, 91, 16, 29, 43, 52, 63, 78, 81, 99, 104] does not mutate the original array",
+            "module": "arrays"
         }
     ]
 }
