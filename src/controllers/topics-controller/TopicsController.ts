@@ -13,6 +13,17 @@ class TopicsController {
             res.send(error);
         }
     }
+
+    public async updateTopicCompletion(req: Request, res: Response) {
+        try {
+            const topicDetails = req?.body;
+            const response = await topicsService.updateTopicCompletion(topicDetails);
+            res.header("Access-Control-Allow-Origin", "*");
+            res.send(response);
+        } catch (error) {
+            res.send(error);
+        }
+    }
 }
 
 const topicsController = new TopicsController();

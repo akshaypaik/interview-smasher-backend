@@ -9,4 +9,6 @@ const topicsBaseURL = `${AppBaseURL.APP_BASE_URL}/${RoutesBaseURLs.TOPICS}`;
 
 TopicsRoutes.get(`${topicsBaseURL}/getTopicByTopicName`, topicsController.getTopicByTopicName);
 
+TopicsRoutes.post(`${topicsBaseURL}/updateTopicCompletion`, topicsController.updateTopicCompletion);
+
 export default TopicsRoutes;
