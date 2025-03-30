@@ -11,4 +11,6 @@ TopicsRoutes.get(`${topicsBaseURL}/getTopicByTopicName`, topicsController.getTop
 
 TopicsRoutes.post(`${topicsBaseURL}/updateTopicCompletion`, topicsController.updateTopicCompletion);
 
+TopicsRoutes.get(`${topicsBaseURL}/getTopicCompletionStatus`, topicsController.getTopicCompletionStatus);
+
 export default TopicsRoutes;

@@ -24,6 +24,17 @@ class TopicsController {
             res.send(error);
         }
     }
+
+    public async getTopicCompletionStatus(req: Request, res: Response) {
+        try {
+            const topicId = Number(req?.query?.topicId);
+            const response = await topicsService.getTopicCompletionStatus(topicId);
+            res.header("Access-Control-Allow-Origin", "*");
+            res.send(response);
+        } catch (error) {
+            res.send(error);
+        }
+    }
 }
 
 const topicsController = new TopicsController();

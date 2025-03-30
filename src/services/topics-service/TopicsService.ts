@@ -70,6 +70,30 @@ class TopicsService {
             };;
         }
     }
+
+    public async getTopicCompletionStatus(topicId: number | null | undefined) {
+        try {
+            console.log(`[TopicsService] get topic completion status api started for topicId: ${topicId}`);
+            let courseDetails: [] = [];
+            const topicCompletionCollection = db.dbConnector.db("InterviewSmasher").collection("topicCompletion");
+            const response = await topicCompletionCollection.findOne({ topicId });
+            if (response) {
+                courseDetails = response;
+            }
+            console.log("[TopicsService] get topic completion status api fetching completed");
+            return courseDetails;
+        } catch (error) {
+            console.log(
+                "[TopicsService] getTopicCompletionStatus: error occured: ",
+                error
+            );
+            let messageModel = {
+                statusMessage: "Error while getting topic completion status!",
+                statusCode: -1,
+            };
+            throw messageModel;
+        }
+    }
 }
 
 const topicsService = new TopicsService();
