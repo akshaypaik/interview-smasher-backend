@@ -1,70 +1,92 @@
-[{
-  "_id": {
-    "$oid": "67e6eebb2cf45f6717ae4557"
+[
+  {
+    "_id": {
+      "$oid": "67e6eebb2cf45f6717ae4557"
+    },
+    "name": "Javascript",
+    "description": "JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.",
+    "courseId": "1",
+    "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "isCourseActive": true
   },
-  "name": "Javascript",
-  "description": "JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.",
-  "courseId": "1",
-  "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-  "isCourseActive": true
-},
-{
-  "_id": {
-    "$oid": "67e6f1934d66da16366ba97e"
+  {
+    "_id": {
+      "$oid": "67e6f1934d66da16366ba97e"
+    },
+    "name": "Node.js",
+    "description": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
+    "courseId": "2",
+    "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+    "isCourseActive": true
   },
-  "name": "Node.js",
-  "description": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
-  "courseId": "2",
-  "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
-  "isCourseActive": true
-},
-{
-  "_id": {
-    "$oid": "67e6f4abd76a76df1d4363c3"
+  {
+    "_id": {
+      "$oid": "67e6f4abd76a76df1d4363c3"
+    },
+    "name": "Angular",
+    "description": "Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages.",
+    "courseId": "3",
+    "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
+    "isCourseActive": true
   },
-  "name": "Angular",
-  "description": "Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages.",
-  "courseId": "3",
-  "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
-  "isCourseActive": true
-},
-{
-  "_id": {
-    "$oid": "67e6f4e9d76a76df1d4363c4"
+  {
+    "_id": {
+      "$oid": "67e6f4e9d76a76df1d4363c4"
+    },
+    "name": "React",
+    "description": "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library that aims to make building user interfaces based on components more seamless. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.",
+    "courseId": "4",
+    "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+    "isCourseActive": true
   },
-  "name": "React",
-  "description": "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library that aims to make building user interfaces based on components more seamless. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.",
-  "courseId": "4",
-  "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
-  "isCourseActive": true
-},
-{
-  "_id": {
-    "$oid": "67e6fba8d76a76df1d4363c5"
+  {
+    "_id": {
+      "$oid": "67e6fba8d76a76df1d4363c5"
+    },
+    "name": "Vue.js",
+    "description": "Vue.js (commonly referred to as Vue; pronounced view) is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications.[12] It was created by Evan You and is maintained by him and the rest of the active core team members.",
+    "courseId": "5",
+    "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png",
+    "isCourseActive": false
   },
-  "name": "Vue.js",
-  "description": "Vue.js (commonly referred to as Vue; pronounced view) is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications.[12] It was created by Evan You and is maintained by him and the rest of the active core team members.",
-  "courseId": "5",
-  "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png",
-  "isCourseActive": false
-},
-{
-  "_id": {
-    "$oid": "67e6fbf8d76a76df1d4363c6"
+  {
+    "_id": {
+      "$oid": "67e6fbf8d76a76df1d4363c6"
+    },
+    "name": "Python",
+    "description": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.",
+    "courseId": "6",
+    "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+    "isCourseActive": false
   },
-  "name": "Python",
-  "description": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.",
-  "courseId": "6",
-  "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
-  "isCourseActive": false
-},
-{
-  "_id": {
-    "$oid": "67e6fc44d76a76df1d4363c7"
+  {
+    "_id": {
+      "$oid": "67e6fc44d76a76df1d4363c7"
+    },
+    "name": "Java",
+    "description": "Java is a high-level, general-purpose, memory-safe, object-oriented programming language. It is intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java runtime provides dynamic capabilities (such as reflection and runtime code modification) that are typically not available in traditional compiled languages.",
+    "courseId": "7",
+    "courseIconURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png",
+    "isCourseActive": false
   },
-  "name": "Java",
-  "description": "Java is a high-level, general-purpose, memory-safe, object-oriented programming language. It is intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java runtime provides dynamic capabilities (such as reflection and runtime code modification) that are typically not available in traditional compiled languages.",
-  "courseId": "7",
-  "courseIconURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png",
-  "isCourseActive": false
-}]
+  {
+    "_id": {
+      "$oid": "67e6fc44d76a76df1d4849c7"
+    },
+    "name": "HTML",
+    "description": "HTML is the standard markup language for Web pages. With HTML you can create your own Website.",
+    "courseId": "8",
+    "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+    "isCourseActive": true
+  },
+  {
+    "_id": {
+      "$oid": "67e6fc44d76a76df1d6982a5"
+    },
+    "name": "CSS",
+    "description": "CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.",
+    "courseId": "9",
+    "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg",
+    "isCourseActive": true
+  }
+]
