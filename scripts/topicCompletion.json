@@ -1,0 +1,68 @@
+[
+    {
+        "courseId": 1,
+        "topicId": 1,
+        "isCompleted": false,
+        "module": "basics",
+        "topicName": "closures",
+        "user": {
+            "username": "akshay",
+            "email": "akshaypaik@gmail.com"
+        }
+    },
+    {
+        "courseId": 1,
+        "topicId": 2,
+        "isCompleted": false,
+        "module": "basics",
+        "topicName": "thisKeyword",
+        "user": {
+            "username": "akshay",
+            "email": "akshaypaik@gmail.com"
+        }
+    },
+    {
+        "courseId": 1,
+        "topicId": 3,
+        "isCompleted": false,
+        "module": "arrays",
+        "topicName": "arrayFilter",
+        "user": {
+            "username": "akshay",
+            "email": "akshaypaik@gmail.com"
+        }
+    },
+    {
+        "courseId": 4,
+        "topicId": 4,
+        "isCompleted": false,
+        "module": "basics",
+        "topicName": "reactHooks",
+        "user": {
+            "username": "akshay",
+            "email": "akshaypaik@gmail.com"
+        }
+    },
+    {
+        "courseId": 4,
+        "topicId": 5,
+        "isCompleted": false,
+        "module": "basics",
+        "topicName": "reconciliationAlgorithm",
+        "user": {
+            "username": "akshay",
+            "email": "akshaypaik@gmail.com"
+        }
+    },
+    {
+        "courseId": 4,
+        "topicId": 6,
+        "isCompleted": false,
+        "module": "basics",
+        "topicName": "classBasedComponent",
+        "user": {
+            "username": "akshay",
+            "email": "akshaypaik@gmail.com"
+        }
+    }
+]
