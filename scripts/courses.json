@@ -88,5 +88,40 @@
     "courseId": "9",
     "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Official_CSS_Logo.svg",
     "isCourseActive": true
+  },
+  {
+    "name": "AWS",
+    "description": "Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis.",
+    "courseId": "10",
+    "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png",
+    "isCourseActive": true
+  },
+  {
+    "name": "Mongo DB",
+    "description": "MongoDB is a source-available, cross-platform, document-oriented database program. Classified as a NoSQL database product, MongoDB uses JSON-like documents with optional schemas.",
+    "courseId": "11",
+    "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
+    "isCourseActive": true
+  },
+  {
+    "name": "MySQL",
+    "description": "MySQL is an open-source relational database management system (RDBMS).",
+    "courseId": "12",
+    "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/5/51/Mysql.svg",
+    "isCourseActive": true
+  },
+  {
+    "name": "Go",
+    "description": "Go is a high-level general purpose programming language that is statically typed and compiled. It is known for the simplicity of its syntax and the efficiency of development that it enables by the inclusion of a large standard library supplying many needs for common projects.",
+    "courseId": "13",
+    "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg",
+    "isCourseActive": false
+  },
+  {
+    "name": "Ruby on Rails",
+    "description": "Ruby on Rails (simplified as Rails) is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages.",
+    "courseId": "14",
+    "courseIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg",
+    "isCourseActive": false
   }
 ]
