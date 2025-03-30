@@ -64,5 +64,93 @@
             "username": "akshay",
             "email": "akshaypaik@gmail.com"
         }
+    },
+    {
+        "courseId": 1,
+        "topicId": 7,
+        "isCompleted": false,
+        "module": "arrays",
+        "topicName": "arrayFlatMethod",
+        "user": {
+            "username": "akshay",
+            "email": "akshaypaik@gmail.com"
+        }
+    },
+    {
+        "courseId": 1,
+        "topicId": 8,
+        "isCompleted": false,
+        "module": "arrays",
+        "topicName": "arrayReduceMethod",
+        "user": {
+            "username": "akshay",
+            "email": "akshaypaik@gmail.com"
+        }
+    },
+    {
+        "courseId": 1,
+        "topicId": 9,
+        "isCompleted": false,
+        "module": "arrays",
+        "topicName": "arraySliceSpliceReverseMethods",
+        "user": {
+            "username": "akshay",
+            "email": "akshaypaik@gmail.com"
+        }
+    },
+    {
+        "courseId": 1,
+        "topicId": 10,
+        "isCompleted": false,
+        "module": "arrays",
+        "topicName": "arraySomeAndEvery",
+        "user": {
+            "username": "akshay",
+            "email": "akshaypaik@gmail.com"
+        }
+    },
+    {
+        "courseId": 1,
+        "topicId": 11,
+        "isCompleted": false,
+        "module": "arrays",
+        "topicName": "arraySorting",
+        "user": {
+            "username": "akshay",
+            "email": "akshaypaik@gmail.com"
+        }
+    },
+    {
+        "courseId": 1,
+        "topicId": 12,
+        "isCompleted": false,
+        "module": "arrays",
+        "topicName": "nonDestructiveArrayMethods",
+        "user": {
+            "username": "akshay",
+            "email": "akshaypaik@gmail.com"
+        }
+    },
+    {
+        "courseId": 1,
+        "topicId": 13,
+        "isCompleted": false,
+        "module": "arrays",
+        "topicName": "arrayShiftUnshift",
+        "user": {
+            "username": "akshay",
+            "email": "akshaypaik@gmail.com"
+        }
+    },
+    {
+        "courseId": 1,
+        "topicId": 14,
+        "isCompleted": false,
+        "module": "arrays",
+        "topicName": "dynamicallyCreatingArrays",
+        "user": {
+            "username": "akshay",
+            "email": "akshaypaik@gmail.com"
+        }
     }
 ]

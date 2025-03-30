@@ -21,6 +21,46 @@
                 "topicName": "arrayFilter",
                 "topicDisplayName": "Array Filter",
                 "module": "arrays"
+            },
+            {
+                "topicName": "arrayFlatMethod",
+                "topicDisplayName": "Array Flat Method",
+                "module": "arrays"
+            },
+            {
+                "topicName": "arrayReduceMethod",
+                "topicDisplayName": "Array Reduce Method",
+                "module": "arrays"
+            },
+            {
+                "topicName": "arraySliceSpliceReverseMethods",
+                "topicDisplayName": "Array Slice, Splice, Reverse Methods",
+                "module": "arrays"
+            },
+            {
+                "topicName": "arraySomeAndEvery",
+                "topicDisplayName": "Array Some and Every Methods",
+                "module": "arrays"
+            },
+            {
+                "topicName": "arraySorting",
+                "topicDisplayName": "Array Sorting",
+                "module": "arrays"
+            },
+            {
+                "topicName": "nonDestructiveArrayMethods",
+                "topicDisplayName": "Non Destructive Array Methods - toReversed, with and toSorted",
+                "module": "arrays"
+            },
+            {
+                "topicName": "arrayShiftUnshift",
+                "topicDisplayName": "Array Shift and Unshift Methods",
+                "module": "arrays"
+            },
+            {
+                "topicName": "dynamicallyCreatingArrays",
+                "topicDisplayName": "Dynamically Creating Arrays",
+                "module": "arrays"
             }
         ]
     },

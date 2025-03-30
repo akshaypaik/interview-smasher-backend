@@ -52,5 +52,77 @@
         "module": "basics",
         "courseId": 4,
         "topicId": 6
+    },
+    {
+        "topicName": "arrayFlatMethod",
+        "topicDisplayName": "Array Flat Method",
+        "description": "The flat() method of Array instances creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.",
+        "codeSnippet": "const arr = [1, [2, [3, [4]]]];\n\nconsole.log(arr.flat(1)); // Output: [1, 2, [3, [4]]]\nconsole.log(arr.flat(2)); // Output: [1, 2, 3, [4]]\nconsole.log(arr.flat(3)); // Output: [1, 2, 3, 4]\n\nconst arr2 = [1, [2, [3, [4]]]];\nconsole.log(arr2.flat(Infinity)); // Output: [1, 2, 3, 4]\n\n// Polyfill for Older Environments:\nfunction flatten(arr3, depth = 1) {\n  return depth > 0\n    ? arr3.reduce((flat, item) => flat.concat(Array.isArray(item) ? flatten(item, depth - 1) : item), [])\n    : arr3.slice();\n}\n\nconst arr3 = [1, [2, [3, [4]]]];\nconsole.log(flatten(arr3, 2)); // Output: [1, 2, 3, [4]]",
+        "module": "arrays",
+        "courseId": 1,
+        "topicId": 7
+    },
+    {
+        "topicName": "arrayReduceMethod",
+        "topicDisplayName": "Array Reduce Method",
+        "description": "The reduce() method of Array instances executes a user-supplied 'reducer' callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements of the array is a single value.",
+        "codeSnippet": "const numbers = [2, 5, 3];\n\n// total is a new variable initialized with 0 and number is each element we loop through numbers\nconst sum = numbers.reduce((total, number) => {\n    return total = total + number;\n}, 0);\n\nconsole.log(\"numbers: \", numbers);  // [2, 5, 3]\nconsole.log(\"total sum: \", sum);    // 10\n\n// **************************************************************************************************************\n\nconst bankTransactions = [250, 500, 340, 750, -800, 1500, 2100, 3600, 800, -150, -750, -360];\n// I want to count how many deposits are more than 1000 rs\n// We can achieve this using reduce.\nconst numDepositThousand = bankTransactions.reduce((acc, sum) => {\n    acc = sum >= 1000 ? acc + 1 : acc;\n    return acc;\n}, 0); \nconsole.log(\"numDepositThousand: \", numDepositThousand);    // Output: 3\n\n// I want to get the total deposit and withdrawal amounts\n// acc.withdrawals += sum; is a shorthand for acc.withdrawals = acc.withdrawals + sum;\nconst sums = bankTransactions.reduce((acc, sum) => {\n    sum > 0 ? acc.deposits = acc.deposits + sum : acc.withdrawals += sum;\n    return acc;\n}, { deposits: 0, withdrawals: 0 });\n\nconsole.log(`Amount of deposits is ${sums.deposits} and withdrawals is ${sums.withdrawals}`);   \n// Output: Amount of deposits is 9840 and withdrawals is -2060",
+        "module": "arrays",
+        "courseId": 1,
+        "topicId": 8
+    },
+    {
+        "topicName": "arraySliceSpliceReverseMethods",
+        "topicDisplayName": "Array Slice, Splice, Reverse Methods",
+        "description": "The splice() method of Array instances changes the contents of an array by removing or replacing existing elements and/or adding new elements in place. \n The slice() method of Array instances returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified. \n The reverse() method of Array instances reverses an array in place and returns the reference to the same array, the first array element now becoming the last, and the last array element becoming the first.",
+        "codeSnippet": "const arr = [\"a\", \"b\", \"c\", \"d\", \"e\"];\n\n// Slice\nconsole.log(\"Slice\");\nconsole.log(arr.slice(2)); // \"c\", \"d\", \"e\"  gives element from 2 start index\nconsole.log(arr);   // [IMPORTANT] slice does not mutate the original array\nconsole.log(arr.slice(1, 4)); // \"b\", \"c\", \"d\"   gives elements from index 1 to 4 (excluding 4)\nconsole.log(arr.slice(-2)); // \"d\", \"e\"      gives last 2 elements if -2 is passed\nconsole.log(arr.slice(-1)); // \"e\"       gives last element if -1 is passed\nconsole.log(arr.slice(1, -2)); // \"b\", \"c\"   gives elements from index 1 except last 2 elements (-2)\nconsole.log(arr.slice()); // Shallow copy of array\n\n// Splice\nconsole.log(\"Splice\");\nconsole.log(arr);   // [ 'a', 'b', 'c', 'd', 'e' ]\nconsole.log(arr.splice(2)); // removes elements from index 2 -> [ 'c', 'd', 'e' ]\nconsole.log(arr);   // [ 'a', 'b' ] [IMPORTANT] splice mutates the original array\nconsole.log(arr.splice(-1)); // removes last element -> [ 'b' ]\nconsole.log(arr);   // [ 'a' ]\narr.push(...['b', 'c', 'd', 'e']);\nconsole.log(arr);   // added back elements -> [ 'a', 'b', 'c', 'd', 'e' ]\nconsole.log(arr.splice(2, 2)); // removes 2 elements from index 2 -> [ 'c', 'd' ]\nconsole.log(arr);\n\n// Reverse\nconsole.log(\"Reverse\");\nconst arr2 = [\"a\", \"b\", \"c\"];\nconsole.log(arr2.reverse());    // [ 'c', 'b', 'a' ] [IMPORTANT] reverse mutates the original array\n\n// New At Method\nconst arr3 = [12, 24, 36];\nconsole.log(arr3.at(1)); // gives element at index 1 -> 24\nconsole.log(arr3.at(-1)); // gives last element -> 36",
+        "module": "arrays",
+        "courseId": 1,
+        "topicId": 9
+    },
+    {
+        "topicName": "arraySomeAndEvery",
+        "topicDisplayName": "Array Some and Every Methods",
+        "description": "The some() method of Array instances tests whether at least one element in the array passes the test implemented by the provided function. It returns true if, in the array, it finds an element for which the provided function returns true; otherwise it returns false. It doesn't modify the array. \n The every() method of Array instances tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.",
+        "codeSnippet": "const deposits = [200, 150, -250, 485, 640, 852, -412, 350];\n\n// some() - checks if at least one element meets the condition\nconst anyPositiveDeposits = deposits.some(item => item > 0);\nconsole.log(\"anyPositiveDeposits: \", anyPositiveDeposits); // true\n\n// Loan approval based on deposit criteria (10% of requested amount)\nconst requestedLoanAmount = 50000;\nconst isLoanCreteriaMet = deposits.some(item => {\n    const tenPercentOfLoan = (requestedLoanAmount / 100) * 10;\n    console.log(\"tenPercentOfLoan: \", tenPercentOfLoan);\n    return item >= tenPercentOfLoan;\n});\nconsole.log(`Loan ${isLoanCreteriaMet ? 'granted' : 'declined'} for amount ${requestedLoanAmount}`);\n\n// every() - checks if all elements meet the condition\nconst allDepositsPositive = deposits.every(item => item > 0);\nconsole.log(\"allDepositsPositive: \", allDepositsPositive); // false\n\nconst positiveDepositAccount = [200, 4550, 247, 698, 150];\nconst allDepositsPositive2 = positiveDepositAccount.every(item => item > 0);\nconsole.log(\"allDepositsPositive2: \", allDepositsPositive2); // true",
+        "module": "arrays",
+        "courseId": 1,
+        "topicId": 10
+    },
+    {
+        "topicName": "arraySorting",
+        "topicDisplayName": "Array Sorting",
+        "description": "The sort() method of Array instances sorts the elements of an array in place and returns the reference to the same array, now sorted. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code unit values.",
+        "codeSnippet": "// Strings\nconst owners = ['Krishnadas', 'Akshay', 'Radhe', 'Kavitha'];\nconsole.log(owners.sort()); // [IMPORTANT] mutates the original array -> [ 'Akshay', 'Kavitha', 'Krishnadas', 'Radhe' ]\nconsole.log(owners);    // [ 'Akshay', 'Kavitha', 'Krishnadas', 'Radhe' ]\n\n// Numbers\nconst deposits = [200, 150, -250, 485, 640, 852, -412, 350];\n// sort() does sorting based on strings (converts everything to string before sorting)\n// console.log(deposits.sort());   // Not what we expected - does not work correctly and mutates the original array\n// console.log(deposits);\n\n// Sorting logic\n// return < 0 -> A comes before B (keep order)\n// return > 0 -> B comes before A (switch order)\n// return 1 means switch the order\n\n// Ascending Order\n// deposits.sort((a,b) => {\n//     if (a > b) return 1;\n//     if (a < b) return -1;\n// });\ndeposits.sort((a, b) => {\n    return a - b;\n});\nconsole.log(deposits);\n\n// Descending Order\n// deposits.sort((a,b) => {\n//     if (a > b) return -1;\n//     if (a < b) return 1;\n// });\ndeposits.sort((a, b) => {\n    return b - a;\n});\nconsole.log(deposits);\n\n// Avoid Mutating the Original Array\nconst depositsNotToBeChanged = [200, 150, -250, 485, 640, 852, -412, 350];\n// Use slice() to create a copy of the array before sorting to prevent mutation\nconst sortedDeposits = depositsNotToBeChanged.slice().sort((a, b) => {\n   return a - b;\n});\n\nconsole.log(\"depositsNotToBeChanged: \", depositsNotToBeChanged);\nconsole.log(\"sortedDeposits: \", sortedDeposits);",
+        "module": "arrays",
+        "courseId": 1,
+        "topicId": 11
+    },
+    {
+        "topicName": "nonDestructiveArrayMethods",
+        "topicDisplayName": "Non Destructive Array Methods - toReversed, with and toSorted",
+        "description": "The toReversed() method of Array instances is the copying counterpart of the reverse() method. It returns a new array with the elements in reversed order. \n The with() method of Array instances is the copying version of using the bracket notation to change the value of a given index. It returns a new array with the element at the given index replaced with the given value.",
+        "codeSnippet": "const deposits = [200, 150, -250, 485, 640, 852, -412, 350];\n\nconsole.log(\"deposits: \", deposits);\n\n// reverse() is destructive (mutates the original array)\nconst reverseDeposits = deposits.reverse();\nconsole.log(\"reverseDeposits: \", reverseDeposits);\nconsole.log(\"deposits: \", deposits);\n\nconst deposits2 = [200, 150, -250, 485, 640, 852, -412, 350];\n\nconsole.log(\"deposits2: \", deposits2);\n// toReversed() does not mutate the original array\nconst reverseDeposits2 = deposits2.toReversed();\nconsole.log(\"reverseDeposits2: \", reverseDeposits2);\nconsole.log(\"deposits2: \", deposits2);\n\n// toSorted() and toSpliced() also return new arrays without mutating the original\nconst sortedDeposits = deposits2.toSorted((a, b) => a - b);\nconsole.log(\"sortedDeposits: \", sortedDeposits);\n\n// with() method: creates a copy with a specific index modified\nconsole.log(\"deposits: \", deposits);    \nconst newDeposits = deposits.with(1, 300);  // Replacing index 1 with 300\nconsole.log(\"newDeposits: \", newDeposits);",
+        "module": "arrays",
+        "courseId": 1,
+        "topicId": 12
+    },
+    {
+        "topicName": "arrayShiftUnshift",
+        "topicDisplayName": "Array Shift and Unshift Methods",
+        "description": "The shift() method of Array instances removes the first element from an array and returns that removed element. This method changes the length of the array. \n The unshift() method of Array instances adds the specified elements to the beginning of an array and returns the new length of the array.",
+        "codeSnippet": "let arr = [1, 2, 3, 4, 5];\n\n// unshift() adds an element at the beginning and returns the new length\narr.unshift(0);\nconsole.log(arr);   // [0, 1, 2, 3, 4, 5]\n\n// shift() removes the first element and returns it\nconst removedElement = arr.shift();\nconsole.log(removedElement); // 0\nconsole.log(arr);  // [1, 2, 3, 4, 5]",
+        "module": "arrays",
+        "courseId": 1,
+        "topicId": 13
+    },
+    {
+        "topicName": "dynamicallyCreatingArrays",
+        "topicDisplayName": "Dynamically Creating Arrays",
+        "description": "The Array.from() static method creates a new, shallow-copied Array instance from an iterable or array-like object. \n The keys() method of Array instances returns a new array iterator object that contains the keys for each index in the array.",
+        "codeSnippet": "// Using Array.from() to create an array of length 20 with values from 0 to 19\nconst arr = Array.from({ length: 20 }, (_, index) => index);\nconsole.log(arr);   // [0, 1, 2, ..., 19]\n\n// Using Array().keys() and spread operator to create an array from 1 to 20\nconst arr2 = [...Array(20).keys()].map((item, index) => index + 1);\nconsole.log(arr2);  // [1, 2, 3, ..., 20]",
+        "module": "arrays",
+        "courseId": 1,
+        "topicId": 14
     }
 ]
