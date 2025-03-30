@@ -71,6 +71,38 @@ class CoursesService {
             throw messageModel;
         }
     }
+
+    public async getCourseCompletionStatus(courseId: number | null | undefined) {
+        try {
+            console.log(`[TopicsService] get course completion status api started for courseId: ${courseId}`);
+            let courseCompletionStatus = {
+                status: {},
+                data: []
+            };
+            const topicCompletionCollection = db.dbConnector.db("InterviewSmasher").collection("topicCompletion");
+            const response = await topicCompletionCollection.find({ courseId }).toArray();
+            if (response) {
+                courseCompletionStatus.status = response.reduce((acc, item) => {
+                   acc.totalTopics += 1;
+                   item.isCompleted ? acc.completedTopics += 1 : null;
+                   return acc;
+                }, { totalTopics: 0, completedTopics: 0 });
+                courseCompletionStatus.data = response;
+            }
+            console.log("[TopicsService] get course completion status api fetching completed");
+            return courseCompletionStatus;
+        } catch (error) {
+            console.log(
+                "[TopicsService] getCourseCompletionStatus: error occured: ",
+                error
+            );
+            let messageModel = {
+                statusMessage: "Error while getting course completion status!",
+                statusCode: -1,
+            };
+            throw messageModel;
+        }
+    }
 }
 
 const coursesService = new CoursesService();

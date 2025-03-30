@@ -43,6 +43,17 @@ class CoursesController {
             res.send(error);
         }
     }
+
+    public async getCourseCompletionStatus(req: Request, res: Response) {
+        try {
+            const courseId = Number(req?.query?.courseId);
+            const response = await coursesService.getCourseCompletionStatus(courseId);
+            res.header("Access-Control-Allow-Origin", "*");
+            res.send(response);
+        } catch (error) {
+            res.send(error);
+        }
+    }
 }
 
 const coursesController = new CoursesController();

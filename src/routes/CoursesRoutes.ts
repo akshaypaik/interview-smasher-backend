@@ -13,4 +13,6 @@ CoursesRoutes.post(`${coursesBaseURL}/postCourse`, coursesController.postCourse)
 
 CoursesRoutes.get(`${coursesBaseURL}/getCourseDetailsByCourseId`, coursesController.getCourseDetailsByCourseId);
 
+CoursesRoutes.get(`${coursesBaseURL}/getCourseCompletionStatus`, coursesController.getCourseCompletionStatus);
+
 export default CoursesRoutes;
