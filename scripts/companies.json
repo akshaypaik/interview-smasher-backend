@@ -538,5 +538,95 @@
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Schneider-Electric-Logo.jpg/1024px-Schneider-Electric-Logo.jpg",
         "isProductBased": true,
         "companyCareerPageURL": "https://www.se.com/in/en/about-us/careers/overview.jsp"
+    },
+    {
+        "name": "mercedesBenz",
+        "displayName": "Mercedes Benz",
+        "description": "",
+        "companyId": "61",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mercedes-Benz_Logo_2010.svg/1024px-Mercedes-Benz_Logo_2010.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://group.mercedes-benz.com/careers/about-us/locations/location-detail-page-18185.html"
+    },
+    {
+        "name": "ust",
+        "displayName": "UST",
+        "description": "",
+        "companyId": "62",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/UST_%28company%29_Logo.svg/480px-UST_%28company%29_Logo.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.ust.com/en/careers"
+    },
+    {
+        "name": "carrierCorporation",
+        "displayName": "Carrier Corporation",
+        "description": "",
+        "companyId": "63",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Logo_of_the_Carrier_Corporation.svg/1280px-Logo_of_the_Carrier_Corporation.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://jobs.carrier.com/en/location/india-jobs/29289/1269750/2"
+    },
+    {
+        "name": "philips",
+        "displayName": "Philips",
+        "description": "",
+        "companyId": "64",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Philips_logo_new.svg/1024px-Philips_logo_new.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.careers.philips.com/in/en/search-results"
+    },
+    {
+        "name": "bosch",
+        "displayName": "Bosch",
+        "description": "",
+        "companyId": "65",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Bosch-logo.svg/1024px-Bosch-logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.bosch.in/careers/"
+    },
+    {
+        "name": "ey",
+        "displayName": "Ernst & Young",
+        "description": "",
+        "companyId": "66",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/EY_logo_2019.svg/768px-EY_logo_2019.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.ey.com/en_in/careers"
+    },
+    {
+        "name": "verizon",
+        "displayName": "Verizon",
+        "description": "",
+        "companyId": "67",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Verizon_2024.svg/1024px-Verizon_2024.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://mycareer.verizon.com/jobs/"
+    },
+    {
+        "name": "wellsFargo",
+        "displayName": "Wells Fargo",
+        "description": "",
+        "companyId": "68",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Wells_Fargo_Logo_%282020%29.svg/768px-Wells_Fargo_Logo_%282020%29.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.wellsfargojobs.com/en/jobs"
+    },
+    {
+        "name": "ltiMindtree",
+        "displayName": "LTI Mindtree",
+        "description": "",
+        "companyId": "69",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/LTIMindtree_Logo.svg/1280px-LTIMindtree_Logo.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.ltimindtree.com/india-careers/"
+    },
+    {
+        "name": "coinbase",
+        "displayName": "Coinbase",
+        "description": "",
+        "companyId": "70",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Coinbase.svg/1024px-Coinbase.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.coinbase.com/careers/positions?location=india"
     }
 ]
