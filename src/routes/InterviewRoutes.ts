@@ -9,4 +9,8 @@ const interviewBaseURL = `${AppBaseURL.APP_BASE_URL}/${RoutesBaseURLs.INTERVIEW}
 
 InterviewRoutes.get(`${interviewBaseURL}/getInterviewCompaniesSearchResults`, interviewController.getInterviewCompaniesSearchResult);
 
+InterviewRoutes.post(`${interviewBaseURL}/postFavoriteCompany`, interviewController.postFavoriteCompany);
+
+InterviewRoutes.get(`${interviewBaseURL}/getFavoriteCompanies`, interviewController.getFavoriteCompanies);
+
 export default InterviewRoutes;

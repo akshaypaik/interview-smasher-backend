@@ -12,6 +12,8 @@ import InterviewRoutes from "./routes/InterviewRoutes";
 
 const app = express();
 
+app.use(cors({ origin: "http://localhost:5173" }));
+
 // Body Parser
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ extended: true }));
