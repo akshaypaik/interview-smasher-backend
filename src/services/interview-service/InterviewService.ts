@@ -89,6 +89,40 @@ class InterviewService {
         }
     }
 
+    async removeFavoriteCompany(favCompanyDetails: any) {
+        try {
+            console.log("[InterviewService] remove favorite companies api service started");
+            let favCompaniesDetails: [] = [];
+            const favCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("favoriteCompanies");
+            const response = await favCompaniesCollection.deleteOne({
+                _id: favCompanyDetails._id,
+                companyId: favCompanyDetails.companyId,
+                "user.email": favCompanyDetails.user.email
+            });
+            if (response && response.length > 0) {
+                favCompaniesDetails = response;
+            }
+            if (response.deletedCount === 1) {
+                console.log("[InterviewService] favorite company successfully removed");
+            }
+            console.log("[InterviewService] remove favorite companies api fetching completed");
+            return {
+                statusMessage: "Successfully removed favorite company!",
+                statusCode: 0,
+            };
+        } catch (error) {
+            console.log(
+                "[InterviewService] removeFavoriteCompany: error occured: ",
+                error
+            );
+            let messageModel = {
+                statusMessage: "Error while removing favorite company!",
+                statusCode: -1,
+            };
+            throw messageModel;
+        }
+    }
+
 }
 
 const interviewService = new InterviewService();

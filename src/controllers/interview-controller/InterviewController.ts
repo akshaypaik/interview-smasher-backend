@@ -38,6 +38,16 @@ class InterviewController {
         }
     }
 
+    public async removeFavoriteCompany(req: Request, res: Response) {
+        try {
+            const favCompanyDetails = req?.body;
+            const response = await interviewService.removeFavoriteCompany(favCompanyDetails);
+            res.send(response);
+        } catch (error) {
+            res.send(error);
+        }
+    }
+
 }
 
 const interviewController = new InterviewController();
