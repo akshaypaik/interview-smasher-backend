@@ -628,5 +628,32 @@
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Coinbase.svg/1024px-Coinbase.svg.png",
         "isProductBased": true,
         "companyCareerPageURL": "https://www.coinbase.com/careers/positions?location=india"
+    },
+    {
+        "name": "americanExpress",
+        "displayName": "American Express",
+        "description": "",
+        "companyId": "71",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_%282018%29.svg/960px-American_Express_logo_%282018%29.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.americanexpress.com/en-us/careers"
+    },
+    {
+        "name": "publicisSapient",
+        "displayName": "Publicis Sapient",
+        "description": "",
+        "companyId": "72",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/PS_Logo_RGB.svg/1024px-PS_Logo_RGB.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.publicissapient.com/job-search?country=India"
+    },
+    {
+        "name": "airbus",
+        "displayName": "Airbus",
+        "description": "",
+        "companyId": "73",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Airbus_Logo_2017.svg/1280px-Airbus_Logo_2017.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.airbus.com/en/careers"
     }
 ]
