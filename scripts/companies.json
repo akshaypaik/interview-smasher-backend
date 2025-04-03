@@ -286,5 +286,77 @@
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Swiggy_logo_%28old%29.svg/1024px-Swiggy_logo_%28old%29.svg.png",
         "isProductBased": true,
         "companyCareerPageURL": "https://careers.swiggy.com/#/"
+    },
+    {
+        "name": "hp",
+        "displayName": "Hewlett-Packard",
+        "description": "",
+        "companyId": "33",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/768px-HP_logo_2012.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://jobs.hp.com/us/"
+    },
+    {
+        "name": "dell",
+        "displayName": "Dell",
+        "description": "",
+        "companyId": "34",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dell_Logo.svg/768px-Dell_Logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://jobs.dell.com/en/india-diversity"
+    },
+    {
+        "name": "lenovo",
+        "displayName": "Lenovo",
+        "description": "",
+        "companyId": "35",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Lenovo_logo_%282015_onwards%29_2.svg/960px-Lenovo_logo_%282015_onwards%29_2.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://jobs.lenovo.com/en_US/careers"
+    },
+    {
+        "name": "phonepe",
+        "displayName": "PhonePe",
+        "description": "",
+        "companyId": "36",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/PhonePe_Logo.svg/1024px-PhonePe_Logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.phonepe.com/careers/job-openings/"
+    },
+    {
+        "name": "razorpay",
+        "displayName": "Razorpay",
+        "description": "",
+        "companyId": "37",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Razorpay_logo.svg/1024px-Razorpay_logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://razorpay.com/jobs/"
+    },
+    {
+        "name": "capgemini",
+        "displayName": "Capgemini",
+        "description": "",
+        "companyId": "38",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Capgemini_201x_logo.svg/1024px-Capgemini_201x_logo.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.capgemini.com/in-en/careers/"
+    },
+    {
+        "name": "techMahindra",
+        "displayName": "Tech Mahindra",
+        "description": "",
+        "companyId": "39",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Logo-True-Colors-original.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.techmahindra.com/careers/"
+    },
+    {
+        "name": "wipro",
+        "displayName": "Wipro",
+        "description": "",
+        "companyId": "40",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wipro_Primary_Logo_Color_RGB.svg/975px-Wipro_Primary_Logo_Color_RGB.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.wipro.com/"
     }
 ]
