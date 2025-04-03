@@ -145,7 +145,7 @@
     },
     {
         "name": "cognizant",
-        "displayName": "Zognizant",
+        "displayName": "Cognizant",
         "description": "",
         "companyId": "17",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cognizant_logo_2022.svg/1024px-Cognizant_logo_2022.svg.png",
@@ -187,5 +187,104 @@
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/768px-LinkedIn_icon.svg.png",
         "isProductBased": true,
         "companyCareerPageURL": "https://www.linkedin.com/company/linkedin/jobs/?src=or-search&veh=www.google.com"
+    },
+    {
+        "name": "kpmg",
+        "displayName": "KPMG",
+        "description": "",
+        "companyId": "22",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/KPMG_logo.svg/1024px-KPMG_logo.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://kpmg.com/in/en/careers.html"
+    },
+    {
+        "name": "deloitte",
+        "displayName": "Deloitte",
+        "description": "",
+        "companyId": "23",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Deloitte.svg/1024px-Deloitte.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www2.deloitte.com/ui/en.html"
+    },
+    {
+        "name": "oracleCorporation",
+        "displayName": "Oracle Corporation",
+        "description": "",
+        "companyId": "24",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Oracle_Corporation_logo.svg/1024px-Oracle_Corporation_logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.oracle.com/in/careers/"
+    },
+    {
+        "name": "pwc",
+        "displayName": "PwC",
+        "description": "",
+        "companyId": "25",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/PricewaterhouseCoopers_Logo.svg/1012px-PricewaterhouseCoopers_Logo.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.pwc.in/careers.html"
+    },
+    {
+        "name": "paypal",
+        "displayName": "PayPal",
+        "description": "",
+        "companyId": "26",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/1024px-PayPal.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.pypl.com/home/"
+    },
+    {
+        "name": "visa",
+        "displayName": "Visa",
+        "description": "",
+        "companyId": "27",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/1024px-Visa_Inc._logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.visa.co.in/en_in/jobs/"
+    },
+    {
+        "name": "goldmanSachs",
+        "displayName": "Goldman Sachs",
+        "description": "",
+        "companyId": "28",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Goldman_Sachs.svg/768px-Goldman_Sachs.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.goldmansachs.com/worldwide/india/careers"
+    },
+    {
+        "name": "morganStanley",
+        "displayName": "Morgan Stanley",
+        "description": "",
+        "companyId": "29",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Morgan_Stanley_Logo_1.svg/1024px-Morgan_Stanley_Logo_1.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.morganstanley.com/careers/career-opportunities-search"
+    },
+    {
+        "name": "jpMorganChase",
+        "displayName": "JPMorgan Chase",
+        "description": "",
+        "companyId": "30",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/JPMorgan_logo.svg/1024px-JPMorgan_logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs"
+    },
+    {
+        "name": "stripe",
+        "displayName": "Stripe",
+        "description": "",
+        "companyId": "31",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Stripe_Logo%2C_revised_2016.svg/1024px-Stripe_Logo%2C_revised_2016.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://stripe.com/jobs/search"
+    },
+    {
+        "name": "swiggy",
+        "displayName": "Swiggy",
+        "description": "",
+        "companyId": "32",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Swiggy_logo_%28old%29.svg/1024px-Swiggy_logo_%28old%29.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.swiggy.com/#/"
     }
 ]
