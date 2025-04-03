@@ -25,5 +25,167 @@
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/800px-Meta_Platforms_Inc._logo.svg.png",
         "isProductBased": true,
         "companyCareerPageURL": "https://www.metacareers.com/jobs/?is_leadership=0&sub_teams[0]=Artificial%20Intelligence&is_in_page=0"
+    },
+    {
+        "name": "netflix",
+        "displayName": "Netflix",
+        "description": "",
+        "companyId": "04",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://jobs.netflix.com/"
+    },
+    {
+        "name": "apple",
+        "displayName": "Apple",
+        "description": "",
+        "companyId": "05",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/625px-Apple_logo_black.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://jobs.apple.com/en-in/search?location=bengaluru-BGS"
+    },
+    {
+        "name": "amazon",
+        "displayName": "Amazon",
+        "description": "",
+        "companyId": "06",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/640px-Amazon_logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.amazon.jobs/content/en/locations/india/bangalore"
+    },
+    {
+        "name": "siemens",
+        "displayName": "Siemens",
+        "description": "",
+        "companyId": "07",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Siemens_AG_logo.svg/640px-Siemens_AG_logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.siemens.com/in/en/company/jobs.html"
+    },
+    {
+        "name": "accenture",
+        "displayName": "Accenture",
+        "description": "",
+        "companyId": "08",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Accenture.svg/640px-Accenture.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.accenture.com/in-en/careers"
+    },
+    {
+        "name": "tcs",
+        "displayName": "TCS",
+        "description": "",
+        "companyId": "09",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Tata_Consultancy_Services_old_logo.svg/640px-Tata_Consultancy_Services_old_logo.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://ibegin.tcs.com/iBegin/"
+    },
+    {
+        "name": "atlassian",
+        "displayName": "Atlassian",
+        "description": "",
+        "companyId": "10",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Atlassian-logo.svg/1024px-Atlassian-logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.atlassian.com/company/careers/all-jobs"
+    },
+    {
+        "name": "ibm",
+        "displayName": "IBM",
+        "description": "",
+        "companyId": "11",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/800px-IBM_logo.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.ibm.com/in-en/careers/search"
+    },
+    {
+        "name": "walmart",
+        "displayName": "Walmart",
+        "description": "",
+        "companyId": "12",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Walmart_logo.svg/1024px-Walmart_logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.walmart.com/"
+    },
+    {
+        "name": "adobeSystems",
+        "displayName": "Adobe Systems",
+        "description": "",
+        "companyId": "13",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Adobe_Corporate_logo.svg/1024px-Adobe_Corporate_logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.adobe.com/us/en"
+    },
+    {
+        "name": "flipkart",
+        "displayName": "Flipkart",
+        "description": "",
+        "companyId": "14",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/7/7a/Flipkart_logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.flipkartcareers.com/#!/"
+    },
+    {
+        "name": "myntra",
+        "displayName": "Myntra",
+        "description": "",
+        "companyId": "15",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Myntra_Logo.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://jobs.myntra.com/home"
+    },
+    {
+        "name": "salesforce",
+        "displayName": "Salesforce",
+        "description": "",
+        "companyId": "16",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/1024px-Salesforce.com_logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.salesforce.com/en/jobs/"
+    },
+    {
+        "name": "cognizant",
+        "displayName": "Zognizant",
+        "description": "",
+        "companyId": "17",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cognizant_logo_2022.svg/1024px-Cognizant_logo_2022.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.cognizant.com/india-en/"
+    },
+    {
+        "name": "uber",
+        "displayName": "Uber",
+        "description": "",
+        "companyId": "18",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/1024px-Uber_logo_2018.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.uber.com/in/en/careers/locations/bangalore/"
+    },
+    {
+        "name": "cisco",
+        "displayName": "Cisco",
+        "description": "",
+        "companyId": "19",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/640px-Cisco_logo_blue_2016.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.cisco.com/c/en/us/about/careers.html"
+    },
+    {
+        "name": "intel",
+        "displayName": "Intel",
+        "description": "",
+        "companyId": "20",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Intel_logo_2023.svg/1024px-Intel_logo_2023.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://intel.wd1.myworkdayjobs.com/External/page/6042070b79e01001f04fa9b468070000"
+    },
+    {
+        "name": "linkedin",
+        "displayName": "LinkedIn",
+        "description": "",
+        "companyId": "21",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/768px-LinkedIn_icon.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.linkedin.com/company/linkedin/jobs/?src=or-search&veh=www.google.com"
     }
 ]
