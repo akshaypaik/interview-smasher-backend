@@ -356,7 +356,187 @@
         "description": "",
         "companyId": "40",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wipro_Primary_Logo_Color_RGB.svg/975px-Wipro_Primary_Logo_Color_RGB.svg.png",
-        "isProductBased": true,
+        "isProductBased": false,
         "companyCareerPageURL": "https://careers.wipro.com/"
+    },
+    {
+        "name": "zomato",
+        "displayName": "Zomato",
+        "description": "",
+        "companyId": "41",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/6/64/Zomato_logo_%28white-on-red%29.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.zomato.com/careers"
+    },
+    {
+        "name": "makemytrip",
+        "displayName": "Makemytrip",
+        "description": "",
+        "companyId": "42",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Makemytrip_logo.svg/1024px-Makemytrip_logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.makemytrip.com/prod/jobs"
+    },
+    {
+        "name": "paytm",
+        "displayName": "Paytm",
+        "description": "",
+        "companyId": "43",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/4/42/Paytm_logo.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://paytm.com/careers"
+    },
+    {
+        "name": "samsung",
+        "displayName": "Samsung",
+        "description": "",
+        "companyId": "44",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/1024px-Samsung_Logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers"
+    },
+    {
+        "name": "zerodha",
+        "displayName": "Zerodha",
+        "description": "",
+        "companyId": "45",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Zerodha_logo.svg/1024px-Zerodha_logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.zerodha.com/"
+    },
+    {
+        "name": "groww",
+        "displayName": "Groww",
+        "description": "",
+        "companyId": "46",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Groww_app_logo.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://groww.in/careers"
+    },
+    {
+        "name": "sapLabs",
+        "displayName": "SAP Labs",
+        "description": "",
+        "companyId": "47",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/1024px-SAP_2011_logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://jobs.sap.com/go/SAP-Jobs-in-India/851201/"
+    },
+    {
+        "name": "persistentSystems",
+        "displayName": "Persistent Systems",
+        "description": "",
+        "companyId": "48",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/0/06/Persistent_Systems_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.persistent.com"
+    },
+    {
+        "name": "harmanInternational",
+        "displayName": "Harman International",
+        "description": "",
+        "companyId": "49",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Harman_International_logo.svg/1024px-Harman_International_logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://jobsearch.harman.com/en_US/careers/SearchJobs"
+    },
+    {
+        "name": "abb",
+        "displayName": "ABB",
+        "description": "",
+        "companyId": "50",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ABB_logo.svg/1024px-ABB_logo.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.abb/india/en/home"
+    },
+    {
+        "name": "virtusa",
+        "displayName": "Virtusa",
+        "description": "",
+        "companyId": "51",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Virtusa_Logo.svg/1024px-Virtusa_Logo.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.virtusa.com/careers"
+    },
+    {
+        "name": "nagarro",
+        "displayName": "Nagarro",
+        "description": "",
+        "companyId": "52",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Nagarro_logo_new.svg/1024px-Nagarro_logo_new.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.nagarro.com/en/careers/india"
+    },
+    {
+        "name": "infosys",
+        "displayName": "Infosys",
+        "description": "",
+        "companyId": "53",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Infosys_logo.svg/1024px-Infosys_logo.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.infosys.com/careers/apply.html"
+    },
+    {
+        "name": "hcl",
+        "displayName": "HCL Tech",
+        "description": "",
+        "companyId": "54",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/e/e5/HCLTech-new-logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.hcltech.com/careers/careers-in-india#job-openings"
+    },
+    {
+        "name": "lowes",
+        "displayName": "Lowe's",
+        "description": "",
+        "companyId": "55",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Lowes_Companies_Logo.svg/1024px-Lowes_Companies_Logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://talent.lowes.com/in/en/home"
+    },
+    {
+        "name": "qualcomm",
+        "displayName": "Qualcomm",
+        "description": "",
+        "companyId": "56",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Qualcomm-Logo.svg/1024px-Qualcomm-Logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.qualcomm.com/careers"
+    },
+    {
+        "name": "honeywell",
+        "displayName": "Honeywell",
+        "description": "",
+        "companyId": "57",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Honeywell_logo.svg/1024px-Honeywell_logo.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.honeywell.com/us/en"
+    },
+    {
+        "name": "geHealthCare",
+        "displayName": "GE HealthCare",
+        "description": "",
+        "companyId": "58",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/GE_HealthCare_logo_2023.png/1280px-GE_HealthCare_logo_2023.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.gehealthcare.com/global/en/india-jobs"
+    },
+    {
+        "name": "thomsonReuters",
+        "displayName": "Thomson Reuters",
+        "description": "",
+        "companyId": "59",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Thomson_Reuters_logo.svg/1024px-Thomson_Reuters_logo.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.thomsonreuters.com/us/en/search-results"
+    },
+    {
+        "name": "schneiderElectric",
+        "displayName": "Schneider Electric",
+        "description": "",
+        "companyId": "60",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Schneider-Electric-Logo.jpg/1024px-Schneider-Electric-Logo.jpg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.se.com/in/en/about-us/careers/overview.jsp"
     }
 ]
