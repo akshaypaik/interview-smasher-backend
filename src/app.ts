@@ -8,6 +8,7 @@ import { environmentVariables } from "./configurations/EnvironmentVariables";
 import { db } from "./db";
 import CoursesRoutes from "./routes/CoursesRoutes";
 import TopicsRoutes from "./routes/TopicsRoutes";
+import InterviewRoutes from "./routes/InterviewRoutes";
 
 const app = express();
 
@@ -92,5 +93,6 @@ db.initializeDB();
 // Routes
 app.use(CoursesRoutes);
 app.use(TopicsRoutes);
+app.use(InterviewRoutes);
 
 export { app };

@@ -1,0 +1,29 @@
+[
+    {
+        "name": "google",
+        "displayName": "Google",
+        "description": "Google LLC is an American multinational corporation and technology company focusing on online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, consumer electronics, and artificial intelligence (AI)",
+        "companyId": "01",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/480px-Google_%22G%22_logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.google.com/about/careers/applications"
+    },
+    {
+        "name": "microsoft",
+        "displayName": "Microsoft",
+        "description": "Microsoft Corporation is an American multinational corporation and technology conglomerate headquartered in Redmond, Washington.",
+        "companyId": "02",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Microsoft_icon.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.microsoft.com/v2/global/en/home.html"
+    },
+    {
+        "name": "meta",
+        "displayName": "Meta",
+        "description": "Meta Platforms, Inc., doing business as Meta, and formerly named Facebook, Inc., and The Facebook, Inc., is an American multinational technology conglomerate based in Menlo Park, California.",
+        "companyId": "03",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/800px-Meta_Platforms_Inc._logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.metacareers.com/jobs/?is_leadership=0&sub_teams[0]=Artificial%20Intelligence&is_in_page=0"
+    }
+]
