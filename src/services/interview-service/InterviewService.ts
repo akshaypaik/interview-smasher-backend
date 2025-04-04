@@ -2,18 +2,26 @@ import User from "src/models/DBCollectionSchemaModel/User.model";
 import { db } from "../../db";
 
 class InterviewService {
-    async getInterviewCompaniesSearchResult(searchQuery: string) {
+    async getInterviewCompaniesSearchResult(searchQuery: string, page: number = 1, limit: number = 12) {
         try {
             console.log(`[InterviewService] get search result for company: ${searchQuery}`);
             let searchResults: any[] = [];
             const companiesCollection = db.dbConnector.db("InterviewSmasher").collection("companies");
             const favCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("favoriteCompanies");
+
+            // Calculate the number of documents to skip
+            const skip = (page - 1) * limit;
+
             const response = await companiesCollection.find({
                 $or: [
                     { name: { $regex: searchQuery, $options: "i" } },
                     { displayName: { $regex: searchQuery, $options: "i" } }
                 ]
-            }).toArray();
+            })
+                .skip(skip) // Skip documents for pagination
+                .limit(limit) // Limit the number of documents
+                .toArray();
+
             if (response && response.length > 0) {
                 // Check if each company is marked as favorite
                 for (const company of response) {

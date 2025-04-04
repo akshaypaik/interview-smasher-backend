@@ -7,7 +7,9 @@ class InterviewController {
     public async getInterviewCompaniesSearchResult(req: Request, res: Response) {
         try {
             const searchQuery = req?.query?.searchQuery ? req?.query?.searchQuery?.toString() : "";
-            const response = await interviewService.getInterviewCompaniesSearchResult(searchQuery);
+            const page = req?.query?.page ? Number(req?.query?.page) : 1;
+            const limit = req?.query?.limit ? Number(req?.query?.limit) : 12;
+            const response = await interviewService.getInterviewCompaniesSearchResult(searchQuery, page, limit);
             res.send(response);
         } catch (error) {
             res.send(error);
