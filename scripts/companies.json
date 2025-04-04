@@ -72,7 +72,7 @@
         "companyCareerPageURL": "https://www.accenture.com/in-en/careers"
     },
     {
-        "name": "tcs",
+        "name": "tataConsultancyServices",
         "displayName": "TCS",
         "description": "",
         "companyId": "09",
@@ -655,5 +655,68 @@
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Airbus_Logo_2017.svg/1280px-Airbus_Logo_2017.svg.png",
         "isProductBased": true,
         "companyCareerPageURL": "https://www.airbus.com/en/careers"
+    },
+    {
+        "name": "pepsiCo",
+        "displayName": "PepsiCo",
+        "description": "",
+        "companyId": "74",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PepsiCo_logo.svg/1024px-PepsiCo_logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.pepsicojobs.com/main/our-locations/amesa/india"
+    },
+    {
+        "name": "cgi",
+        "displayName": "CGI",
+        "description": "",
+        "companyId": "75",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/CGI_logo.svg/1024px-CGI_logo.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.cgi.com/en/careers"
+    },
+    {
+        "name": "genpact",
+        "displayName": "Genpact",
+        "description": "",
+        "companyId": "76",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Genpact_logo.svg/1024px-Genpact_logo.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.genpact.com/careers"
+    },
+    {
+        "name": "nttData",
+        "displayName": "NTT Data",
+        "description": "",
+        "companyId": "77",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/NTT-Data-Logo.svg/1024px-NTT-Data-Logo.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.nttdata.com/global/en/careers"
+    },
+    {
+        "name": "synechron",
+        "displayName": "Synechron",
+        "description": "",
+        "companyId": "78",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Synechron_Logo_White_Background.jpg/960px-Synechron_Logo_White_Background.jpg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.synechron.com/en-in/careers"
+    },
+    {
+        "name": "ericsson",
+        "displayName": "Ericsson",
+        "description": "",
+        "companyId": "79",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Ericsson_logo.svg/878px-Ericsson_logo.svg.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.ericsson.com/en/careers/global-locations/india"
+    },
+    {
+        "name": "nvidia",
+        "displayName": "Nvidia",
+        "description": "",
+        "companyId": "80",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/sco/thumb/2/21/Nvidia_logo.svg/1024px-Nvidia_logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.nvidia.com/en-in/about-nvidia/careers/"
     }
 ]
