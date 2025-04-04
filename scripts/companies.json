@@ -718,5 +718,266 @@
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/sco/thumb/2/21/Nvidia_logo.svg/1024px-Nvidia_logo.svg.png",
         "isProductBased": true,
         "companyCareerPageURL": "https://www.nvidia.com/en-in/about-nvidia/careers/"
+    },
+    {
+        "name": "tesla",
+        "displayName": "Tesla",
+        "description": "",
+        "companyId": "81",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.tesla.com/careers"
+    },
+    {
+        "name": "airbnb",
+        "displayName": "Airbnb",
+        "description": "",
+        "companyId": "82",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_Bélo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.airbnb.com/"
+    },
+    {
+        "name": "spotify",
+        "displayName": "Spotify",
+        "description": "",
+        "companyId": "83",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.lifeatspotify.com/"
+    },
+    {
+        "name": "zoom",
+        "displayName": "Zoom",
+        "description": "",
+        "companyId": "84",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Zoom_Communications_Logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.zoom.us/"
+    },
+    {
+        "name": "figma",
+        "displayName": "Figma",
+        "description": "",
+        "companyId": "85",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.figma.com/careers/"
+    },
+    {
+        "name": "digitalocean",
+        "displayName": "DigitalOcean",
+        "description": "",
+        "companyId": "86",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/f/ff/DigitalOcean_logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.digitalocean.com/careers"
+    },
+    {
+        "name": "ola",
+        "displayName": "Ola",
+        "description": "",
+        "companyId": "87",
+        "companyIconURL": "https://logo.clearbit.com/olacabs.com",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.olacabs.com/careers"
+    },
+    {
+        "name": "bigbasket",
+        "displayName": "BigBasket",
+        "description": "",
+        "companyId": "88",
+        "companyIconURL": "https://logo.clearbit.com/bigbasket.com",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.bigbasket.com/careers/"
+    },
+    {
+        "name": "pinterest",
+        "displayName": "Pinterest",
+        "description": "",
+        "companyId": "89",
+        "companyIconURL": "https://logo.clearbit.com/pinterest.com",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.pinterest.com/"
+    },
+    {
+        "name": "nykaa",
+        "displayName": "Nykaa",
+        "description": "",
+        "companyId": "90",
+        "companyIconURL": "https://logo.clearbit.com/nykaa.com",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.nykaa.com/"
+    },
+    {
+        "name": "bookmyshow",
+        "displayName": "BookMyShow",
+        "description": "BookMyShow is India's largest entertainment ticketing platform.",
+        "companyId": "91",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/7/75/Bookmyshow-logoid.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://in.bookmyshow.com/careers/"
+    },
+    {
+        "name": "redbus",
+        "displayName": "Redbus",
+        "description": "Redbus is India's largest online bus ticketing platform.",
+        "companyId": "92",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Redbus_logo.jpg/640px-Redbus_logo.jpg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.redbus.in/info/careers"
+    },
+    {
+        "name": "cleartax",
+        "displayName": "ClearTax",
+        "description": "ClearTax offers tax filing, GST, and finance management software for individuals and businesses.",
+        "companyId": "93",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/ClearTax-Logo.svg/1024px-ClearTax-Logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://cleartax.in/s/careers"
+    },
+    {
+        "name": "naukri",
+        "displayName": "Naukri",
+        "description": "Naukri is India’s largest job search portal and part of Info Edge India Ltd.",
+        "companyId": "94",
+        "companyIconURL": "https://logo.clearbit.com/naukri.com",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.infoedge.in/"
+    },
+    {
+        "name": "upstox",
+        "displayName": "Upstox",
+        "description": "Upstox is a low-cost brokerage firm offering trading services in stocks, commodities, and mutual funds.",
+        "companyId": "95",
+        "companyIconURL": "https://logo.clearbit.com/upstox.com",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://upstox.com/careers/"
+    },
+    {
+        "name": "policybazaar",
+        "displayName": "PolicyBazaar",
+        "description": "PolicyBazaar is an Indian insurance aggregator and a global financial technology company.",
+        "companyId": "96",
+        "companyIconURL": "https://logo.clearbit.com/policybazaar.com",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.policybazaar.com/careers/"
+    },
+    {
+        "name": "cred",
+        "displayName": "CRED",
+        "description": "CRED is a members-only app that rewards users with exclusive offers for paying credit card bills on time.",
+        "companyId": "97",
+        "companyIconURL": "https://logo.clearbit.com/cred.club",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.cred.club/openings"
+    },
+    {
+        "name": "unacademy",
+        "displayName": "Unacademy",
+        "description": "Unacademy is India’s largest learning platform offering courses for various competitive exams.",
+        "companyId": "98",
+        "companyIconURL": "https://logo.clearbit.com/unacademy.com",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://unacademy.com/careers"
+    },
+    {
+        "name": "meesho",
+        "displayName": "Meesho",
+        "description": "Meesho is India’s largest social commerce platform.",
+        "companyId": "99",
+        "companyIconURL": "https://logo.clearbit.com/meesho.com",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.meesho.io/jobs"
+    },
+    {
+        "name": "snapdeal",
+        "displayName": "Snapdeal",
+        "description": "Snapdeal is one of India’s largest online marketplaces.",
+        "companyId": "100",
+        "companyIconURL": "https://logo.clearbit.com/snapdeal.com",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.snapdeal.com/"
+    },
+    {
+        "name": "oyo",
+        "displayName": "OYO",
+        "description": "OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes.",
+        "companyId": "101",
+        "companyIconURL": "https://logo.clearbit.com/oyorooms.com",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.oyorooms.com/careers"
+    },
+    {
+        "name": "goibibo",
+        "displayName": "Goibibo",
+        "description": "Goibibo is an Indian online travel booking platform.",
+        "companyId": "102",
+        "companyIconURL": "https://logo.clearbit.com/goibibo.com",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.goibibo.com/"
+    },
+    {
+        "name": "ixigo",
+        "displayName": "Ixigo",
+        "description": "Ixigo is an Indian AI-based travel app for booking flights, trains, and hotels.",
+        "companyId": "103",
+        "companyIconURL": "https://logo.clearbit.com/ixigo.com",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.ixigo.com/careers"
+    },
+    {
+        "name": "dunzo",
+        "displayName": "Dunzo",
+        "description": "Dunzo is an Indian delivery service company providing logistics and personal assistance.",
+        "companyId": "104",
+        "companyIconURL": "https://logo.clearbit.com/dunzo.com",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.dunzo.com/careers"
+    },
+    {
+        "name": "browserstack",
+        "displayName": "BrowserStack",
+        "description": "BrowserStack is a cloud web and mobile testing platform.",
+        "companyId": "105",
+        "companyIconURL": "https://logo.clearbit.com/browserstack.com",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.browserstack.com/careers"
+    },
+    {
+        "name": "mphasis",
+        "displayName": "Mphasis",
+        "description": "Mphasis is an IT services company providing infrastructure technology and applications outsourcing services.",
+        "companyId": "106",
+        "companyIconURL": "https://logo.clearbit.com/mphasis.com",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.mphasis.com/"
+    },
+    {
+        "name": "hexaware",
+        "displayName": "Hexaware",
+        "description": "Hexaware is a global IT services company specializing in IT, BPO, and consulting services.",
+        "companyId": "107",
+        "companyIconURL": "https://logo.clearbit.com/hexaware.com",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://hexaware.com/careers/"
+    },
+    {
+        "name": "birlasoft",
+        "displayName": "Birlasoft",
+        "description": "Birlasoft provides enterprise digital solutions and IT services.",
+        "companyId": "108",
+        "companyIconURL": "https://logo.clearbit.com/birlasoft.com",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.birlasoft.com/careers"
+    },
+    {
+        "name": "sonata-software",
+        "displayName": "Sonata Software",
+        "description": "Sonata Software is a global IT services company providing services in digital transformation.",
+        "companyId": "109",
+        "companyIconURL": "https://logo.clearbit.com/sonata-software.com",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.sonata-software.com/about-us/careers"
     }
 ]
