@@ -61,6 +61,76 @@
                 "topicName": "dynamicallyCreatingArrays",
                 "topicDisplayName": "Dynamically Creating Arrays",
                 "module": "arrays"
+            },
+            {
+                "topicName": "arrayDestructuring",
+                "topicDisplayName": "Array Destructuring",
+                "module": "arrays"
+            },
+            {
+                "topicName": "arrayMapMethod",
+                "topicDisplayName": "Array.map() Method",
+                "module": "arrays"
+            },
+            {
+                "topicName": "arrayIncludesMethod",
+                "topicDisplayName": "Array.includes() Method",
+                "module": "arrays"
+            },
+            {
+                "topicName": "arrayFindMethod",
+                "topicDisplayName": "Array.find() Method",
+                "module": "arrays"
+            },
+            {
+                "topicName": "arrayJoinMethod",
+                "topicDisplayName": "Array.join() Method",
+                "module": "arrays"
+            },
+            {
+                "topicName": "arrayAtMethod",
+                "topicDisplayName": "Array.at() Method",
+                "module": "arrays"
+            },
+            {
+                "topicName": "functionDeclaration",
+                "topicDisplayName": "Function Declaration",
+                "module": "functions"
+            },
+            {
+                "topicName": "arrowFunctions",
+                "topicDisplayName": "Arrow Functions",
+                "module": "functions"
+            },
+            {
+                "topicName": "objectDestructuring",
+                "topicDisplayName": "Object Destructuring",
+                "module": "objects"
+            },
+            {
+                "topicName": "optionalChaining",
+                "topicDisplayName": "Optional Chaining",
+                "module": "objects"
+            },
+            {
+                "topicName": "forOfLoop",
+                "topicDisplayName": "for...of Loop",
+                "module": "loops"
+            },
+            {
+                "topicName": "forInLoop",
+                "topicDisplayName": "for...in Loop",
+                "module": "loops"
+            },
+            {
+                "topicName": "asyncAwait",
+                "topicDisplayName": "Async/Await",
+                "module": "promises"
+            },
+            {
+                "topicName": "promiseBasic",
+                "topicDisplayName": "JavaScript Promises",
+                "module": "promises"
             }
         ]
     },
