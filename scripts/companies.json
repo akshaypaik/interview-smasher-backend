@@ -979,5 +979,14 @@
         "companyIconURL": "https://logo.clearbit.com/sonata-software.com",
         "isProductBased": false,
         "companyCareerPageURL": "https://www.sonata-software.com/about-us/careers"
+    },
+    {
+        "name": "xpheno",
+        "displayName": "Xpheno",
+        "description": "",
+        "companyId": "110",
+        "companyIconURL": "https://xpheno.com/resources/images/services/xphenowhitenew.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.xpheno.com/jobs"
     }
 ]
