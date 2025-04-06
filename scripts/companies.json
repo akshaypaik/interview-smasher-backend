@@ -6,7 +6,13 @@
         "companyId": "01",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/480px-Google_%22G%22_logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.google.com/about/careers/applications"
+        "companyCareerPageURL": "https://www.google.com/about/careers/applications",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.3",
+            "userCount": "62087",
+            "displayUserCount": "62,097"
+        }
     },
     {
         "name": "microsoft",
@@ -15,7 +21,13 @@
         "companyId": "02",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Microsoft_icon.svg",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.microsoft.com/v2/global/en/home.html"
+        "companyCareerPageURL": "https://careers.microsoft.com/v2/global/en/home.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "61981",
+            "displayUserCount": "61,981"
+        }
     },
     {
         "name": "meta",
@@ -24,7 +36,13 @@
         "companyId": "03",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/800px-Meta_Platforms_Inc._logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.metacareers.com/jobs/?is_leadership=0&sub_teams[0]=Artificial%20Intelligence&is_in_page=0"
+        "companyCareerPageURL": "https://www.metacareers.com/jobs/?is_leadership=0&sub_teams[0]=Artificial%20Intelligence&is_in_page=0",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "21036",
+            "displayUserCount": "21,036"
+        }
     },
     {
         "name": "netflix",
@@ -33,7 +51,13 @@
         "companyId": "04",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg",
         "isProductBased": true,
-        "companyCareerPageURL": "https://jobs.netflix.com/"
+        "companyCareerPageURL": "https://jobs.netflix.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "3285",
+            "displayUserCount": "3,285"
+        }
     },
     {
         "name": "apple",
@@ -42,7 +66,13 @@
         "companyId": "05",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/625px-Apple_logo_black.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://jobs.apple.com/en-in/search?location=bengaluru-BGS"
+        "companyCareerPageURL": "https://jobs.apple.com/en-in/search?location=bengaluru-BGS",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "48096",
+            "displayUserCount": "48,096"
+        }
     },
     {
         "name": "amazon",
@@ -51,7 +81,13 @@
         "companyId": "06",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/640px-Amazon_logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.amazon.jobs/content/en/locations/india/bangalore"
+        "companyCareerPageURL": "https://www.amazon.jobs/content/en/locations/india/bangalore",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "228107",
+            "displayUserCount": "2,28,107"
+        }
     },
     {
         "name": "siemens",
@@ -60,7 +96,13 @@
         "companyId": "07",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Siemens_AG_logo.svg/640px-Siemens_AG_logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.siemens.com/in/en/company/jobs.html"
+        "companyCareerPageURL": "https://www.siemens.com/in/en/company/jobs.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "24562",
+            "displayUserCount": "24,562"
+        }
     },
     {
         "name": "accenture",
@@ -69,7 +111,13 @@
         "companyId": "08",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Accenture.svg/640px-Accenture.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.accenture.com/in-en/careers"
+        "companyCareerPageURL": "https://www.accenture.com/in-en/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "199570",
+            "displayUserCount": "1,99,570"
+        }
     },
     {
         "name": "tataConsultancyServices",
@@ -78,7 +126,13 @@
         "companyId": "09",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Tata_Consultancy_Services_old_logo.svg/640px-Tata_Consultancy_Services_old_logo.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://ibegin.tcs.com/iBegin/"
+        "companyCareerPageURL": "https://ibegin.tcs.com/iBegin/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "164287",
+            "displayUserCount": "1,64287"
+        }
     },
     {
         "name": "atlassian",
@@ -87,7 +141,13 @@
         "companyId": "10",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Atlassian-logo.svg/1024px-Atlassian-logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.atlassian.com/company/careers/all-jobs"
+        "companyCareerPageURL": "https://www.atlassian.com/company/careers/all-jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "3254",
+            "displayUserCount": "3,254"
+        }
     },
     {
         "name": "ibm",
@@ -96,7 +156,13 @@
         "companyId": "11",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/800px-IBM_logo.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.ibm.com/in-en/careers/search"
+        "companyCareerPageURL": "https://www.ibm.com/in-en/careers/search",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "123823",
+            "displayUserCount": "1,23,823"
+        }
     },
     {
         "name": "walmart",
@@ -105,7 +171,13 @@
         "companyId": "12",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Walmart_logo.svg/1024px-Walmart_logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.walmart.com/"
+        "companyCareerPageURL": "https://careers.walmart.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "4353",
+            "displayUserCount": "4,353"
+        }
     },
     {
         "name": "adobeSystems",
@@ -114,7 +186,13 @@
         "companyId": "13",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Adobe_Corporate_logo.svg/1024px-Adobe_Corporate_logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.adobe.com/us/en"
+        "companyCareerPageURL": "https://careers.adobe.com/us/en",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "11098",
+            "displayUserCount": "11,098"
+        }
     },
     {
         "name": "flipkart",
@@ -123,7 +201,13 @@
         "companyId": "14",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/7/7a/Flipkart_logo.svg",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.flipkartcareers.com/#!/"
+        "companyCareerPageURL": "https://www.flipkartcareers.com/#!/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "6755",
+            "displayUserCount": "6,755"
+        }
     },
     {
         "name": "myntra",
@@ -132,7 +216,13 @@
         "companyId": "15",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Myntra_Logo.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://jobs.myntra.com/home"
+        "companyCareerPageURL": "https://jobs.myntra.com/home",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "1836",
+            "displayUserCount": "1,836"
+        }
     },
     {
         "name": "salesforce",
@@ -141,7 +231,13 @@
         "companyId": "16",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/1024px-Salesforce.com_logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.salesforce.com/en/jobs/"
+        "companyCareerPageURL": "https://careers.salesforce.com/en/jobs/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "23311",
+            "displayUserCount": "23,311"
+        }
     },
     {
         "name": "cognizant",
@@ -150,7 +246,13 @@
         "companyId": "17",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cognizant_logo_2022.svg/1024px-Cognizant_logo_2022.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://careers.cognizant.com/india-en/"
+        "companyCareerPageURL": "https://careers.cognizant.com/india-en/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "118261",
+            "displayUserCount": "118,261"
+        }
     },
     {
         "name": "uber",
@@ -159,7 +261,13 @@
         "companyId": "18",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/1024px-Uber_logo_2018.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.uber.com/in/en/careers/locations/bangalore/"
+        "companyCareerPageURL": "https://www.uber.com/in/en/careers/locations/bangalore/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "33423",
+            "displayUserCount": "33,423"
+        }
     },
     {
         "name": "cisco",
@@ -168,7 +276,13 @@
         "companyId": "19",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/640px-Cisco_logo_blue_2016.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.cisco.com/c/en/us/about/careers.html"
+        "companyCareerPageURL": "https://www.cisco.com/c/en/us/about/careers.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "37263",
+            "displayUserCount": "37,263"
+        }
     },
     {
         "name": "intel",
@@ -177,7 +291,13 @@
         "companyId": "20",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Intel_logo_2023.svg/1024px-Intel_logo_2023.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://intel.wd1.myworkdayjobs.com/External/page/6042070b79e01001f04fa9b468070000"
+        "companyCareerPageURL": "https://intel.wd1.myworkdayjobs.com/External/page/6042070b79e01001f04fa9b468070000",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "36277",
+            "displayUserCount": "36,277"
+        }
     },
     {
         "name": "linkedin",
@@ -186,7 +306,13 @@
         "companyId": "21",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/768px-LinkedIn_icon.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.linkedin.com/company/linkedin/jobs/?src=or-search&veh=www.google.com"
+        "companyCareerPageURL": "https://www.linkedin.com/company/linkedin/jobs/?src=or-search&veh=www.google.com",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "8306",
+            "displayUserCount": "8,306"
+        }
     },
     {
         "name": "kpmg",
@@ -195,7 +321,13 @@
         "companyId": "22",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/KPMG_logo.svg/1024px-KPMG_logo.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://kpmg.com/in/en/careers.html"
+        "companyCareerPageURL": "https://kpmg.com/in/en/careers.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "74599",
+            "displayUserCount": "74,599"
+        }
     },
     {
         "name": "deloitte",
@@ -204,7 +336,13 @@
         "companyId": "23",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Deloitte.svg/1024px-Deloitte.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www2.deloitte.com/ui/en.html"
+        "companyCareerPageURL": "https://www2.deloitte.com/ui/en.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "134775",
+            "displayUserCount": "134,775"
+        }
     },
     {
         "name": "oracleCorporation",
@@ -213,7 +351,13 @@
         "companyId": "24",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Oracle_Corporation_logo.svg/1024px-Oracle_Corporation_logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.oracle.com/in/careers/"
+        "companyCareerPageURL": "https://www.oracle.com/in/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "59265",
+            "displayUserCount": "59,265"
+        }
     },
     {
         "name": "pwc",
@@ -222,7 +366,13 @@
         "companyId": "25",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/PricewaterhouseCoopers_Logo.svg/1012px-PricewaterhouseCoopers_Logo.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.pwc.in/careers.html"
+        "companyCareerPageURL": "https://www.pwc.in/careers.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "95900",
+            "displayUserCount": "95,900"
+        }
     },
     {
         "name": "paypal",
@@ -231,7 +381,13 @@
         "companyId": "26",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/1024px-PayPal.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.pypl.com/home/"
+        "companyCareerPageURL": "https://careers.pypl.com/home/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "4,000",
+            "displayUserCount": "4,000"
+        }
     },
     {
         "name": "visa",
@@ -240,7 +396,13 @@
         "companyId": "27",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/1024px-Visa_Inc._logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.visa.co.in/en_in/jobs/"
+        "companyCareerPageURL": "https://www.visa.co.in/en_in/jobs/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "6,452",
+            "displayUserCount": "6,452"
+        }
     },
     {
         "name": "goldmanSachs",
@@ -249,7 +411,13 @@
         "companyId": "28",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Goldman_Sachs.svg/768px-Goldman_Sachs.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.goldmansachs.com/worldwide/india/careers"
+        "companyCareerPageURL": "https://www.goldmansachs.com/worldwide/india/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "17,425",
+            "displayUserCount": "17,425"
+        }
     },
     {
         "name": "morganStanley",
@@ -258,7 +426,13 @@
         "companyId": "29",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Morgan_Stanley_Logo_1.svg/1024px-Morgan_Stanley_Logo_1.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.morganstanley.com/careers/career-opportunities-search"
+        "companyCareerPageURL": "https://www.morganstanley.com/careers/career-opportunities-search",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "12,189",
+            "displayUserCount": "12,189"
+        }
     },
     {
         "name": "jpMorganChase",
@@ -267,7 +441,13 @@
         "companyId": "30",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/JPMorgan_logo.svg/1024px-JPMorgan_logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs"
+        "companyCareerPageURL": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "26,010",
+            "displayUserCount": "26,010"
+        }
     },
     {
         "name": "stripe",
@@ -276,7 +456,13 @@
         "companyId": "31",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Stripe_Logo%2C_revised_2016.svg/1024px-Stripe_Logo%2C_revised_2016.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://stripe.com/jobs/search"
+        "companyCareerPageURL": "https://stripe.com/jobs/search",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "500",
+            "displayUserCount": "500"
+        }
     },
     {
         "name": "swiggy",
@@ -285,7 +471,13 @@
         "companyId": "32",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Swiggy_logo_%28old%29.svg/1024px-Swiggy_logo_%28old%29.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.swiggy.com/#/"
+        "companyCareerPageURL": "https://careers.swiggy.com/#/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "2676",
+            "displayUserCount": "2,676"
+        }
     },
     {
         "name": "hp",
@@ -294,7 +486,13 @@
         "companyId": "33",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/768px-HP_logo_2012.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://jobs.hp.com/us/"
+        "companyCareerPageURL": "https://jobs.hp.com/us/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "10000",
+            "displayUserCount": "10,000"
+        }
     },
     {
         "name": "dell",
@@ -303,7 +501,13 @@
         "companyId": "34",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dell_Logo.svg/768px-Dell_Logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://jobs.dell.com/en/india-diversity"
+        "companyCareerPageURL": "https://jobs.dell.com/en/india-diversity",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "33004",
+            "displayUserCount": "33,004"
+        }
     },
     {
         "name": "lenovo",
@@ -312,7 +516,13 @@
         "companyId": "35",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Lenovo_logo_%282015_onwards%29_2.svg/960px-Lenovo_logo_%282015_onwards%29_2.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://jobs.lenovo.com/en_US/careers"
+        "companyCareerPageURL": "https://jobs.lenovo.com/en_US/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "3281",
+            "displayUserCount": "3,281"
+        }
     },
     {
         "name": "phonepe",
@@ -321,7 +531,13 @@
         "companyId": "36",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/PhonePe_Logo.svg/1024px-PhonePe_Logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.phonepe.com/careers/job-openings/"
+        "companyCareerPageURL": "https://www.phonepe.com/careers/job-openings/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "1200",
+            "displayUserCount": "1,200"
+        }
     },
     {
         "name": "razorpay",
@@ -330,7 +546,13 @@
         "companyId": "37",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Razorpay_logo.svg/1024px-Razorpay_logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://razorpay.com/jobs/"
+        "companyCareerPageURL": "https://razorpay.com/jobs/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "941",
+            "displayUserCount": "941"
+        }
     },
     {
         "name": "capgemini",
@@ -339,7 +561,13 @@
         "companyId": "38",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Capgemini_201x_logo.svg/1024px-Capgemini_201x_logo.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.capgemini.com/in-en/careers/"
+        "companyCareerPageURL": "https://www.capgemini.com/in-en/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "48000",
+            "displayUserCount": "48,000"
+        }
     },
     {
         "name": "techMahindra",
@@ -348,7 +576,13 @@
         "companyId": "39",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Logo-True-Colors-original.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.techmahindra.com/careers/"
+        "companyCareerPageURL": "https://www.techmahindra.com/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "25000",
+            "displayUserCount": "25,000"
+        }
     },
     {
         "name": "wipro",
@@ -357,7 +591,13 @@
         "companyId": "40",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wipro_Primary_Logo_Color_RGB.svg/975px-Wipro_Primary_Logo_Color_RGB.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://careers.wipro.com/"
+        "companyCareerPageURL": "https://careers.wipro.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "30000",
+            "displayUserCount": "30,000"
+        }
     },
     {
         "name": "zomato",
@@ -366,7 +606,13 @@
         "companyId": "41",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/6/64/Zomato_logo_%28white-on-red%29.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.zomato.com/careers"
+        "companyCareerPageURL": "https://www.zomato.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "3129",
+            "displayUserCount": "3,129"
+        }
     },
     {
         "name": "makemytrip",
@@ -375,7 +621,13 @@
         "companyId": "42",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Makemytrip_logo.svg/1024px-Makemytrip_logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.makemytrip.com/prod/jobs"
+        "companyCareerPageURL": "https://careers.makemytrip.com/prod/jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "2322",
+            "displayUserCount": "2,322"
+        }
     },
     {
         "name": "paytm",
@@ -384,7 +636,13 @@
         "companyId": "43",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/4/42/Paytm_logo.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://paytm.com/careers"
+        "companyCareerPageURL": "https://paytm.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.2",
+            "userCount": "5139",
+            "displayUserCount": "5,139"
+        }
     },
     {
         "name": "samsung",
@@ -393,7 +651,13 @@
         "companyId": "44",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/1024px-Samsung_Logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers"
+        "companyCareerPageURL": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "12500",
+            "displayUserCount": "12,500"
+        }
     },
     {
         "name": "zerodha",
@@ -402,7 +666,13 @@
         "companyId": "45",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Zerodha_logo.svg/1024px-Zerodha_logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.zerodha.com/"
+        "companyCareerPageURL": "https://careers.zerodha.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.5",
+            "userCount": "172",
+            "displayUserCount": "172"
+        }
     },
     {
         "name": "groww",
@@ -411,7 +681,13 @@
         "companyId": "46",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Groww_app_logo.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://groww.in/careers"
+        "companyCareerPageURL": "https://groww.in/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "472",
+            "displayUserCount": "472"
+        }
     },
     {
         "name": "sapLabs",
@@ -420,7 +696,13 @@
         "companyId": "47",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/1024px-SAP_2011_logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://jobs.sap.com/go/SAP-Jobs-in-India/851201/"
+        "companyCareerPageURL": "https://jobs.sap.com/go/SAP-Jobs-in-India/851201/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "33542",
+            "displayUserCount": "33,542"
+        }
     },
     {
         "name": "persistentSystems",
@@ -429,7 +711,13 @@
         "companyId": "48",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/0/06/Persistent_Systems_Logo.svg",
         "isProductBased": false,
-        "companyCareerPageURL": "https://careers.persistent.com"
+        "companyCareerPageURL": "https://careers.persistent.com",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "8688",
+            "displayUserCount": "8,688"
+        }
     },
     {
         "name": "harmanInternational",
@@ -438,7 +726,13 @@
         "companyId": "49",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Harman_International_logo.svg/1024px-Harman_International_logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://jobsearch.harman.com/en_US/careers/SearchJobs"
+        "companyCareerPageURL": "https://jobsearch.harman.com/en_US/careers/SearchJobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "6242",
+            "displayUserCount": "6,242"
+        }
     },
     {
         "name": "abb",
@@ -447,7 +741,13 @@
         "companyId": "50",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ABB_logo.svg/1024px-ABB_logo.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://careers.abb/india/en/home"
+        "companyCareerPageURL": "https://careers.abb/india/en/home",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "11179",
+            "displayUserCount": "11,179"
+        }
     },
     {
         "name": "virtusa",
@@ -456,7 +756,13 @@
         "companyId": "51",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Virtusa_Logo.svg/1024px-Virtusa_Logo.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.virtusa.com/careers"
+        "companyCareerPageURL": "https://www.virtusa.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "10822",
+            "displayUserCount": "10,822"
+        }
     },
     {
         "name": "nagarro",
@@ -465,7 +771,13 @@
         "companyId": "52",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Nagarro_logo_new.svg/1024px-Nagarro_logo_new.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.nagarro.com/en/careers/india"
+        "companyCareerPageURL": "https://www.nagarro.com/en/careers/india",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "6472",
+            "displayUserCount": "6,472"
+        }
     },
     {
         "name": "infosys",
@@ -474,7 +786,13 @@
         "companyId": "53",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Infosys_logo.svg/1024px-Infosys_logo.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.infosys.com/careers/apply.html"
+        "companyCareerPageURL": "https://www.infosys.com/careers/apply.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "118059",
+            "displayUserCount": "1,18,059"
+        }
     },
     {
         "name": "hcl",
@@ -483,7 +801,13 @@
         "companyId": "54",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/e/e5/HCLTech-new-logo.svg",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.hcltech.com/careers/careers-in-india#job-openings"
+        "companyCareerPageURL": "https://www.hcltech.com/careers/careers-in-india#job-openings",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.5",
+            "userCount": "51038",
+            "displayUserCount": "51,038"
+        }
     },
     {
         "name": "lowes",
@@ -492,7 +816,13 @@
         "companyId": "55",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Lowes_Companies_Logo.svg/1024px-Lowes_Companies_Logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://talent.lowes.com/in/en/home"
+        "companyCareerPageURL": "https://talent.lowes.com/in/en/home",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "46780",
+            "displayUserCount": "46,780"
+        }
     },
     {
         "name": "qualcomm",
@@ -501,7 +831,13 @@
         "companyId": "56",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Qualcomm-Logo.svg/1024px-Qualcomm-Logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.qualcomm.com/careers"
+        "companyCareerPageURL": "https://careers.qualcomm.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "11628",
+            "displayUserCount": "11,628"
+        }
     },
     {
         "name": "honeywell",
@@ -510,7 +846,13 @@
         "companyId": "57",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Honeywell_logo.svg/1024px-Honeywell_logo.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://careers.honeywell.com/us/en"
+        "companyCareerPageURL": "https://careers.honeywell.com/us/en",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "24992",
+            "displayUserCount": "24,992"
+        }
     },
     {
         "name": "geHealthCare",
@@ -519,7 +861,13 @@
         "companyId": "58",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/GE_HealthCare_logo_2023.png/1280px-GE_HealthCare_logo_2023.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.gehealthcare.com/global/en/india-jobs"
+        "companyCareerPageURL": "https://careers.gehealthcare.com/global/en/india-jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "8939",
+            "displayUserCount": "8,939"
+        }
     },
     {
         "name": "thomsonReuters",
@@ -528,7 +876,13 @@
         "companyId": "59",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Thomson_Reuters_logo.svg/1024px-Thomson_Reuters_logo.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://careers.thomsonreuters.com/us/en/search-results"
+        "companyCareerPageURL": "https://careers.thomsonreuters.com/us/en/search-results",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "17575",
+            "displayUserCount": "17,575"
+        }
     },
     {
         "name": "schneiderElectric",
@@ -537,7 +891,13 @@
         "companyId": "60",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Schneider-Electric-Logo.jpg/1024px-Schneider-Electric-Logo.jpg",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.se.com/in/en/about-us/careers/overview.jsp"
+        "companyCareerPageURL": "https://www.se.com/in/en/about-us/careers/overview.jsp",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.3",
+            "userCount": "18144",
+            "displayUserCount": "18,144"
+        }
     },
     {
         "name": "mercedesBenz",
@@ -546,7 +906,13 @@
         "companyId": "61",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mercedes-Benz_Logo_2010.svg/1024px-Mercedes-Benz_Logo_2010.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://group.mercedes-benz.com/careers/about-us/locations/location-detail-page-18185.html"
+        "companyCareerPageURL": "https://group.mercedes-benz.com/careers/about-us/locations/location-detail-page-18185.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "2536",
+            "displayUserCount": "2,536"
+        }
     },
     {
         "name": "ust",
@@ -555,7 +921,13 @@
         "companyId": "62",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/UST_%28company%29_Logo.svg/480px-UST_%28company%29_Logo.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.ust.com/en/careers"
+        "companyCareerPageURL": "https://www.ust.com/en/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "9564",
+            "displayUserCount": "9,564"
+        }
     },
     {
         "name": "carrierCorporation",
@@ -564,7 +936,13 @@
         "companyId": "63",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Logo_of_the_Carrier_Corporation.svg/1280px-Logo_of_the_Carrier_Corporation.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://jobs.carrier.com/en/location/india-jobs/29289/1269750/2"
+        "companyCareerPageURL": "https://jobs.carrier.com/en/location/india-jobs/29289/1269750/2",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "2574",
+            "displayUserCount": "2,574"
+        }
     },
     {
         "name": "philips",
@@ -573,7 +951,13 @@
         "companyId": "64",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Philips_logo_new.svg/1024px-Philips_logo_new.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.careers.philips.com/in/en/search-results"
+        "companyCareerPageURL": "https://www.careers.philips.com/in/en/search-results",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "13858",
+            "displayUserCount": "13,858"
+        }
     },
     {
         "name": "bosch",
@@ -582,7 +966,13 @@
         "companyId": "65",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Bosch-logo.svg/1024px-Bosch-logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.bosch.in/careers/"
+        "companyCareerPageURL": "https://www.bosch.in/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "4945",
+            "displayUserCount": "4,945"
+        }
     },
     {
         "name": "ey",
@@ -591,7 +981,13 @@
         "companyId": "66",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/EY_logo_2019.svg/768px-EY_logo_2019.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.ey.com/en_in/careers"
+        "companyCareerPageURL": "https://www.ey.com/en_in/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "102712",
+            "displayUserCount": "1,02,712"
+        }
     },
     {
         "name": "verizon",
@@ -600,7 +996,13 @@
         "companyId": "67",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Verizon_2024.svg/1024px-Verizon_2024.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://mycareer.verizon.com/jobs/"
+        "companyCareerPageURL": "https://mycareer.verizon.com/jobs/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "36105",
+            "displayUserCount": "36,105"
+        }
     },
     {
         "name": "wellsFargo",
@@ -609,7 +1011,13 @@
         "companyId": "68",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Wells_Fargo_Logo_%282020%29.svg/768px-Wells_Fargo_Logo_%282020%29.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.wellsfargojobs.com/en/jobs"
+        "companyCareerPageURL": "https://www.wellsfargojobs.com/en/jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "55294",
+            "displayUserCount": "55,294"
+        }
     },
     {
         "name": "ltiMindtree",
@@ -618,7 +1026,13 @@
         "companyId": "69",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/LTIMindtree_Logo.svg/1280px-LTIMindtree_Logo.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.ltimindtree.com/india-careers/"
+        "companyCareerPageURL": "https://www.ltimindtree.com/india-careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.4",
+            "userCount": "8275",
+            "displayUserCount": "8,275"
+        }
     },
     {
         "name": "coinbase",
@@ -627,7 +1041,13 @@
         "companyId": "70",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Coinbase.svg/1024px-Coinbase.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.coinbase.com/careers/positions?location=india"
+        "companyCareerPageURL": "https://www.coinbase.com/careers/positions?location=india",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "1105",
+            "displayUserCount": "1,105"
+        }
     },
     {
         "name": "americanExpress",
@@ -636,7 +1056,13 @@
         "companyId": "71",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_%282018%29.svg/960px-American_Express_logo_%282018%29.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.americanexpress.com/en-us/careers"
+        "companyCareerPageURL": "https://www.americanexpress.com/en-us/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.3",
+            "userCount": "20076",
+            "displayUserCount": "20,076"
+        }
     },
     {
         "name": "publicisSapient",
@@ -645,7 +1071,13 @@
         "companyId": "72",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/PS_Logo_RGB.svg/1024px-PS_Logo_RGB.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://careers.publicissapient.com/job-search?country=India"
+        "companyCareerPageURL": "https://careers.publicissapient.com/job-search?country=India",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "11501",
+            "displayUserCount": "11,501"
+        }
     },
     {
         "name": "airbus",
@@ -654,7 +1086,13 @@
         "companyId": "73",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Airbus_Logo_2017.svg/1280px-Airbus_Logo_2017.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.airbus.com/en/careers"
+        "companyCareerPageURL": "https://www.airbus.com/en/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "8028",
+            "displayUserCount": "8,028"
+        }
     },
     {
         "name": "pepsiCo",
@@ -663,7 +1101,13 @@
         "companyId": "74",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/PepsiCo_logo.svg/1024px-PepsiCo_logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.pepsicojobs.com/main/our-locations/amesa/india"
+        "companyCareerPageURL": "https://www.pepsicojobs.com/main/our-locations/amesa/india",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "23248",
+            "displayUserCount": "23,248"
+        }
     },
     {
         "name": "cgi",
@@ -672,7 +1116,13 @@
         "companyId": "75",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/CGI_logo.svg/1024px-CGI_logo.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.cgi.com/en/careers"
+        "companyCareerPageURL": "https://www.cgi.com/en/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "21253",
+            "displayUserCount": "21,253"
+        }
     },
     {
         "name": "genpact",
@@ -681,7 +1131,13 @@
         "companyId": "76",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Genpact_logo.svg/1024px-Genpact_logo.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.genpact.com/careers"
+        "companyCareerPageURL": "https://www.genpact.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "27263",
+            "displayUserCount": "27,263"
+        }
     },
     {
         "name": "nttData",
@@ -690,7 +1146,13 @@
         "companyId": "77",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/NTT-Data-Logo.svg/1024px-NTT-Data-Logo.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.nttdata.com/global/en/careers"
+        "companyCareerPageURL": "https://www.nttdata.com/global/en/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "26028",
+            "displayUserCount": "26,028"
+        }
     },
     {
         "name": "synechron",
@@ -699,7 +1161,13 @@
         "companyId": "78",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Synechron_Logo_White_Background.jpg/960px-Synechron_Logo_White_Background.jpg",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.synechron.com/en-in/careers"
+        "companyCareerPageURL": "https://www.synechron.com/en-in/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "6083",
+            "displayUserCount": "6,083"
+        }
     },
     {
         "name": "ericsson",
@@ -708,7 +1176,13 @@
         "companyId": "79",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Ericsson_logo.svg/878px-Ericsson_logo.svg.png",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.ericsson.com/en/careers/global-locations/india"
+        "companyCareerPageURL": "https://www.ericsson.com/en/careers/global-locations/india",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "20573",
+            "displayUserCount": "20,573"
+        }
     },
     {
         "name": "nvidia",
@@ -717,7 +1191,13 @@
         "companyId": "80",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/sco/thumb/2/21/Nvidia_logo.svg/1024px-Nvidia_logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.nvidia.com/en-in/about-nvidia/careers/"
+        "companyCareerPageURL": "https://www.nvidia.com/en-in/about-nvidia/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.5",
+            "userCount": "6298",
+            "displayUserCount": "6,298"
+        }
     },
     {
         "name": "tesla",
@@ -726,7 +1206,13 @@
         "companyId": "81",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.tesla.com/careers"
+        "companyCareerPageURL": "https://www.tesla.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.5",
+            "userCount": "14035",
+            "displayUserCount": "14,035"
+        }
     },
     {
         "name": "airbnb",
@@ -735,7 +1221,13 @@
         "companyId": "82",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_Bélo.svg",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.airbnb.com/"
+        "companyCareerPageURL": "https://careers.airbnb.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "2958",
+            "displayUserCount": "2,958"
+        }
     },
     {
         "name": "spotify",
@@ -744,7 +1236,13 @@
         "companyId": "83",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.lifeatspotify.com/"
+        "companyCareerPageURL": "https://www.lifeatspotify.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "1944",
+            "displayUserCount": "1,944"
+        }
     },
     {
         "name": "zoom",
@@ -753,7 +1251,13 @@
         "companyId": "84",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Zoom_Communications_Logo.svg",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.zoom.us/"
+        "companyCareerPageURL": "https://careers.zoom.us/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "2008",
+            "displayUserCount": "2,008"
+        }
     },
     {
         "name": "figma",
@@ -762,7 +1266,13 @@
         "companyId": "85",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.figma.com/careers/"
+        "companyCareerPageURL": "https://www.figma.com/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.3",
+            "userCount": "183",
+            "displayUserCount": "183"
+        }
     },
     {
         "name": "digitalocean",
@@ -771,7 +1281,13 @@
         "companyId": "86",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/f/ff/DigitalOcean_logo.svg",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.digitalocean.com/careers"
+        "companyCareerPageURL": "https://www.digitalocean.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "423",
+            "displayUserCount": "423"
+        }
     },
     {
         "name": "ola",
@@ -780,7 +1296,13 @@
         "companyId": "87",
         "companyIconURL": "https://logo.clearbit.com/olacabs.com",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.olacabs.com/careers"
+        "companyCareerPageURL": "https://www.olacabs.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "2.8",
+            "userCount": "2325",
+            "displayUserCount": "2,325"
+        }
     },
     {
         "name": "bigbasket",
@@ -789,7 +1311,13 @@
         "companyId": "88",
         "companyIconURL": "https://logo.clearbit.com/bigbasket.com",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.bigbasket.com/careers/"
+        "companyCareerPageURL": "https://www.bigbasket.com/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.5",
+            "userCount": "862",
+            "displayUserCount": "862"
+        }
     },
     {
         "name": "pinterest",
@@ -798,7 +1326,13 @@
         "companyId": "89",
         "companyIconURL": "https://logo.clearbit.com/pinterest.com",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.pinterest.com/"
+        "companyCareerPageURL": "https://careers.pinterest.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "1088",
+            "displayUserCount": "1,088"
+        }
     },
     {
         "name": "nykaa",
@@ -807,7 +1341,13 @@
         "companyId": "90",
         "companyIconURL": "https://logo.clearbit.com/nykaa.com",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.nykaa.com/"
+        "companyCareerPageURL": "https://careers.nykaa.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.5",
+            "userCount": "714",
+            "displayUserCount": "714"
+        }
     },
     {
         "name": "bookmyshow",
@@ -816,7 +1356,13 @@
         "companyId": "91",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/7/75/Bookmyshow-logoid.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://in.bookmyshow.com/careers/"
+        "companyCareerPageURL": "https://in.bookmyshow.com/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.5",
+            "userCount": "527",
+            "displayUserCount": "527"
+        }
     },
     {
         "name": "redbus",
@@ -825,7 +1371,13 @@
         "companyId": "92",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Redbus_logo.jpg/640px-Redbus_logo.jpg",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.redbus.in/info/careers"
+        "companyCareerPageURL": "https://www.redbus.in/info/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.5",
+            "userCount": "761",
+            "displayUserCount": "761"
+        }
     },
     {
         "name": "cleartax",
@@ -834,7 +1386,13 @@
         "companyId": "93",
         "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/ClearTax-Logo.svg/1024px-ClearTax-Logo.svg.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://cleartax.in/s/careers"
+        "companyCareerPageURL": "https://cleartax.in/s/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "854",
+            "displayUserCount": "854"
+        }
     },
     {
         "name": "naukri",
@@ -843,7 +1401,13 @@
         "companyId": "94",
         "companyIconURL": "https://logo.clearbit.com/naukri.com",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.infoedge.in/"
+        "companyCareerPageURL": "https://careers.infoedge.in/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "601",
+            "displayUserCount": "601"
+        }
     },
     {
         "name": "upstox",
@@ -852,7 +1416,13 @@
         "companyId": "95",
         "companyIconURL": "https://logo.clearbit.com/upstox.com",
         "isProductBased": true,
-        "companyCareerPageURL": "https://upstox.com/careers/"
+        "companyCareerPageURL": "https://upstox.com/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.3",
+            "userCount": "232",
+            "displayUserCount": "232"
+        }
     },
     {
         "name": "policybazaar",
@@ -861,7 +1431,13 @@
         "companyId": "96",
         "companyIconURL": "https://logo.clearbit.com/policybazaar.com",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.policybazaar.com/careers/"
+        "companyCareerPageURL": "https://www.policybazaar.com/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.5",
+            "userCount": "1948",
+            "displayUserCount": "1,948"
+        }
     },
     {
         "name": "cred",
@@ -870,7 +1446,13 @@
         "companyId": "97",
         "companyIconURL": "https://logo.clearbit.com/cred.club",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.cred.club/openings"
+        "companyCareerPageURL": "https://careers.cred.club/openings",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "181",
+            "displayUserCount": "181"
+        }
     },
     {
         "name": "unacademy",
@@ -879,7 +1461,13 @@
         "companyId": "98",
         "companyIconURL": "https://logo.clearbit.com/unacademy.com",
         "isProductBased": true,
-        "companyCareerPageURL": "https://unacademy.com/careers"
+        "companyCareerPageURL": "https://unacademy.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.2",
+            "userCount": "2763",
+            "displayUserCount": "2,763"
+        }
     },
     {
         "name": "meesho",
@@ -888,7 +1476,13 @@
         "companyId": "99",
         "companyIconURL": "https://logo.clearbit.com/meesho.com",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.meesho.io/jobs"
+        "companyCareerPageURL": "https://www.meesho.io/jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "1260",
+            "displayUserCount": "1,260"
+        }
     },
     {
         "name": "snapdeal",
@@ -897,7 +1491,13 @@
         "companyId": "100",
         "companyIconURL": "https://logo.clearbit.com/snapdeal.com",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.snapdeal.com/"
+        "companyCareerPageURL": "https://careers.snapdeal.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "1780",
+            "displayUserCount": "1,780"
+        }
     },
     {
         "name": "oyo",
@@ -906,7 +1506,13 @@
         "companyId": "101",
         "companyIconURL": "https://logo.clearbit.com/oyorooms.com",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.oyorooms.com/careers"
+        "companyCareerPageURL": "https://www.oyorooms.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.4",
+            "userCount": "5594",
+            "displayUserCount": "5,594"
+        }
     },
     {
         "name": "goibibo",
@@ -915,7 +1521,13 @@
         "companyId": "102",
         "companyIconURL": "https://logo.clearbit.com/goibibo.com",
         "isProductBased": true,
-        "companyCareerPageURL": "https://careers.goibibo.com/"
+        "companyCareerPageURL": "https://careers.goibibo.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "255",
+            "displayUserCount": "255"
+        }
     },
     {
         "name": "ixigo",
@@ -924,7 +1536,13 @@
         "companyId": "103",
         "companyIconURL": "https://logo.clearbit.com/ixigo.com",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.ixigo.com/careers"
+        "companyCareerPageURL": "https://www.ixigo.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "187",
+            "displayUserCount": "187"
+        }
     },
     {
         "name": "dunzo",
@@ -933,7 +1551,13 @@
         "companyId": "104",
         "companyIconURL": "https://logo.clearbit.com/dunzo.com",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.dunzo.com/careers"
+        "companyCareerPageURL": "https://www.dunzo.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.2",
+            "userCount": "550",
+            "displayUserCount": "550"
+        }
     },
     {
         "name": "browserstack",
@@ -942,7 +1566,13 @@
         "companyId": "105",
         "companyIconURL": "https://logo.clearbit.com/browserstack.com",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.browserstack.com/careers"
+        "companyCareerPageURL": "https://www.browserstack.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.4",
+            "userCount": "812",
+            "displayUserCount": "812"
+        }
     },
     {
         "name": "mphasis",
@@ -951,7 +1581,13 @@
         "companyId": "106",
         "companyIconURL": "https://logo.clearbit.com/mphasis.com",
         "isProductBased": false,
-        "companyCareerPageURL": "https://careers.mphasis.com/"
+        "companyCareerPageURL": "https://careers.mphasis.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.4",
+            "userCount": "11190",
+            "displayUserCount": "11,190"
+        }
     },
     {
         "name": "hexaware",
@@ -960,7 +1596,13 @@
         "companyId": "107",
         "companyIconURL": "https://logo.clearbit.com/hexaware.com",
         "isProductBased": false,
-        "companyCareerPageURL": "https://hexaware.com/careers/"
+        "companyCareerPageURL": "https://hexaware.com/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "7032",
+            "displayUserCount": "7,032"
+        }
     },
     {
         "name": "birlasoft",
@@ -969,7 +1611,13 @@
         "companyId": "108",
         "companyIconURL": "https://logo.clearbit.com/birlasoft.com",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.birlasoft.com/careers"
+        "companyCareerPageURL": "https://www.birlasoft.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "3816",
+            "displayUserCount": "3,816"
+        }
     },
     {
         "name": "sonata-software",
@@ -978,7 +1626,13 @@
         "companyId": "109",
         "companyIconURL": "https://logo.clearbit.com/sonata-software.com",
         "isProductBased": false,
-        "companyCareerPageURL": "https://www.sonata-software.com/about-us/careers"
+        "companyCareerPageURL": "https://www.sonata-software.com/about-us/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "1936",
+            "displayUserCount": "1,936"
+        }
     },
     {
         "name": "xpheno",
@@ -987,6 +1641,12 @@
         "companyId": "110",
         "companyIconURL": "https://xpheno.com/resources/images/services/xphenowhitenew.png",
         "isProductBased": true,
-        "companyCareerPageURL": "https://www.xpheno.com/jobs"
+        "companyCareerPageURL": "https://www.xpheno.com/jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "235",
+            "displayUserCount": "235"
+        }
     }
 ]
