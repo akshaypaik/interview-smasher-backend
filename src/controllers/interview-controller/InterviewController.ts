@@ -31,7 +31,8 @@ class InterviewController {
             const userEmail: any = req?.query?.email ? req?.query?.email : "";
             const useDetails: User = {
                 email: userEmail,
-                username: ""
+                username: "",
+                password: ""
             }
             const response = await interviewService.getFavoriteCompanies(useDetails);
             res.send(response);

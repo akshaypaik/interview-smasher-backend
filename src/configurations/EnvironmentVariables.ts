@@ -16,7 +16,7 @@ class EnvironmentVariables {
       .default("3000")
       .asIntPositive();
     this.JWT_SECRET_KEY = get("JWT_SECRET_KEY")
-      .default("buddygroisawesomeandakshaypaiisalsoawesome")
+      .default("interviewsmasherisawesomeandiamimmortalpaimakingitawesome")
       .asString();
     console.log("[Environment Variables] loading completed successfully");
   }

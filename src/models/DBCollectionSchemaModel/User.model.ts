@@ -5,5 +5,5 @@ export default class User{
     public firstname?: string;
     public lastname?: string;
     public phoneNumber?: number;
-    public password?: string;
+    public password!: string;
 }
