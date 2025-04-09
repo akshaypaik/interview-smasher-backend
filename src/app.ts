@@ -9,6 +9,7 @@ import { db } from "./db";
 import CoursesRoutes from "./routes/CoursesRoutes";
 import TopicsRoutes from "./routes/TopicsRoutes";
 import InterviewRoutes from "./routes/InterviewRoutes";
+import UserRoutes from "./routes/UserRuotes";
 
 const app = express();
 
@@ -96,5 +97,6 @@ db.initializeDB();
 app.use(CoursesRoutes);
 app.use(TopicsRoutes);
 app.use(InterviewRoutes);
+app.use(UserRoutes);
 
 export { app };
