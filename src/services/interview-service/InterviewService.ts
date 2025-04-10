@@ -2,7 +2,7 @@ import User from "src/models/DBCollectionSchemaModel/User.model";
 import { db } from "../../db";
 
 class InterviewService {
-    async getInterviewCompaniesSearchResult(searchQuery: string, page: number = 1, limit: number = 12) {
+    async getInterviewCompaniesSearchResult(searchQuery: string, email: string, page: number = 1, limit: number = 12) {
         try {
             console.log(`[InterviewService] get search result for company: ${searchQuery}`);
             let searchResults: any[] = [];
@@ -25,7 +25,9 @@ class InterviewService {
             if (response && response.length > 0) {
                 // Check if each company is marked as favorite
                 for (const company of response) {
-                    const isFavorite = await favCompaniesCollection.findOne({ companyId: company.companyId });
+                    const isFavorite = await favCompaniesCollection.findOne({ companyId: company.companyId,
+                        "user.email":  email
+                     });
                     searchResults.push({
                         ...company,
                         isFavoriteCompany: !!isFavorite, // Set isFavorite to true if a match is found, otherwise false

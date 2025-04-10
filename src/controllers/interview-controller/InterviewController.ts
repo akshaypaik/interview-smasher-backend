@@ -7,9 +7,13 @@ class InterviewController {
     public async getInterviewCompaniesSearchResult(req: Request, res: Response) {
         try {
             const searchQuery = req?.query?.searchQuery ? req?.query?.searchQuery?.toString() : "";
+            const email = req?.query?.email ? req?.query?.email?.toString() : "";
+            if(email === "" || email === "undefined"){
+                res.status(500).send("Email is not valid");
+            }
             const page = req?.query?.page ? Number(req?.query?.page) : 1;
             const limit = req?.query?.limit ? Number(req?.query?.limit) : 12;
-            const response = await interviewService.getInterviewCompaniesSearchResult(searchQuery, page, limit);
+            const response = await interviewService.getInterviewCompaniesSearchResult(searchQuery, email, page, limit);
             res.send(response);
         } catch (error) {
             res.send(error);
