@@ -106,6 +106,7 @@ class UserService {
                     }
                 }
             );
+            const newToken = await auth.createToken(userDetails);
             let messageModel = {
                 statusMessage:
                     "Successfully updated user profile!",
@@ -114,7 +115,8 @@ class UserService {
             console.log("[TopicsService] updating user profile completed");
             return {
                 "status": "success",
-                messageModel
+                messageModel,
+                token: newToken
             };
         } catch (error) {
             console.log(
