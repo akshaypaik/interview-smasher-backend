@@ -13,4 +13,6 @@ UserRoutes.post(`${userBaseURL}/registerUser`, userController.registerUser);
 
 UserRoutes.post(`${userBaseURL}/loginUser`, userController.loginUser);
 
+UserRoutes.post(`${userBaseURL}/updateUserProfile`, userController.updateUserProfile);
+
 export default UserRoutes;

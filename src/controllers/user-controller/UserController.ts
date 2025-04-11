@@ -23,7 +23,10 @@ class UserController {
                 token: token
             };
             if (typeof decoded === "object") {
-                userModel["email"] = decoded.email
+                userModel["email"] = decoded.email;
+                userModel["firstName"] = decoded.firstName;
+                userModel["lastName"] = decoded.lastName;
+                userModel["phoneNumber"] = decoded.phoneNumber;
             }
             res.send(userModel);
         } catch (error) {
@@ -31,6 +34,9 @@ class UserController {
             let messageModel = { statusMessage: "Invalid token", statusCode: -1 }
             let userModel = {
                 messageModel,
+                firstName: null,
+                lastName: null,
+                phoneNumber: null,
                 email: null,
                 token: null
             };
@@ -69,6 +75,16 @@ class UserController {
             res.cookie("is_token", result?.token);
             console.log("[UserController] login api completed");
             res.send(result);
+        } catch (error) {
+            res.send(error);
+        }
+    }
+
+    public async updateUserProfile(req: Request, res: Response) {
+        try {
+            const userDetails = req?.body;
+            const response = await userService.updateUserProfile(userDetails);
+            res.send(response);
         } catch (error) {
             res.send(error);
         }

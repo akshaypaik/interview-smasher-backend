@@ -7,7 +7,9 @@ class Auth {
     public async createToken(userDetails: User) {
         const payload = {
             email: userDetails?.email,
-            phoneNumber: userDetails?.phoneNumber
+            firstName: userDetails.firstName,
+            lastName: userDetails.lastName,
+            phoneNumber: userDetails.phoneNumber,
         }
         const token = jwt.sign(
             payload,

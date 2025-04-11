@@ -38,8 +38,9 @@ class UserService {
             const userDetailsResult = await userCollection.findOne({
                 email: userDetails.email,
             });
+            console.log("userDetailsResult: ", userDetailsResult);
             if (userDetails && bcrypt.compareSync(userDetails.password, userDetailsResult.password)) {
-                const token = await auth.createToken(userDetails);
+                const token = await auth.createToken(userDetailsResult);
                 let messageModel = {
                     statusMessage: "Successfully logged in!",
                     statusCode: 0,
@@ -47,6 +48,9 @@ class UserService {
                 let userModel = {
                     messageModel: messageModel,
                     email: userDetails.email,
+                    firstName: userDetailsResult.firstName,
+                    lastName: userDetailsResult.lastName,
+                    phoneNumber: userDetailsResult.phoneNumber,
                     token: token
                 };
                 console.log(
@@ -83,6 +87,45 @@ class UserService {
                 "[User Service] login user api completed with invalid creds"
             );
             throw userModel;
+        }
+    }
+
+    public async updateUserProfile(userDetails: User) {
+        try {
+            console.log(`[UserService] post register api service started for user: ${userDetails}`);
+            const userCollection = db.dbConnector.db("InterviewSmasher").collection("users");
+
+            const response = await userCollection.updateOne(
+                {
+                    email: userDetails.email
+                },
+                {
+                    $set: {
+                        firstName: userDetails.firstName,
+                        lastName: userDetails.lastName
+                    }
+                }
+            );
+            let messageModel = {
+                statusMessage:
+                    "Successfully updated user profile!",
+                statusCode: 0,
+            };
+            console.log("[TopicsService] updating user profile completed");
+            return {
+                "status": "success",
+                messageModel
+            };
+        } catch (error) {
+            console.log(
+                "[UserService] updateUserProfile: error occured: ",
+                error
+            );
+            let messageModel = {
+                statusMessage: "Error while updating user profile!",
+                statusCode: -1,
+            };
+            throw messageModel;
         }
     }
 
