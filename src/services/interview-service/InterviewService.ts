@@ -105,7 +105,6 @@ class InterviewService {
             let favCompaniesDetails: [] = [];
             const favCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("favoriteCompanies");
             const response = await favCompaniesCollection.deleteOne({
-                _id: favCompanyDetails._id,
                 companyId: favCompanyDetails.companyId,
                 "user.email": favCompanyDetails.user.email
             });
