@@ -1648,5 +1648,65 @@
             "userCount": "235",
             "displayUserCount": "235"
         }
+    },
+    {
+        "name": "siemensHealthineers",
+        "displayName": "Siemens Healthineers",
+        "description": "",
+        "companyId": "111",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/7/79/Siemens_Healthineers_logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://jobs.siemens-healthineers.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "5770",
+            "displayUserCount": "5,770"
+        }
+    },
+    {
+        "name": "hcaHealthcare",
+        "displayName": "HCA",
+        "description": "",
+        "companyId": "112",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/6c/2019_HCA_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.hcahealthcare.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.3",
+            "userCount": "9546",
+            "displayUserCount": "9,546"
+        }
+    },
+    {
+        "name": "xiaomi",
+        "displayName": "Xiaomi",
+        "description": "",
+        "companyId": "113",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Xiaomi_logo.svg/768px-Xiaomi_logo.svg.png",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.mi.com/global/careers/list",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.5",
+            "userCount": "1320",
+            "displayUserCount": "1,320"
+        }
+    },
+    {
+        "name": "boeing",
+        "displayName": "Boeing",
+        "description": "",
+        "companyId": "114",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Boeing_full_logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://jobs.boeing.com/location/india-jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "19206",
+            "displayUserCount": "19,206"
+        }
     }
 ]
