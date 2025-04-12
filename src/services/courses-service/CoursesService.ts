@@ -1,9 +1,11 @@
+import Logger from "../../logs/Logger";
 import { db } from "../../db";
 
 class CoursesService {
     async getAllCourses() {
         try {
             console.log("[CoursesService] get all courses service started");
+            Logger.info(`[CoursesService] get all courses service started`);
             let courseDetails: [] = [];
             const coursesCollection = db.dbConnector.db("InterviewSmasher").collection("courses");
             const response = await coursesCollection.find().toArray();
@@ -11,9 +13,14 @@ class CoursesService {
                 courseDetails = response;
             }
             console.log("[CoursesService] get courses api fetching completed");
+            Logger.info("[CoursesService] get courses api fetching completed");
             return courseDetails;
         } catch (error) {
             console.log(
+                "[CoursesService] getAllCourses: error occured: ",
+                error
+            );
+            Logger.error(
                 "[CoursesService] getAllCourses: error occured: ",
                 error
             );
@@ -28,15 +35,21 @@ class CoursesService {
     async postCourse(courseDetails) {
         try {
             console.log("[CoursesService] post course service started");
+            Logger.info("[CoursesService] post course service started");
             const coursesCollection = db.dbConnector.db("InterviewSmasher").collection("courses");
             await coursesCollection.insertOne(courseDetails);
             console.log("[User Service] post course service api completed");
+            Logger.info("[User Service] post course service api completed");
             return {
                 statusMessage: "success!",
                 statusCode: 0,
             };;
         } catch (error) {
             console.log(
+                "[CoursesService] postCourse: error occured: ",
+                error
+            );
+            Logger.error(
                 "[CoursesService] postCourse: error occured: ",
                 error
             );
@@ -51,6 +64,7 @@ class CoursesService {
     async getCourseDetailsByCourseId(courseId: number) {
         try {
             console.log(`[CoursesService] get course detail service started for courseId: ${courseId}`);
+            Logger.info(`[CoursesService] get course detail service started for courseId: ${courseId}`);
             let courseDetails: [] = [];
             const coursesInfoCollection = db.dbConnector.db("InterviewSmasher").collection("courseInfo");
             const response = await coursesInfoCollection.findOne({ courseId: courseId });
@@ -58,9 +72,14 @@ class CoursesService {
                 courseDetails = response;
             }
             console.log("[CoursesService] get course detail api fetching completed");
+            Logger.info("[CoursesService] get course detail api fetching completed");
             return courseDetails;
         } catch (error) {
             console.log(
+                "[CoursesService] getCourseDetailsByCourseId: error occured: ",
+                error
+            );
+            Logger.error(
                 "[CoursesService] getCourseDetailsByCourseId: error occured: ",
                 error
             );
@@ -74,7 +93,8 @@ class CoursesService {
 
     public async getCourseCompletionStatus(courseId: number | null | undefined) {
         try {
-            console.log(`[TopicsService] get course completion status api started for courseId: ${courseId}`);
+            console.log(`[CoursesService] get course completion status api started for courseId: ${courseId}`);
+            Logger.info(`[CoursesService] get course completion status api started for courseId: ${courseId}`);
             let courseCompletionStatus = {
                 status: {},
                 data: []
@@ -83,17 +103,22 @@ class CoursesService {
             const response = await topicCompletionCollection.find({ courseId }).toArray();
             if (response) {
                 courseCompletionStatus.status = response.reduce((acc, item) => {
-                   acc.totalTopics += 1;
-                   item.isCompleted ? acc.completedTopics += 1 : null;
-                   return acc;
+                    acc.totalTopics += 1;
+                    item.isCompleted ? acc.completedTopics += 1 : null;
+                    return acc;
                 }, { totalTopics: 0, completedTopics: 0 });
                 courseCompletionStatus.data = response;
             }
-            console.log("[TopicsService] get course completion status api fetching completed");
+            console.log("[CoursesService] get course completion status api fetching completed");
+            Logger.info("[CoursesService] get course completion status api fetching completed");
             return courseCompletionStatus;
         } catch (error) {
             console.log(
-                "[TopicsService] getCourseCompletionStatus: error occured: ",
+                "[CoursesService] getCourseCompletionStatus: error occured: ",
+                error
+            );
+            Logger.error(
+                "[CoursesService] getCourseCompletionStatus: error occured: ",
                 error
             );
             let messageModel = {

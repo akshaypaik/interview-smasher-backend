@@ -2,9 +2,11 @@ import { NextFunction } from "express";
 import jwt from "jsonwebtoken";
 import { environmentVariables } from "../configurations/EnvironmentVariables";
 import User from "src/models/DBCollectionSchemaModel/User.model";
+import Logger from "../logs/Logger";
 
 class Auth {
     public async createToken(userDetails: User) {
+        Logger.info(`[Auth] creating json token started for user: ${JSON.stringify(userDetails)}`);
         const payload = {
             email: userDetails?.email,
             firstName: userDetails.firstName,
@@ -18,13 +20,16 @@ class Auth {
                 expiresIn: "24h",
             }
         );
+        Logger.info(`[Auth] creation of token completed.`);
         return token;
     }
 
     public async verifyUser(req: any, res: any, next: NextFunction) {
+        Logger.info(`[Auth] verifying user started`);
         const token =
             req?.body?.token || req?.query?.token || req?.headers?.authorization;
         if (!token) {
+            Logger.error(`[Auth] token not valid`);
             return res.status(403).send({
                 message: "A token is required for authentication"
             });
@@ -36,6 +41,7 @@ class Auth {
             const decoded = jwt.verify(token, environmentVariables.JWT_SECRET_KEY);
             req.user = decoded;
         } catch (err) {
+            Logger.error(`[Auth] token decryption failed. Not a valid token`);
             return res.status(401).send({
                 message: "Invalid token"
             });

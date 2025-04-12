@@ -1,10 +1,12 @@
 import User from "src/models/DBCollectionSchemaModel/User.model";
 import { db } from "../../db";
+import Logger from "../../logs/Logger";
 
 class InterviewService {
     async getInterviewCompaniesSearchResult(searchQuery: string, email: string, page: number = 1, limit: number = 12) {
         try {
             console.log(`[InterviewService] get search result for company: ${searchQuery}`);
+            Logger.info(`[InterviewService] get search result for company: ${searchQuery}`);
             let searchResults: any[] = [];
             const companiesCollection = db.dbConnector.db("InterviewSmasher").collection("companies");
             const favCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("favoriteCompanies");
@@ -35,9 +37,14 @@ class InterviewService {
                 }
             }
             console.log(`[InterviewService] get search result for company: ${searchQuery} fetching completed`);
+            Logger.info(`[InterviewService] get search result for company: ${searchQuery} fetching completed`);
             return searchResults;
         } catch (error) {
             console.log(
+                "[InterviewService] getInterviewCompaniesSearchResult: error occured: ",
+                error
+            );
+            Logger.error(
                 "[InterviewService] getInterviewCompaniesSearchResult: error occured: ",
                 error
             );
@@ -52,9 +59,11 @@ class InterviewService {
     async postFavoriteCompany(favCompanyDetails: any) {
         try {
             console.log(`[InterviewService] posting fav company details: ${favCompanyDetails}`);
+            Logger.info(`[InterviewService] posting fav company details: ${favCompanyDetails}`);
             const favCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("favoriteCompanies");
             await favCompaniesCollection.insertOne(favCompanyDetails);
             console.log(`[InterviewService] posting fav company details completed`);
+            Logger.info(`[InterviewService] posting fav company details completed`);
             let messageModel = {
                 statusMessage: "successully posted favorite company!",
                 statusCode: 0,
@@ -62,6 +71,10 @@ class InterviewService {
             return messageModel;
         } catch (error) {
             console.log(
+                "[InterviewService] postFavoriteCompany: error occured: ",
+                error
+            );
+            Logger.error(
                 "[InterviewService] postFavoriteCompany: error occured: ",
                 error
             );
@@ -76,6 +89,7 @@ class InterviewService {
     async getFavoriteCompanies(user: User) {
         try {
             console.log("[InterviewService] get favorite companies api service started");
+            Logger.info("[InterviewService] get favorite companies api service started");
             let favCompaniesDetails: [] = [];
             const favCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("favoriteCompanies");
             const response = await favCompaniesCollection.find({
@@ -85,9 +99,14 @@ class InterviewService {
                 favCompaniesDetails = response;
             }
             console.log("[InterviewService] get favorite companies api fetching completed");
+            Logger.info("[InterviewService] get favorite companies api fetching completed");
             return favCompaniesDetails;
         } catch (error) {
             console.log(
+                "[InterviewService] getFavoriteCompanies: error occured: ",
+                error
+            );
+            Logger.error(
                 "[InterviewService] getFavoriteCompanies: error occured: ",
                 error
             );
@@ -102,6 +121,7 @@ class InterviewService {
     async removeFavoriteCompany(favCompanyDetails: any) {
         try {
             console.log("[InterviewService] remove favorite companies api service started");
+            Logger.info("[InterviewService] remove favorite companies api service started");
             let favCompaniesDetails: [] = [];
             const favCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("favoriteCompanies");
             const response = await favCompaniesCollection.deleteOne({
@@ -113,14 +133,20 @@ class InterviewService {
             }
             if (response.deletedCount === 1) {
                 console.log("[InterviewService] favorite company successfully removed");
+                Logger.info("[InterviewService] favorite company successfully removed");
             }
             console.log("[InterviewService] remove favorite companies api fetching completed");
+            Logger.info("[InterviewService] remove favorite companies api fetching completed");
             return {
                 statusMessage: "Successfully removed favorite company!",
                 statusCode: 0,
             };
         } catch (error) {
             console.log(
+                "[InterviewService] removeFavoriteCompany: error occured: ",
+                error
+            );
+            Logger.error(
                 "[InterviewService] removeFavoriteCompany: error occured: ",
                 error
             );

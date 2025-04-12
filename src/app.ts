@@ -10,6 +10,7 @@ import CoursesRoutes from "./routes/CoursesRoutes";
 import TopicsRoutes from "./routes/TopicsRoutes";
 import InterviewRoutes from "./routes/InterviewRoutes";
 import UserRoutes from "./routes/UserRuotes";
+import Logger from "./logs/Logger";
 
 const app = express();
 
@@ -37,9 +38,14 @@ app.use(checkErrors);
 //Catch errors
 process.on("uncaughtException", function (err) {
     console.log("[App] Uncaught Exception occured: ", err);
+    Logger.error("[App] Uncaught Exception occured: ", err);
 });
 process.on("unhandledRejection", function (reason, p) {
     console.log("[App] Possibly unhandled rejection at: ", {
+        rejectedPromise: JSON.stringify(p),
+        Reason: JSON.stringify(reason),
+    });
+    Logger.error("[App] Possibly unhandled rejection at: ", {
         rejectedPromise: JSON.stringify(p),
         Reason: JSON.stringify(reason),
     });

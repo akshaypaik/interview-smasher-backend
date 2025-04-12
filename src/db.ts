@@ -1,6 +1,7 @@
 import mongodb, { ConnectOptions, MongoClient } from "mongodb";
 import { app } from "./app";
 import { environmentVariables } from "./configurations/EnvironmentVariables";
+import Logger from "./logs/Logger";
 
 let port: number = environmentVariables.APPLICATION_PORT;
 
@@ -15,11 +16,14 @@ class DBConnector {
     try {
       const mongodbClient = await MongoClient.connect(environmentVariables.DB_URL);
       console.log("DB connection established successfully!");
+      Logger.info("DB connection established successfully!");
       this.dbConnector = mongodbClient;
       app.listen(port);
       console.log("App listening to port: ", port);
+      Logger.info("App listening to port: ", port);
     } catch (error) {
       console.log("DB error occured while connecting to db: ", { error });
+      Logger.error("DB error occured while connecting to db: ", { error });
       process.exit(1);
     }
   }

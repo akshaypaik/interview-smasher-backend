@@ -1,12 +1,15 @@
 import { get } from "env-var";
+import Logger from "../logs/Logger";
 
 class EnvironmentVariables {
   DB_URL!: string;
   APPLICATION_PORT!: number;
   JWT_SECRET_KEY!: string;
+  LOG_DIRECTORY!: string;
 
   public init() {
     console.log("[Environment Variables] loading started");
+    Logger.info("[Environment Variables] loading started");
     this.DB_URL = get("DB_CONNECTION_STRING")
       .default(
         `mongodb+srv://akshaykrishnadaspai:immortal%401995@interviewsmasher.tvihtlh.mongodb.net/?retryWrites=true&w=majority&appName=InterviewSmasher`
@@ -18,7 +21,11 @@ class EnvironmentVariables {
     this.JWT_SECRET_KEY = get("JWT_SECRET_KEY")
       .default("interviewsmasherisawesomeandiamimmortalpaimakingitawesome")
       .asString();
+    this.LOG_DIRECTORY = get("LOG_DIRECTORY")
+      .default("")
+      .asString();
     console.log("[Environment Variables] loading completed successfully");
+    Logger.info("[Environment Variables] loading completed successfully");
   }
 }
 

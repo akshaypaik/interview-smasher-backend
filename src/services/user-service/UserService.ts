@@ -2,11 +2,13 @@ import User from "src/models/DBCollectionSchemaModel/User.model";
 import { db } from "../../db";
 import bcrypt from "bcrypt";
 import { auth } from "../../auth/auth";
+import Logger from "../../logs/Logger";
 
 class UserService {
     public async registerUser(userDetails: User) {
         try {
             console.log(`[UserService] post register api service started for user: ${userDetails}`);
+            Logger.info(`[UserService] post register api service started for user: ${userDetails}`);
             const userCollection = db.dbConnector.db("InterviewSmasher").collection("users");
             let salt = bcrypt.genSaltSync(10);
             if (userDetails.password) {
@@ -14,12 +16,17 @@ class UserService {
             }
             const response = await userCollection.insertOne(userDetails);
             console.log("[UserService] post register api completed");
+            Logger.info("[UserService] post register api completed");
             return {
                 statusMessage: "success! user registered.",
                 statusCode: 0,
             };
         } catch (error) {
             console.log(
+                "[UserService] registerUser: error occured: ",
+                error
+            );
+            Logger.error(
                 "[UserService] registerUser: error occured: ",
                 error
             );
@@ -33,12 +40,12 @@ class UserService {
 
     public async loginUser(userDetails: User) {
         console.log("[User Service] login user api started");
+        Logger.info("[User Service] login user api started");
         try {
             const userCollection = db.dbConnector.db("InterviewSmasher").collection("users");
             const userDetailsResult = await userCollection.findOne({
                 email: userDetails.email,
             });
-            console.log("userDetailsResult: ", userDetailsResult);
             if (userDetails && bcrypt.compareSync(userDetails.password, userDetailsResult.password)) {
                 const token = await auth.createToken(userDetailsResult);
                 let messageModel = {
@@ -56,6 +63,9 @@ class UserService {
                 console.log(
                     "[User Service] login user api completed with success creds"
                 );
+                Logger.info(
+                    "[User Service] login user api completed with success creds"
+                );
                 return userModel;
             } else {
                 let messageModel = {
@@ -70,10 +80,14 @@ class UserService {
                 console.log(
                     "[User Service] login user api completed with invalid creds"
                 );
+                Logger.error(
+                    "[User Service] login user api completed with invalid creds"
+                );
                 return userModel;
             }
         } catch (error) {
             console.log("[User Service] login user api error occured: ", error);
+            Logger.error("[User Service] login user api error occured: ", error);
             let messageModel = {
                 statusMessage: "Invalid credentials!",
                 statusCode: -1,
@@ -92,7 +106,8 @@ class UserService {
 
     public async updateUserProfile(userDetails: User) {
         try {
-            console.log(`[UserService] post register api service started for user: ${userDetails}`);
+            console.log(`[UserService] update user profile api service started for user: ${userDetails}`);
+            Logger.info(`[UserService] update user profile api service started for user: ${userDetails}`);
             const userCollection = db.dbConnector.db("InterviewSmasher").collection("users");
 
             const response = await userCollection.updateOne(
@@ -112,7 +127,8 @@ class UserService {
                     "Successfully updated user profile!",
                 statusCode: 0,
             };
-            console.log("[TopicsService] updating user profile completed");
+            console.log("[UserService] updating user profile completed");
+            Logger.info("[UserService] updating user profile completed");
             return {
                 "status": "success",
                 messageModel,
@@ -120,6 +136,10 @@ class UserService {
             };
         } catch (error) {
             console.log(
+                "[UserService] updateUserProfile: error occured: ",
+                error
+            );
+            Logger.error(
                 "[UserService] updateUserProfile: error occured: ",
                 error
             );
