@@ -78,7 +78,7 @@ class InterviewService {
 
             if (quickFilter === "topRated") {
                 query = { $or };
-                sort = { "userRatings.rating": -1, userCount: -1 }; // Sort by rating (desc) and userCount (desc)
+                sort = { "userRatings.rating": -1, "userRatings.userCount": -1 }; // Sort by rating (desc) and userCount (desc)
             }
 
             if (quickFilter === "productBased") {
