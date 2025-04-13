@@ -20,6 +20,24 @@ class InterviewController {
         }
     }
 
+
+    public async getInterviewCompaniesSearchResultsForQuickFilter(req: Request, res: Response) {
+        try {
+            const searchQuery = req?.query?.searchQuery ? req?.query?.searchQuery?.toString() : "";
+            const email = req?.query?.email ? req?.query?.email?.toString() : "";
+            const quickFilter =  req?.query?.quickFilter ? req?.query?.quickFilter?.toString() : "";
+            if(email === "" || email === "undefined"){
+                res.status(500).send("Email is not valid");
+            }
+            const page = req?.query?.page ? Number(req?.query?.page) : 1;
+            const limit = req?.query?.limit ? Number(req?.query?.limit) : 12;
+            const response = await interviewService.getInterviewCompaniesSearchResultsForQuickFilter(searchQuery, email, page, limit, quickFilter);
+            res.send(response);
+        } catch (error) {
+            res.send(error);
+        }
+    }
+
     public async postFavoriteCompany(req: Request, res: Response) {
         try {
             const favCompanyDetails = req?.body;

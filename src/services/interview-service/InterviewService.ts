@@ -27,9 +27,10 @@ class InterviewService {
             if (response && response.length > 0) {
                 // Check if each company is marked as favorite
                 for (const company of response) {
-                    const isFavorite = await favCompaniesCollection.findOne({ companyId: company.companyId,
-                        "user.email":  email
-                     });
+                    const isFavorite = await favCompaniesCollection.findOne({
+                        companyId: company.companyId,
+                        "user.email": email
+                    });
                     searchResults.push({
                         ...company,
                         isFavoriteCompany: !!isFavorite, // Set isFavorite to true if a match is found, otherwise false
@@ -50,6 +51,77 @@ class InterviewService {
             );
             let messageModel = {
                 statusMessage: "Error while getting companies!",
+                statusCode: -1,
+            };
+            throw messageModel;
+        }
+    }
+
+    async getInterviewCompaniesSearchResultsForQuickFilter(searchQuery: string, email: string, page: number = 1, limit: number = 12, quickFilter: string) {
+        try {
+            console.log(`[InterviewService] get search result for company: ${searchQuery} with quick filter: ${quickFilter}`);
+            Logger.info(`[InterviewService] get search result for company: ${searchQuery} with quick filter: ${quickFilter}`);
+            let searchResults: any[] = [];
+            const companiesCollection = db.dbConnector.db("InterviewSmasher").collection("companies");
+            const favCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("favoriteCompanies");
+
+            // Calculate the number of documents to skip
+            const skip = (page - 1) * limit;
+
+            const $or = [
+                { name: { $regex: searchQuery.trim().toLocaleLowerCase(), $options: "i" } },
+                { displayName: { $regex: searchQuery.trim().toLocaleLowerCase(), $options: "i" } }
+            ]
+
+            let query: any = {};
+            let sort: any = {};
+
+            if (quickFilter === "topRated") {
+                query = { $or };
+                sort = { "userRatings.rating": -1, userCount: -1 }; // Sort by rating (desc) and userCount (desc)
+            }
+
+            if (quickFilter === "productBased") {
+                query = { isProductBased: true, $or }
+            }
+
+            if (quickFilter === "serviceBased") {
+                query = { isProductBased: false, $or }
+            }
+
+            const response = await companiesCollection.find(query)
+                .sort(sort)
+                .skip(skip) // Skip documents for pagination
+                .limit(limit) // Limit the number of documents
+                .toArray();
+
+            if (response && response.length > 0) {
+                // Check if each company is marked as favorite
+                for (const company of response) {
+                    const isFavorite = await favCompaniesCollection.findOne({
+                        companyId: company.companyId,
+                        "user.email": email
+                    });
+                    searchResults.push({
+                        ...company,
+                        isFavoriteCompany: !!isFavorite, // Set isFavorite to true if a match is found, otherwise false
+                    });
+                }
+            }
+            console.log(`[InterviewService] get search result for company: ${searchQuery}  with quick filter: ${quickFilter} fetching completed`);
+            Logger.info(`[InterviewService] get search result for company: ${searchQuery}  with quick filter: ${quickFilter} fetching completed`);
+            return searchResults;
+        } catch (error) {
+            console.log(
+                "[InterviewService] getInterviewCompaniesSearchResultsForQuickFilter: error occured: ",
+                error
+            );
+            Logger.error(
+                "[InterviewService] getInterviewCompaniesSearchResultsForQuickFilter: error occured: ",
+                error
+            );
+            let messageModel = {
+                statusMessage: "Error while getting companies with quick filter!",
                 statusCode: -1,
             };
             throw messageModel;
