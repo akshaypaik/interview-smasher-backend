@@ -1708,5 +1708,50 @@
             "userCount": "19206",
             "displayUserCount": "19,206"
         }
+    },
+    {
+        "name": "atAndt",
+        "displayName": "AT&T",
+        "description": "",
+        "companyId": "115",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/3/31/AT%26T_logo_2016.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.att.jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "44761",
+            "displayUserCount": "44,761"
+        }
+    },
+    {
+        "name": "hitachi",
+        "displayName": "Hitachi",
+        "description": "",
+        "companyId": "116",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Hitachi_logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.hitachi.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "2684",
+            "displayUserCount": "2,684"
+        }
+    },
+    {
+        "name": "intuit",
+        "displayName": "Intuit",
+        "description": "",
+        "companyId": "117",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Intuit_Logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.intuit.com/in/careers/software-engineering",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.3",
+            "userCount": "13300",
+            "displayUserCount": "13,300"
+        }
     }
 ]
