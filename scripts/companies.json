@@ -1753,5 +1753,125 @@
             "userCount": "13300",
             "displayUserCount": "13,300"
         }
+    },
+    {
+        "name": "github",
+        "displayName": "Github",
+        "description": "",
+        "companyId": "118",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.github.careers/careers-home",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "471",
+            "displayUserCount": "471"
+        }
+    },
+    {
+        "name": "carelonGlobalSolutions",
+        "displayName": "Carelon Global Solutions",
+        "description": "",
+        "companyId": "119",
+        "companyIconURL": "https://media.glassdoor.com/sql/2036118/carelon-global-solutions-squarelogo-1687234653202.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.carelonglobal.in/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "2880",
+            "displayUserCount": "2,880"
+        }
+    },
+    {
+        "name": "adp",
+        "displayName": "Automatic Data Processing",
+        "description": "",
+        "companyId": "120",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Automatic_Data_Processing_%28logo%29.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://jobs.adp.com/en/locations/apac/india/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "23060",
+            "displayUserCount": "23,060"
+        }
+    },
+    {
+        "name": "infinx",
+        "displayName": "Infinx",
+        "description": "",
+        "companyId": "121",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Infinix_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.infinx.com/careers-india/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.4",
+            "userCount": "594",
+            "displayUserCount": "594"
+        }
+    },
+    {
+        "name": "zoho",
+        "displayName": "Zoho",
+        "description": "",
+        "companyId": "122",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/3/30/ZOHO_logo_2023.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.zoho.com/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.3",
+            "userCount": "5195",
+            "displayUserCount": "5,195"
+        }
+    },
+    {
+        "name": "serviceNow",
+        "displayName": "ServiceNow",
+        "description": "",
+        "companyId": "123",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/5/57/ServiceNow_logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.servicenow.com/locations/apj/india/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.3",
+            "userCount": "5660",
+            "displayUserCount": "5,660"
+        }
+    },
+    {
+        "name": "redHat",
+        "displayName": "Red Hat",
+        "description": "",
+        "companyId": "124",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Red_Hat_logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.redhat.com/en/jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "5308",
+            "displayUserCount": "5,308"
+        }
+    },
+    {
+        "name": "akamai",
+        "displayName": "Akamai Technologies",
+        "description": "",
+        "companyId": "125",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Akamai_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.akamai.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.5",
+            "userCount": "3523",
+            "displayUserCount": "3,523"
+        }
     }
 ]
