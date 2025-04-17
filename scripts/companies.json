@@ -1873,5 +1873,35 @@
             "userCount": "3523",
             "displayUserCount": "3,523"
         }
+    },
+    {
+        "name": "nike",
+        "displayName": "Nike",
+        "description": "",
+        "companyId": "126",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.nike.com/jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "16122",
+            "displayUserCount": "16,122"
+        }
+    },
+    {
+        "name": "adidas",
+        "displayName": "Adidas",
+        "description": "",
+        "companyId": "127",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/20/Adidas_Logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.adidas-group.com/jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "9298",
+            "displayUserCount": "9,298"
+        }
     }
 ]
