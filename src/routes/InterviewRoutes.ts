@@ -17,4 +17,8 @@ InterviewRoutes.get(`${interviewBaseURL}/getFavoriteCompanies`, interviewControl
 
 InterviewRoutes.post(`${interviewBaseURL}/removeFavoriteCompany`, interviewController.removeFavoriteCompany);
 
+InterviewRoutes.post(`${interviewBaseURL}/postAppliedCompany`, interviewController.postAppliedCompany);
+
+InterviewRoutes.get(`${interviewBaseURL}/getAppliedCompanies`, interviewController.getAppliedCompanies);
+
 export default InterviewRoutes;

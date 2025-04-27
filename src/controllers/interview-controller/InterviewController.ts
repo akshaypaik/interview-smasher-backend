@@ -73,6 +73,31 @@ class InterviewController {
         }
     }
 
+    public async postAppliedCompany(req: Request, res: Response) {
+        try {
+            const appliedCompanyDetails = req?.body;
+            const response = await interviewService.postAppliedCompany(appliedCompanyDetails);
+            res.send(response);
+        } catch (error) {
+            res.send(error);
+        }
+    }
+
+    public async getAppliedCompanies(req: Request, res: Response) {
+        try {
+            const userEmail: any = req?.query?.email ? req?.query?.email : "";
+            const useDetails: User = {
+                email: userEmail,
+                username: "",
+                password: ""
+            }
+            const response = await interviewService.getAppliedCompanies(useDetails);
+            res.send(response);
+        } catch (error) {
+            res.send(error);
+        }
+    }
+
 }
 
 const interviewController = new InterviewController();
