@@ -17,7 +17,7 @@ class EnvironmentVariables {
     console.log("[Environment Variables] loading started");
     Logger.info("[Environment Variables] loading started");
     this.APPLICATION_PORT = get("APPLICATION_PORT")
-      .default("8080")
+      .default("3000")
       .asIntPositive();
     this.JWT_SECRET_KEY = get("JWT_SECRET_KEY")
       .default("sampledefaultnotforproduction")
