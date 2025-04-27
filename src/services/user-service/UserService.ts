@@ -58,6 +58,7 @@ class UserService {
                     firstName: userDetailsResult.firstName,
                     lastName: userDetailsResult.lastName,
                     phoneNumber: userDetailsResult.phoneNumber,
+                    profilePicURL: userDetailsResult?.profilePicURL,
                     token: token
                 };
                 console.log(
