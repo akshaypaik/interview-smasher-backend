@@ -77,6 +77,7 @@ class InterviewService {
             let searchResults: any[] = [];
             const companiesCollection = db.dbConnector.db("InterviewSmasher").collection("companies");
             const favCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("favoriteCompanies");
+            const appliedCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("appliedCompanies");
 
             // Calculate the number of documents to skip
             const skip = (page - 1) * limit;
@@ -119,6 +120,18 @@ class InterviewService {
                         ...company,
                         isFavoriteCompany: !!isFavorite, // Set isFavorite to true if a match is found, otherwise false
                     });
+                }
+
+                // Check if each company is marked as applied
+                for (const company of response) {
+                    const isApplied = await appliedCompaniesCollection.findOne({
+                        companyId: company.companyId,
+                        "user.email": email
+                    });
+                    const index = isApplied ? searchResults.findIndex((item) => item.companyId === isApplied.companyId) : -1;
+                    if (index != -1) {
+                        searchResults[index].isApplied = true;
+                    }
                 }
             }
             console.log(`[InterviewService] get search result for company: ${searchQuery}  with quick filter: ${quickFilter} fetching completed`);
