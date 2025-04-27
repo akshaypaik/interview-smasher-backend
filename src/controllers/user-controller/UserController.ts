@@ -89,6 +89,17 @@ class UserController {
             res.send(error);
         }
     }
+
+    public async updateUserProfilePicture(req: Request, res: Response) {
+        try {
+            const userDetails = req?.body;
+            const userProfilePicFile = req?.file;
+            const response = await userService.updateUserProfilePicture(userDetails, userProfilePicFile);
+            res.send(response);
+        } catch (error) {
+            res.send(error);
+        }
+    }
 }
 
 const userController = new UserController();

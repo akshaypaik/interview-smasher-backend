@@ -151,6 +151,57 @@ class UserService {
         }
     }
 
+    public async updateUserProfilePicture(userDetails: User, userProfilePicFile: any) {
+        try {
+            console.log(`[UserService] update user profile picture api service started`);
+            Logger.info(`[UserService] update user profile picture api service started`);
+            const userCollection = db.dbConnector.db("InterviewSmasher").collection("users");
+
+
+            const fileName = userDetails.email.split("@")[0] + "." + userProfilePicFile.mimetype.split("/").pop();
+            const profilePicURL = `${userDetails.email}/${fileName}`;
+
+            const response = await userCollection.updateOne(
+                {
+                    email: userDetails.email
+                },
+                {
+                    $set: {
+                        profilePicURL: profilePicURL
+                    }
+                }
+            );
+
+            let messageModel = {
+                statusMessage:
+                    "Successfully updated user profile!",
+                statusCode: 0,
+            };
+            console.log("[UserService] updating user profile picture completed");
+            Logger.info("[UserService] updating user profile picture completed");
+            return {
+                "status": "success",
+                messageModel,
+            };
+        } catch (error) {
+            console.log(
+                "[UserService] updateUserProfilePicture: error occured: ",
+                error
+            );
+            Logger.error(
+                "[UserService] updateUserProfilePicture: error occured: ",
+                error
+            );
+            let messageModel = {
+                statusMessage: "Error while updating user profile picture!",
+                statusCode: -1,
+            };
+            throw messageModel;
+        }
+    }
+
+
+
 }
 
 const userService = new UserService();

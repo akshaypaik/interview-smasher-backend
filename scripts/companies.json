@@ -1903,5 +1903,20 @@
             "userCount": "9298",
             "displayUserCount": "9,298"
         }
+    },
+    {
+        "name": "bookingcom",
+        "displayName": "Booking.com",
+        "description": "",
+        "companyId": "128",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Booking.com_Icon_2022.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://jobs.booking.com/booking/jobs?location=India",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "8626",
+            "displayUserCount": "8,626"
+        }
     }
 ]
