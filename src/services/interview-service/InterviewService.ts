@@ -79,6 +79,8 @@ class InterviewService {
             const favCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("favoriteCompanies");
             const appliedCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("appliedCompanies");
 
+            let dynamicCollection = db.dbConnector.db("InterviewSmasher").collection("companies");
+
             // Calculate the number of documents to skip
             const skip = (page - 1) * limit;
 
@@ -103,7 +105,12 @@ class InterviewService {
                 query = { isProductBased: false, $or }
             }
 
-            const response = await companiesCollection.find(query)
+            if (quickFilter === "appliedCompanies") {
+                dynamicCollection = appliedCompaniesCollection;
+                query = { isApplied: true, $or }
+            }
+
+            const response = await dynamicCollection.find(query)
                 .sort(sort)
                 .skip(skip) // Skip documents for pagination
                 .limit(limit) // Limit the number of documents
