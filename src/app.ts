@@ -12,6 +12,7 @@ import InterviewRoutes from "./routes/InterviewRoutes";
 import UserRoutes from "./routes/UserRuotes";
 import Logger from "./logs/Logger";
 import helmet from "helmet";
+import path from "path";
 
 const app = express();
 
@@ -19,11 +20,16 @@ const app = express();
 app.use(cors({ origin: "http://localhost:5173" }));
 
 // Helmet to secure response headers
-app.use(helmet());
+app.use(helmet({
+    crossOriginResourcePolicy: { policy: "cross-origin" },
+}));
 
 // Body Parser
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ extended: true })); 
+
+// Serve the uploads directory
+app.use('/uploads', express.static(path.resolve('./uploads')));
 
 // Catch JSON error
 function checkErrors(
@@ -100,6 +106,7 @@ app.use(sessionOptions);
 //     }
 //     res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
 //     res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Origin');
+//     res.header('cross-origin-resource-policy', 'cross-origin');
 //     next();
 // });
 

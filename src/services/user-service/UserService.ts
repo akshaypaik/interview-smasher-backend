@@ -184,7 +184,8 @@ class UserService {
             return {
                 "status": "success",
                 messageModel,
-                token: newToken
+                token: newToken,
+                profilePicURL
             };
         } catch (error) {
             console.log(
