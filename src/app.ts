@@ -11,10 +11,15 @@ import TopicsRoutes from "./routes/TopicsRoutes";
 import InterviewRoutes from "./routes/InterviewRoutes";
 import UserRoutes from "./routes/UserRuotes";
 import Logger from "./logs/Logger";
+import helmet from "helmet";
 
 const app = express();
 
+// cors
 app.use(cors({ origin: "http://localhost:5173" }));
+
+// Helmet to secure response headers
+app.use(helmet());
 
 // Body Parser
 app.use(bodyParser.json({ limit: "50mb" }));
@@ -75,28 +80,30 @@ let sessionOptions = session({
 });
 app.use(sessionOptions);
 
-// CORS
-const allowedOrigins = [
-    "*"
-];
-app.use(
-    cors({
-        credentials: true,
-        origin: allowedOrigins,
-        methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-        optionsSuccessStatus: 204
-    })
-);
-app.use((req, res, next) => {
-    const origin = req.headers.origin ? req.headers.origin : "";
-    if (allowedOrigins.includes(origin)) {
-        res.header('Access-Control-Allow-Origin', origin);
-    }
-    res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
-    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Origin');
-    next();
-});
+// OLD CORS
+// const allowedOrigins = [
+//     "*"
+// ];
+// app.use(
+//     cors({
+//         credentials: true,
+//         origin: allowedOrigins,
+//         methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+//         optionsSuccessStatus: 204
+//     })
+// );
 
+// app.use((req, res, next) => {
+//     const origin = req.headers.origin ? req.headers.origin : "";
+//     if (allowedOrigins.includes(origin)) {
+//         res.header('Access-Control-Allow-Origin', origin);
+//     }
+//     res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+//     res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Origin');
+//     next();
+// });
+
+// Initialize DB
 db.initializeDB();
 
 // Routes
