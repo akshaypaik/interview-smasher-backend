@@ -27,6 +27,7 @@ class UserController {
                 userModel["firstName"] = decoded.firstName;
                 userModel["lastName"] = decoded.lastName;
                 userModel["phoneNumber"] = decoded.phoneNumber;
+                userModel["profilePicURL"] = decoded?.profilePicURL;
             }
             res.send(userModel);
         } catch (error) {

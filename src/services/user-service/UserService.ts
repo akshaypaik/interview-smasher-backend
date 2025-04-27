@@ -171,6 +171,8 @@ class UserService {
                     }
                 }
             );
+            userDetails.profilePicURL = profilePicURL;
+            const newToken = await auth.createToken(userDetails);
 
             let messageModel = {
                 statusMessage:
@@ -182,6 +184,7 @@ class UserService {
             return {
                 "status": "success",
                 messageModel,
+                token: newToken
             };
         } catch (error) {
             console.log(

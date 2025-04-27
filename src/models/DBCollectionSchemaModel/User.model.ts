@@ -6,4 +6,5 @@ export default class User{
     public lastName?: string;
     public phoneNumber?: number;
     public password!: string;
+    public profilePicURL?: string;
 }
