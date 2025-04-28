@@ -98,6 +98,16 @@ class InterviewController {
         }
     }
 
+    public async removeAppliedCompany(req: Request, res: Response) {
+        try {
+            const appliedCompanyDetails = req?.body;
+            const response = await interviewService.removeAppliedCompany(appliedCompanyDetails);
+            res.send(response);
+        } catch (error) {
+            res.send(error);
+        }
+    }
+
 }
 
 const interviewController = new InterviewController();

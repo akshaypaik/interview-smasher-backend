@@ -325,6 +325,46 @@ class InterviewService {
         }
     }
 
+    async removeAppliedCompany(appliedCompanyDetails: any) {
+        try {
+            console.log("[InterviewService] remove applied companies api service started");
+            Logger.info("[InterviewService] remove applied companies api service started");
+            let appliedCompaniesDetails: [] = [];
+            const appliedCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("appliedCompanies");
+            const response = await appliedCompaniesCollection.deleteOne({
+                companyId: appliedCompanyDetails.companyId,
+                "user.email": appliedCompanyDetails.user.email
+            });
+            if (response && response.length > 0) {
+                appliedCompaniesDetails = response;
+            }
+            if (response.deletedCount === 1) {
+                console.log("[InterviewService] applied company successfully removed");
+                Logger.info("[InterviewService] applied company successfully removed");
+            }
+            console.log("[InterviewService] remove applied companies api fetching completed");
+            Logger.info("[InterviewService] remove applied companies api fetching completed");
+            return {
+                statusMessage: "Successfully removed applied company!",
+                statusCode: 0,
+            };
+        } catch (error) {
+            console.log(
+                "[InterviewService] removeAppliedCompany: error occured: ",
+                error
+            );
+            Logger.error(
+                "[InterviewService] removeAppliedCompany: error occured: ",
+                error
+            );
+            let messageModel = {
+                statusMessage: "Error while removing applied company!",
+                statusCode: -1,
+            };
+            throw messageModel;
+        }
+    }
+
 }
 
 const interviewService = new InterviewService();

@@ -21,4 +21,6 @@ InterviewRoutes.post(`${interviewBaseURL}/postAppliedCompany`, interviewControll
 
 InterviewRoutes.get(`${interviewBaseURL}/getAppliedCompanies`, interviewController.getAppliedCompanies);
 
+InterviewRoutes.post(`${interviewBaseURL}/removeAppliedCompany`, interviewController.removeAppliedCompany);
+
 export default InterviewRoutes;
