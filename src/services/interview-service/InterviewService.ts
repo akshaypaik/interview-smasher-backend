@@ -166,6 +166,9 @@ class InterviewService {
             console.log(`[InterviewService] posting fav company details: ${favCompanyDetails}`);
             Logger.info(`[InterviewService] posting fav company details: ${favCompanyDetails}`);
             const favCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("favoriteCompanies");
+            if(favCompanyDetails.isApplied){
+                delete favCompanyDetails.isApplied;
+            }
             await favCompaniesCollection.insertOne(favCompanyDetails);
             console.log(`[InterviewService] posting fav company details completed`);
             Logger.info(`[InterviewService] posting fav company details completed`);
