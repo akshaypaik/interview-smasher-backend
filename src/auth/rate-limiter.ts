@@ -1,6 +1,6 @@
 import Logger from "../logs/Logger";
 
-const MAX_REQUEST_COUNT = 30;
+const MAX_REQUEST_COUNT = 120;
 
 class RateLimiter{
     
