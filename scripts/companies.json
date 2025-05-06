@@ -534,9 +534,9 @@
         "companyCareerPageURL": "https://www.phonepe.com/careers/job-openings/",
         "userRatings": {
             "totalRating": "5",
-            "rating": "4.0",
-            "userCount": "1309",
-            "displayUserCount": "1,309"
+            "rating": "4.1",
+            "userCount": "1352",
+            "displayUserCount": "1,352"
         }
     },
     {
@@ -1294,7 +1294,7 @@
         "displayName": "Ola",
         "description": "",
         "companyId": "87",
-        "companyIconURL": "https://logo.clearbit.com/olacabs.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/0/0f/Ola_Cabs_logo.svg",
         "isProductBased": true,
         "companyCareerPageURL": "https://www.olacabs.com/careers",
         "userRatings": {
@@ -1977,6 +1977,276 @@
             "rating": "3.5",
             "userCount": "7141",
             "displayUserCount": "7,141"
+        }
+    },
+    {
+        "name": "sony",
+        "displayName": "Sony",
+        "description": "",
+        "companyId": "133",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.sonyjobs.com/jobs.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "4142",
+            "displayUserCount": "4,142"
+        }
+    },
+    {
+        "name": "lg",
+        "displayName": "LG",
+        "description": "",
+        "companyId": "134",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/8/8d/LG_logo_%282014%29.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.lg.com/in/about-lg/careers/find-a-job/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.5",
+            "userCount": "5034",
+            "displayUserCount": "5,034"
+        }
+    },
+    {
+        "name": "amd",
+        "displayName": "AMD",
+        "description": "",
+        "companyId": "135",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/7/7c/AMD_Logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.amd.com/careers-home",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "5760",
+            "displayUserCount": "5,760"
+        }
+    },
+    {
+        "name": "deShawCo",
+        "displayName": "D.E. Shaw Co",
+        "description": "",
+        "companyId": "136",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/60/D._E._Shaw_%26_Co._logo.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.deshawindia.com/careers/work-with-us",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "1024",
+            "displayUserCount": "1,024"
+        }
+    },
+    {
+        "name": "paloAltoNetworks",
+        "displayName": "Palo Alto Networks",
+        "description": "",
+        "companyId": "137",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/d/de/PaloAltoNetworks_2020_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://jobs.paloaltonetworks.com/en/india",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "2763",
+            "displayUserCount": "2,763"
+        }
+    },
+    {
+        "name": "autodesk",
+        "displayName": "Autodesk",
+        "description": "",
+        "companyId": "138",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Autodesk_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.autodesk.com/careers/overview",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "5390",
+            "displayUserCount": "5,390"
+        }
+    },
+    {
+        "name": "arm",
+        "displayName": "ARM",
+        "description": "",
+        "companyId": "139",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/7/77/Arm_logo_2017.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.arm.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.4",
+            "userCount": "2858",
+            "displayUserCount": "2,858"
+        }
+    },
+    {
+        "name": "relianceJio",
+        "displayName": "Jio",
+        "description": "",
+        "companyId": "140",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Reliance_Jio_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.jio.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.4",
+            "userCount": "9467",
+            "displayUserCount": "9,467"
+        }
+    },
+    {
+        "name": "itcInfotech",
+        "displayName": "ITC Infotech",
+        "description": "",
+        "companyId": "141",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/f/ff/ITC_Limited_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://jobs.itcinfotech.com/itcinfotech/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "5852",
+            "displayUserCount": "5,852"
+        }
+    },
+    {
+        "name": "shell",
+        "displayName": "Shell",
+        "description": "",
+        "companyId": "142",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/e/e8/Shell_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.shell.in/about-us/careers.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "16513",
+            "displayUserCount": "16,513"
+        }
+    },
+    {
+        "name": "s&pGlobal",
+        "displayName": "S&P Global",
+        "description": "",
+        "companyId": "143",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/e/ee/S%26P_Global_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.spglobal.com/en/explore-s-p-global/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "8952",
+            "displayUserCount": "8,952"
+        }
+    },
+    {
+        "name": "maersk",
+        "displayName": "Maersk",
+        "description": "",
+        "companyId": "144",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Maersk_Group_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.maersk.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "7603",
+            "displayUserCount": "7,603"
+        }
+    },
+    {
+        "name": "fidelityInvestments",
+        "displayName": "Fidelity Investments",
+        "description": "",
+        "companyId": "145",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/9/9c/Fidelity_Investments_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://jobs.fidelity.com/in/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "19134",
+            "displayUserCount": "19,134"
+        }
+    },
+    {
+        "name": "tataElxsi",
+        "displayName": "Tata Elxsi",
+        "description": "",
+        "companyId": "146",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/9/98/Tata_elxsi_sqaure.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.tataelxsi.com/careers/job-openings",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "4032",
+            "displayUserCount": "4,032"
+        }
+    },
+    {
+        "name": "tataMotors",
+        "displayName": "Tata Motors",
+        "description": "",
+        "companyId": "147",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Tata_Motors_Logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://careers.tatamotors.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "4601",
+            "displayUserCount": "4,601"
+        }
+    },
+    {
+        "name": "natWestGroup",
+        "displayName": "NatWest Group",
+        "description": "",
+        "companyId": "148",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/6/6f/NatWest_Group_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://jobs.natwestgroup.com/search/jobs/in/country/india",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "12553",
+            "displayUserCount": "12,553"
+        }
+    },
+    {
+        "name": "mcKinsey&Company",
+        "displayName": "McKinsey & Company",
+        "description": "",
+        "companyId": "149",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/e/e2/McKinsey_and_Company_Logo_1.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.mckinsey.com/in/careers-in-india",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "13994",
+            "displayUserCount": "13,994"
+        }
+    },
+    {
+        "name": "cummins",
+        "displayName": "Cummins",
+        "description": "",
+        "companyId": "150",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Logo_cummins.gif",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://cummins.jobs/jobs/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "9095",
+            "displayUserCount": "9,095"
         }
     }
 ]
