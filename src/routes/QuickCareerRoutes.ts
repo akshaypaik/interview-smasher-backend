@@ -9,4 +9,6 @@ const quickCareerBaseURL = `${AppBaseURL.APP_BASE_URL}/${RoutesBaseURLs.QUICK_CA
 
 QuickCareerRoutes.post(`${quickCareerBaseURL}/postQuickCareerJobLink`, quickCareerController.postQuickCareerJobLink);
 
+QuickCareerRoutes.get(`${quickCareerBaseURL}/getQuickCareerJobLink`, quickCareerController.getQuickCareerJobLink);
+
 export default QuickCareerRoutes;
