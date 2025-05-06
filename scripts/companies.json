@@ -2413,5 +2413,50 @@
             "userCount": "531",
             "displayUserCount": "531"
         }
+    },
+    {
+        "name": "firstAmerican",
+        "displayName": "First American",
+        "description": "",
+        "companyId": "162",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/3/34/FALogo_FA_Vert-rgb.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.firstam.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "2033",
+            "displayUserCount": "2,033"
+        }
+    },
+    {
+        "name": "[24]7.ai",
+        "displayName": "[24]7.ai",
+        "description": "",
+        "companyId": "163",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/1/1c/%2824%297.ai_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.247.ai/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.3",
+            "userCount": "4328",
+            "displayUserCount": "4,328"
+        }
+    },
+    {
+        "name": "standardCharteredBank",
+        "displayName": "Standard Chartered Bank",
+        "description": "",
+        "companyId": "164",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Standard_Chartered_%282021%29.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.sc.com/en/global-careers/experienced-hire/spotlight-career-opportunities/careers-in-india/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "11342",
+            "displayUserCount": "11,342"
+        }
     }
 ]
