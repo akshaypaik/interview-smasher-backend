@@ -2248,5 +2248,170 @@
             "userCount": "9095",
             "displayUserCount": "9,095"
         }
+    },
+    {
+        "name": "volvoGroup",
+        "displayName": "Volvo Group",
+        "description": "",
+        "companyId": "151",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/5/54/Volvo_logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.volvogroup.com/en/careers.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "5971",
+            "displayUserCount": "5,971"
+        }
+    },
+    {
+        "name": "epamSystems",
+        "displayName": "EPAM Systems",
+        "description": "",
+        "companyId": "152",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/d/d6/EPAM_logo.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.epam.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "13097",
+            "displayUserCount": "13,097"
+        }
+    },
+    {
+        "name": "decathlon",
+        "displayName": "Decathlon",
+        "description": "",
+        "companyId": "153",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Decathlon_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://joinus.decathlon.in/en",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "11227",
+            "displayUserCount": "11,227"
+        }
+    },
+    {
+        "name": "athenaHealth",
+        "displayName": "Athena Health",
+        "description": "",
+        "companyId": "154",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/7/7b/Athenahealth.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.athenahealth.com/us/en/home",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.3",
+            "userCount": "2754",
+            "displayUserCount": "2,754"
+        }
+    },
+    {
+        "name": "bostonConsultingGroup",
+        "displayName": "Boston Consulting Group",
+        "description": "",
+        "companyId": "155",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Boston_Consulting_Group_Logo_1.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.bcg.com/global/en/locations/india",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "11355",
+            "displayUserCount": "11,355"
+        }
+    },
+    {
+        "name": "airtel",
+        "displayName": "Airtel",
+        "description": "",
+        "companyId": "156",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/1/18/Airtel_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.airtel.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "7360",
+            "displayUserCount": "7,360"
+        }
+    },
+    {
+        "name": "johnson&Johnson",
+        "displayName": "Johnson & Johnson",
+        "description": "",
+        "companyId": "157",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Johnson_and_Johnson_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.careers.jnj.com/en/locations/asia-pacific/india/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "18894",
+            "displayUserCount": "18,894"
+        }
+    },
+    {
+        "name": "nestlé",
+        "displayName": "Nestlé",
+        "description": "",
+        "companyId": "158",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Nestl%C3%A9_textlogo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.nestle.in/jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "18877",
+            "displayUserCount": "18,877"
+        }
+    },
+    {
+        "name": "volkswagenGroup",
+        "displayName": "Volkswagen Group",
+        "description": "",
+        "companyId": "159",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Volkswagen_logo_2019.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.volkswagen-group.com/en/career-16057",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "4986",
+            "displayUserCount": "4,986"
+        }
+    },
+    {
+        "name": "rollsRoyce",
+        "displayName": "Rolls-Royce",
+        "description": "",
+        "companyId": "160",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/5/52/Rolls-Royce_Motor_Cars_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "http://careers.rolls-royce.com/india",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "4281",
+            "displayUserCount": "4,281"
+        }
+    },
+    {
+        "name": "doverCorporation",
+        "displayName": "Dover Corporation",
+        "description": "",
+        "companyId": "161",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Dover_Corporation_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.dovercorporation.com/about-us/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.4",
+            "userCount": "531",
+            "displayUserCount": "531"
+        }
     }
 ]
