@@ -1918,5 +1918,35 @@
             "userCount": "8626",
             "displayUserCount": "8,626"
         }
+    },
+    {
+        "name": "mastercard",
+        "displayName": "Mastercard",
+        "description": "",
+        "companyId": "129",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.mastercard.com/us/en",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "8179",
+            "displayUserCount": "8,179"
+        }
+    },
+    {
+        "name": "nokia",
+        "displayName": "Nokia",
+        "description": "",
+        "companyId": "130",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/0/02/Nokia_wordmark.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.nokia.com/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "21400",
+            "displayUserCount": "21,400"
+        }
     }
 ]
