@@ -1948,5 +1948,35 @@
             "userCount": "21400",
             "displayUserCount": "21,400"
         }
+    },
+    {
+        "name": "dropbox",
+        "displayName": "Dropbox",
+        "description": "",
+        "companyId": "131",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/7/78/Dropbox_Icon.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://jobs.dropbox.com/all-jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "1742",
+            "displayUserCount": "1,742"
+        }
+    },
+    {
+        "name": "coforge",
+        "displayName": "Coforge",
+        "description": "",
+        "companyId": "132",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Coforge-Logo.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.coforge.com/coforge/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.5",
+            "userCount": "7141",
+            "displayUserCount": "7,141"
+        }
     }
 ]
