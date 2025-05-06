@@ -2,5 +2,6 @@ export const enum RoutesBaseURLs {
     COURSES = "courses",
     TOPICS = "topics",
     INTERVIEW = "interview",
-    USER = "user"
+    USER = "user",
+    QUICK_CAREER = "quick-career"
 }

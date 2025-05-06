@@ -13,6 +13,7 @@ import UserRoutes from "./routes/UserRuotes";
 import Logger from "./logs/Logger";
 import helmet from "helmet";
 import path from "path";
+import QuickCareerRoutes from "./routes/QuickCareerRoutes";
 
 const app = express();
 
@@ -118,5 +119,6 @@ app.use(CoursesRoutes);
 app.use(TopicsRoutes);
 app.use(InterviewRoutes);
 app.use(UserRoutes);
+app.use(QuickCareerRoutes);
 
 export { app };
