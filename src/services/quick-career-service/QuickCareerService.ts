@@ -54,7 +54,7 @@ class QuickCareerService {
                     const response = await companiesCollection.findOne({
                         displayName: jobEntry.company
                     });
-                    jobEntry['companyIconURL'] = response.companyIconURL;
+                    jobEntry['companyIconURL'] = response?.companyIconURL ? response.companyIconURL : undefined;
                 }
             }
             console.log("[QuickCareerService] get job link details api fetching completed");
