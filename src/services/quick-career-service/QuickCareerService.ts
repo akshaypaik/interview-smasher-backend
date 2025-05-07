@@ -77,6 +77,47 @@ class QuickCareerService {
         }
     }
 
+    async updateStatusApplied(jobLinkDetails: QuickCareerJobLink) {
+        try {
+            console.log(`[QuickCareerService] updating job details link as applied: ${jobLinkDetails}`);
+            Logger.info(`[QuickCareerService] updating job details link as applied: ${jobLinkDetails}`);
+            const quickCareerJobLinkCollection = db.dbConnector.db("InterviewSmasher").collection("quickCareerJobLink");
+            await quickCareerJobLinkCollection.updateOne(
+                {
+                    company: jobLinkDetails.company,
+                    jobID: jobLinkDetails.jobID,
+                    "user.email": jobLinkDetails.user.email
+                },
+                {
+                    $set: {
+                        jobStatus: "Applied"
+                    }
+                }
+            );
+            console.log(`[QuickCareerService] updating job details link as applied completed`);
+            Logger.info(`[QuickCareerService] updating job details link as applied completed`);
+            let messageModel = {
+                statusMessage: "successully updated job details link as applied!",
+                statusCode: 0,
+            };
+            return messageModel;
+        } catch (error) {
+            console.log(
+                "[QuickCareerService] updateStatusApplied: error occured: ",
+                error
+            );
+            Logger.error(
+                "[QuickCareerService] updateStatusApplied: error occured: ",
+                error
+            );
+            let messageModel = {
+                statusMessage: "Error updating job details link as applied!",
+                statusCode: -1,
+            };
+            throw messageModel;
+        }
+    }
+
 }
 
 const quickCareerService = new QuickCareerService();

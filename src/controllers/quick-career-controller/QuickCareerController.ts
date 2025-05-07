@@ -6,8 +6,8 @@ class QuickCareerController {
 
     public async postQuickCareerJobLink(req: Request, res: Response) {
         try {
-            const favCompanyDetails = req?.body;
-            const response = await quickCareerService.postQuickCareerJobLink(favCompanyDetails);
+            const jobLinkDetails = req?.body;
+            const response = await quickCareerService.postQuickCareerJobLink(jobLinkDetails);
             res.send(response);
         } catch (error) {
             res.send(error);
@@ -28,6 +28,17 @@ class QuickCareerController {
             res.send(error);
         }
     }
+
+    public async updateStatusApplied(req: Request, res: Response) {
+        try {
+            const jobLinkDetails = req?.body;
+            const response = await quickCareerService.updateStatusApplied(jobLinkDetails);
+            res.send(response);
+        } catch (error) {
+            res.send(error);
+        }
+    }
+
 }
 
 const quickCareerController = new QuickCareerController();
