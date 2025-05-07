@@ -36,37 +36,46 @@ class QuickCareerService {
         }
     }
 
-     async getQuickCareerJobLink(user: User) {
-            try {
-                console.log("[QuickCareerService] get job link details api service started");
-                Logger.info("[QuickCareerService] get job link details api service started");
-                let jobLinkDetails: [] = [];
-                const quickCareerJobLinkCollection = db.dbConnector.db("InterviewSmasher").collection("quickCareerJobLink");
-                const response = await quickCareerJobLinkCollection.find({
-                    "user.email": user.email
-                }).toArray();
-                if (response && response.length > 0) {
-                    jobLinkDetails = response;
-                }
-                console.log("[QuickCareerService] get job link details api fetching completed");
-                Logger.info("[QuickCareerService] get job link details api fetching completed");
-                return jobLinkDetails;
-            } catch (error) {
-                console.log(
-                    "[QuickCareerService] getQuickCareerJobLink: error occured: ",
-                    error
-                );
-                Logger.error(
-                    "[QuickCareerService] getQuickCareerJobLink: error occured: ",
-                    error
-                );
-                let messageModel = {
-                    statusMessage: "Error while reading job link details!",
-                    statusCode: -1,
-                };
-                throw messageModel;
+    async getQuickCareerJobLink(user: User) {
+        try {
+            console.log("[QuickCareerService] get job link details api service started");
+            Logger.info("[QuickCareerService] get job link details api service started");
+            let jobLinkDetails: any[] = [];
+            const quickCareerJobLinkCollection = db.dbConnector.db("InterviewSmasher").collection("quickCareerJobLink");
+            const companiesCollection = db.dbConnector.db("InterviewSmasher").collection("companies");
+            const response = await quickCareerJobLinkCollection.find({
+                "user.email": user.email
+            }).toArray();
+            if (response && response.length > 0) {
+                jobLinkDetails = response;
             }
+            if (jobLinkDetails?.length > 0) {
+                for (let jobEntry of jobLinkDetails) {
+                    const response = await companiesCollection.findOne({
+                        displayName: jobEntry.company
+                    });
+                    jobEntry['companyIconURL'] = response.companyIconURL;
+                }
+            }
+            console.log("[QuickCareerService] get job link details api fetching completed");
+            Logger.info("[QuickCareerService] get job link details api fetching completed");
+            return jobLinkDetails;
+        } catch (error) {
+            console.log(
+                "[QuickCareerService] getQuickCareerJobLink: error occured: ",
+                error
+            );
+            Logger.error(
+                "[QuickCareerService] getQuickCareerJobLink: error occured: ",
+                error
+            );
+            let messageModel = {
+                statusMessage: "Error while reading job link details!",
+                statusCode: -1,
+            };
+            throw messageModel;
         }
+    }
 
 }
 
