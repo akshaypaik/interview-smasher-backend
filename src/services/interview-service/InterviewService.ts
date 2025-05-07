@@ -107,7 +107,7 @@ class InterviewService {
 
             if (quickFilter === "appliedCompanies") {
                 dynamicCollection = appliedCompaniesCollection;
-                query = { isApplied: true, $or }
+                query = { isApplied: true, "user.email": email, $or }
             }
 
             const response = await dynamicCollection.find(query)
