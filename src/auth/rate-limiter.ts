@@ -2,9 +2,22 @@ import Logger from "../logs/Logger";
 
 const MAX_REQUEST_COUNT = 120;
 
+interface UserInfo {
+    email: string;
+    startTime: Date;
+    endTime: Date;
+    count: number;
+}
+
 class RateLimiter{
     
-    public userInfo: any = {};
+    public userInfo: UserInfo = {
+        email: "",
+        startTime: new Date(),
+        endTime: new Date(),
+        count: 0
+
+    };
 
     public setUserInfo(userDetails: any){
         const userInfo = {
