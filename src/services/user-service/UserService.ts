@@ -207,8 +207,8 @@ class UserService {
 
     async checkEmailExists(email: string) {
         try {
-            console.log("[UserService] check user exists api service started for ", email);
-            Logger.info("[UserService] check user exists api api service startedfor ", email);
+            console.log("[UserService] check user email exists api service started for ", email);
+            Logger.info("[UserService] check user email exists api api service startedfor ", email);
             let appliedCompaniesDetails: [] = [];
             const userCollection = db.dbConnector.db("InterviewSmasher").collection("users");
             let messageModel = {};
@@ -232,8 +232,8 @@ class UserService {
                     }
                 }
             }
-            console.log("[UserService] check user exists api service completed for ", email);
-            Logger.info("[UserService] check user exists api service completed for ", email);
+            console.log("[UserService] check user email exists api service completed for ", email);
+            Logger.info("[UserService] check user email exists api service completed for ", email);
             return messageModel;
         } catch (error) {
             console.log(
