@@ -2,6 +2,7 @@ import { Response, Request } from "express";
 import { userService } from "../../services/user-service/UserService";
 import jwt from "jsonwebtoken";
 import { environmentVariables } from "../../configurations/EnvironmentVariables";
+import Logger from "../../logs/Logger";
 
 class UserController {
     public async validateJsonToken(req: Request, res: Response) {
@@ -101,6 +102,26 @@ class UserController {
             res.send(error);
         }
     }
+
+    public async checkEmailExists(req: Request, res: Response) {
+        let email = req?.query?.email as string;
+        if(!email){
+            res.send(400).send({
+                message: "Invalid request. email is missing"
+            })
+        }
+        console.log(`[UserController] check email exists started for ${email}`);
+        Logger.info(`[UserController] check email exists started for ${email}`);
+        try {
+            const result = await userService.checkEmailExists(email);
+            console.log("[UserController] check email exists api completed");
+            Logger.info("[UserController] check email exists api completed");
+            res.send(result);
+        } catch (error) {
+            res.send(error);
+        }
+    }
+
 }
 
 const userController = new UserController();

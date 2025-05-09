@@ -205,7 +205,52 @@ class UserService {
         }
     }
 
-
+    async checkEmailExists(email: string) {
+        try {
+            console.log("[UserService] check user exists api service started for ", email);
+            Logger.info("[UserService] check user exists api api service startedfor ", email);
+            let appliedCompaniesDetails: [] = [];
+            const userCollection = db.dbConnector.db("InterviewSmasher").collection("users");
+            let messageModel = {};
+            const response = await userCollection.findOne({
+                "email": email
+            });
+            if (response) {
+                messageModel = {
+                    statusCode: 0,
+                    statusMessage: "email found",
+                    data: {
+                        emailFound: true
+                    }
+                }
+            } else {
+                messageModel = {
+                    statusCode: -1,
+                    statusMessage: "email not found",
+                    data: {
+                        emailFound: false
+                    }
+                }
+            }
+            console.log("[UserService] check user exists api service completed for ", email);
+            Logger.info("[UserService] check user exists api service completed for ", email);
+            return messageModel;
+        } catch (error) {
+            console.log(
+                "[UserService] checkEmailExists: error occured: ",
+                error
+            );
+            Logger.error(
+                "[UserService] checkEmailExists: error occured: ",
+                error
+            );
+            let messageModel = {
+                statusMessage: "Error while checking email exists!",
+                statusCode: -1,
+            };
+            throw messageModel;
+        }
+    }
 
 }
 

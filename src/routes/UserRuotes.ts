@@ -18,4 +18,6 @@ UserRoutes.post(`${userBaseURL}/updateUserProfile`, userController.updateUserPro
 
 UserRoutes.post(`${userBaseURL}/updateUserProfilePicture`, upload.single("file"), userController.updateUserProfilePicture);
 
+UserRoutes.get(`${userBaseURL}/checkEmailExists`, userController.checkEmailExists);
+
 export default UserRoutes;
