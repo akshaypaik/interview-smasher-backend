@@ -19,6 +19,7 @@ class QuickCareerController {
             const userEmail: any = req?.query?.email ? req?.query?.email : "";
             const userDetails: User = {
                 email: userEmail,
+                userId: "",
                 username: "",
                 password: ""
             }

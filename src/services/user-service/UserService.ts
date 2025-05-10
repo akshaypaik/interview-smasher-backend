@@ -3,6 +3,7 @@ import { db } from "../../db";
 import bcrypt from "bcrypt";
 import { auth } from "../../auth/auth";
 import Logger from "../../logs/Logger";
+import { helperService } from "../../shared/helper";
 
 class UserService {
     public async registerUser(userDetails: User) {
@@ -14,6 +15,8 @@ class UserService {
             if (userDetails.password) {
                 userDetails.password = bcrypt.hashSync(userDetails.password, salt);
             }
+            const userId = helperService.generateUserIdFromEmail(userDetails.email);
+            userDetails.userId = userId;
             const response = await userCollection.insertOne(userDetails);
             console.log("[UserService] post register api completed");
             Logger.info("[UserService] post register api completed");

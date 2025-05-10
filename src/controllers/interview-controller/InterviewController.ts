@@ -67,6 +67,7 @@ class InterviewController {
             const userEmail: any = req?.query?.email ? req?.query?.email : "";
             const useDetails: User = {
                 email: userEmail,
+                userId: "",
                 username: "",
                 password: ""
             }
@@ -102,6 +103,7 @@ class InterviewController {
             const userEmail: any = req?.query?.email ? req?.query?.email : "";
             const useDetails: User = {
                 email: userEmail,
+                userId: "",
                 username: "",
                 password: ""
             }
