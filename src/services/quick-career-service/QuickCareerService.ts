@@ -2,9 +2,14 @@ import Logger from "../../logs/Logger";
 import { db } from "../../db";
 import QuickCareerJobLink from "../../models/DBCollectionSchemaModel/QuickCareerJobLink.model";
 import User from "../../models/DBCollectionSchemaModel/User.model";
+import { redisClient } from "../../redis/redisClient";
+import { redisUtils } from "../../redis/redisUtils";
 
 class QuickCareerService {
 
+    // redis
+    public redisClient = redisClient.client;
+    public redisEntity = "quickCareerJobLink";
 
     async postQuickCareerJobLink(jobLinkDetails: QuickCareerJobLink) {
         try {
@@ -18,6 +23,10 @@ class QuickCareerService {
                 statusMessage: "successully posted job details link!",
                 statusCode: 0,
             };
+
+            // invalidate redis cache
+            redisUtils.setExpiry(`${this.redisEntity}`, `${jobLinkDetails?.user?.email}`, 0);
+
             return messageModel;
         } catch (error) {
             console.log(
@@ -40,7 +49,18 @@ class QuickCareerService {
         try {
             console.log("[QuickCareerService] get job link details api service started");
             Logger.info("[QuickCareerService] get job link details api service started");
+
             let jobLinkDetails: any[] = [];
+
+            console.log(`[QuickCareerService] checking redis cache for job link details data for email: ${user.email}`);
+            Logger.info(`[QuickCareerService] checking redis cache for job link details data for email: ${user.email}`);
+
+            // search redis for cached data
+            const cachedData: any = await redisUtils.getEntry(`${this.redisEntity}`, `${user.email}`);
+            if (cachedData?.length > 0) {
+                return cachedData;
+            }
+
             const quickCareerJobLinkCollection = db.dbConnector.db("InterviewSmasher").collection("quickCareerJobLink");
             const companiesCollection = db.dbConnector.db("InterviewSmasher").collection("companies");
             const response = await quickCareerJobLinkCollection.find({
@@ -59,6 +79,9 @@ class QuickCareerService {
             }
             console.log("[QuickCareerService] get job link details api fetching completed");
             Logger.info("[QuickCareerService] get job link details api fetching completed");
+
+            redisUtils.setEntry(`${this.redisEntity}`, `${user.email}`, JSON.stringify(jobLinkDetails));
+
             return jobLinkDetails;
         } catch (error) {
             console.log(
@@ -94,6 +117,10 @@ class QuickCareerService {
                     }
                 }
             );
+
+            // invalidate redis cache
+            redisUtils.setExpiry(`${this.redisEntity}`, `${jobLinkDetails?.user?.email}`, 0);
+
             console.log(`[QuickCareerService] updating job details link as applied completed`);
             Logger.info(`[QuickCareerService] updating job details link as applied completed`);
             let messageModel = {

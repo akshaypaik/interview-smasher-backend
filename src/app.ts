@@ -14,6 +14,7 @@ import Logger from "./logs/Logger";
 import helmet from "helmet";
 import path from "path";
 import QuickCareerRoutes from "./routes/QuickCareerRoutes";
+import { redisClient } from "./redis/redisClient";
 
 const app = express();
 
@@ -27,7 +28,7 @@ app.use(helmet({
 
 // Body Parser
 app.use(bodyParser.json({ limit: "50mb" }));
-app.use(bodyParser.urlencoded({ extended: true })); 
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // Serve the uploads directory
 app.use('/uploads', express.static(path.resolve('./uploads')));
@@ -113,6 +114,9 @@ app.use(sessionOptions);
 
 // Initialize DB
 db.initializeDB();
+
+// Redis
+redisClient.init();
 
 // Routes
 app.use(CoursesRoutes);
