@@ -8,11 +8,24 @@ class InterviewService {
 
     public redisClient = redisClient.client;
     public redisEntityFavCompanies = "favoriteCompanies";
+    public redisEntitySearchResults = "searchResultsQuickCareer";
 
     async getInterviewCompaniesSearchResult(searchQuery: string, email: string, page: number = 1, limit: number = 12) {
         try {
             console.log(`[InterviewService] get search result for company: ${searchQuery}`);
             Logger.info(`[InterviewService] get search result for company: ${searchQuery}`);
+
+            // Generate a unique cache key
+            const cacheEntity = `${this.redisEntitySearchResults}:${email}`;
+            const cacheKey = `${searchQuery}:${page}:${limit}`;
+
+            // Check Redis for cached data
+            const cachedData: any = await redisUtils.getEntry(cacheEntity, cacheKey);
+            if (cachedData) {
+                console.log(`[InterviewService] Returning cached data for: ${cacheEntity}${cacheKey}`);
+                return JSON.parse(cachedData);
+            }
+
             let searchResults: any[] = [];
             const companiesCollection = db.dbConnector.db("InterviewSmasher").collection("companies");
             const favCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("favoriteCompanies");
@@ -56,6 +69,10 @@ class InterviewService {
                     }
                 }
             }
+
+            redisUtils.setEntry(cacheEntity, cacheKey, JSON.stringify(searchResults));
+            redisUtils.setExpiry(cacheEntity, cacheKey, 3600);
+
             console.log(`[InterviewService] get search result for company: ${searchQuery} fetching completed`);
             Logger.info(`[InterviewService] get search result for company: ${searchQuery} fetching completed`);
             return searchResults;
@@ -179,6 +196,7 @@ class InterviewService {
 
             // invalidate redis cache
             redisUtils.setExpiry(`${this.redisEntityFavCompanies}`, `${favCompanyDetails?.user?.email}`, 0);
+            redisUtils.setExpiryToAllKeys(`${this.redisEntitySearchResults}:${favCompanyDetails?.user?.email}`, 0);
 
             console.log(`[InterviewService] posting fav company details completed`);
             Logger.info(`[InterviewService] posting fav company details completed`);
@@ -215,8 +233,9 @@ class InterviewService {
                 return cachedData;
             }
 
-            let favCompaniesDetails: [] = [];
+            let favCompaniesDetails: any[] = [];
             const favCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("favoriteCompanies");
+            const appliedCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("appliedCompanies");
             const response = await favCompaniesCollection.find({
                 "user.email": user.email
             }).toArray();
@@ -224,7 +243,20 @@ class InterviewService {
                 favCompaniesDetails = response;
             }
 
+            // Check if each company is marked as applied
+            for (const company of response) {
+                const isApplied = await appliedCompaniesCollection.findOne({
+                    companyId: company.companyId,
+                    "user.email": user.email
+                });
+                const index = isApplied ? favCompaniesDetails.findIndex((item) => item.companyId === isApplied.companyId) : -1;
+                if (index != -1) {
+                    favCompaniesDetails[index].isApplied = true;
+                }
+            }
+
             redisUtils.setEntry(`${this.redisEntityFavCompanies}`, `${user.email}`, JSON.stringify(favCompaniesDetails));
+            redisUtils.setExpiryToAllKeys(`${this.redisEntitySearchResults}:${user?.email}`, 0);
 
             console.log("[InterviewService] get favorite companies api fetching completed");
             Logger.info("[InterviewService] get favorite companies api fetching completed");
@@ -266,6 +298,7 @@ class InterviewService {
 
             // invalidate redis cache
             redisUtils.setExpiry(`${this.redisEntityFavCompanies}`, `${favCompanyDetails?.user?.email}`, 0);
+            redisUtils.setExpiryToAllKeys(`${this.redisEntitySearchResults}:${favCompanyDetails?.user?.email}`, 0);
 
             console.log("[InterviewService] remove favorite companies api fetching completed");
             Logger.info("[InterviewService] remove favorite companies api fetching completed");
@@ -302,6 +335,10 @@ class InterviewService {
                 statusMessage: "successully posted applied company!",
                 statusCode: 0,
             };
+
+            redisUtils.setExpiry(`${this.redisEntityFavCompanies}`, `${appliedCompanyDetails?.user?.email}`, 0);
+            redisUtils.setExpiryToAllKeys(`${this.redisEntitySearchResults}:${appliedCompanyDetails?.user?.email}`, 0);
+
             return messageModel;
         } catch (error) {
             console.log(
@@ -369,6 +406,10 @@ class InterviewService {
                 console.log("[InterviewService] applied company successfully removed");
                 Logger.info("[InterviewService] applied company successfully removed");
             }
+            
+            redisUtils.setExpiry(`${this.redisEntityFavCompanies}`, `${appliedCompanyDetails?.user?.email}`, 0);
+            redisUtils.setExpiryToAllKeys(`${this.redisEntitySearchResults}:${appliedCompanyDetails?.user?.email}`, 0);
+            
             console.log("[InterviewService] remove applied companies api fetching completed");
             Logger.info("[InterviewService] remove applied companies api fetching completed");
             return {

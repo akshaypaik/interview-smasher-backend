@@ -55,6 +55,32 @@ class RedisUtils {
         }
     }
 
+    async setExpiryToAllKeys(entity: string, expirationSeconds: number) {
+        try {
+            // Get all keys matching the cacheEntity pattern
+            const keys: string[] = await this.client.keys(`${entity}:*`);
+
+            // Set expiry for each key
+            for (const key of keys) {
+                await this.client.expire(key, expirationSeconds);
+            }
+
+            console.log(`[RedisUtils] Expiry set for all keys in entity: ${entity}`);
+            Logger.info(`[RedisUtils] Expiry set for all keys in entity: ${entity}`);
+
+        } catch (error) {
+            console.log(
+                `[RedisUtils] setExpiryToAllKeys: error occurred: `,
+                error
+            );
+            Logger.error(
+                `[RedisUtils] setExpiryToAllKeys: error occurred: `,
+                error
+            );
+            throw new Error(`Error while setting expiry for all keys in entity: ${entity}.`);
+        }
+    }
+
 }
 
 const redisUtils = new RedisUtils();
