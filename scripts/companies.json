@@ -1479,9 +1479,9 @@
         "companyCareerPageURL": "https://www.meesho.io/jobs",
         "userRatings": {
             "totalRating": "5",
-            "rating": "3.9",
-            "userCount": "1260",
-            "displayUserCount": "1,260"
+            "rating": "4.0",
+            "userCount": "1292",
+            "displayUserCount": "1,292"
         }
     },
     {
@@ -2457,6 +2457,246 @@
             "rating": "3.7",
             "userCount": "11342",
             "displayUserCount": "11,342"
+        }
+    },
+    {
+        "name": "amadeus",
+        "displayName": "Amadeus",
+        "description": "",
+        "companyId": "165",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Amadeus_Organization_logo_2024.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://amadeus.com/en/careers/locations",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "5596",
+            "displayUserCount": "5,596"
+        }
+    },
+    {
+        "name": "globalLogic",
+        "displayName": "GlobalLogic",
+        "description": "",
+        "companyId": "166",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/0/01/GlobalLogic-Logo.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.globallogic.com/in/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "9232",
+            "displayUserCount": "9,232"
+        }
+    },
+    {
+        "name": "synopsys",
+        "displayName": "Synopsys",
+        "description": "",
+        "companyId": "167",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Synopsys_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.synopsys.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "4540",
+            "displayUserCount": "4,540"
+        }
+    },
+    {
+        "name": "caterpillar",
+        "displayName": "Caterpillar",
+        "description": "",
+        "companyId": "168",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Caterpillar_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.caterpillar.com/en/jobs/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "9360",
+            "displayUserCount": "9,360"
+        }
+    },
+    {
+        "name": "appliedMaterials",
+        "displayName": "Applied Materials",
+        "description": "",
+        "companyId": "169",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Applied_Materials_Inc._Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.appliedmaterials.com/in/en/careers.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "4920",
+            "displayUserCount": "4,920"
+        }
+    },
+    {
+        "name": "collabera",
+        "displayName": "Collabera",
+        "description": "",
+        "companyId": "170",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/b/bd/Collabera_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://collabera.com/job-search/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "4969",
+            "displayUserCount": "4,969"
+        }
+    },
+    {
+        "name": "yahoo",
+        "displayName": "Yahoo",
+        "description": "",
+        "companyId": "171",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Yahoo%21_%282019%29.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.yahooinc.com/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "6624",
+            "displayUserCount": "6,624"
+        }
+    },
+    {
+        "name": "novoNordisk",
+        "displayName": "Novo Nordisk",
+        "description": "",
+        "companyId": "172",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/b/b1/Novo_Nordisk_-_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.novonordisk.co.in/careers.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.3",
+            "userCount": "4640",
+            "displayUserCount": "4,640"
+        }
+    },
+    {
+        "name": "tesco",
+        "displayName": "Tesco",
+        "description": "",
+        "companyId": "173",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/b/b0/Tesco_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.tescobengaluru.com/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "2133",
+            "displayUserCount": "2,133"
+        }
+    },
+    {
+        "name": "motorolaSolutions",
+        "displayName": "Motorola Solutions",
+        "description": "",
+        "companyId": "174",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Motorola_Solutions_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.motorolasolutions.com/en_xp/about/careers.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.3",
+            "userCount": "5273",
+            "displayUserCount": "5,273"
+        }
+    },
+    {
+        "name": "ubs",
+        "displayName": "UBS",
+        "description": "",
+        "companyId": "175",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/3/34/UBS_Logo.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.ubs.com/global/en/careers.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "16964",
+            "displayUserCount": "16,964"
+        }
+    },
+    {
+        "name": "toyotaMotorCorporation",
+        "displayName": "Toyota Motor Corporation",
+        "description": "",
+        "companyId": "176",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Toyota.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.toyotabharat.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "4069",
+            "displayUserCount": "4,069"
+        }
+    },
+    {
+        "name": "waltDisney",
+        "displayName": "Walt Disney",
+        "description": "",
+        "companyId": "177",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/5/55/Walt_Disney_wordmark.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.disneycareers.com/en",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "19491",
+            "displayUserCount": "19,491"
+        }
+    },
+    {
+        "name": "indeed",
+        "displayName": "Indeed",
+        "description": "",
+        "companyId": "178",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Indeed_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://in.indeed.com/cmp/Indeed",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.5",
+            "userCount": "4867",
+            "displayUserCount": "4,867"
+        }
+    },
+    {
+        "name": "puma",
+        "displayName": "PUMA",
+        "description": "",
+        "companyId": "179",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/d/da/Puma_complete_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://about.puma.com/en/careers/locations/india",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "2611",
+            "displayUserCount": "2,611"
+        }
+    },
+    {
+        "name": "societeGenerale",
+        "displayName": "Societe Generale",
+        "description": "",
+        "companyId": "180",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Soci%C3%A9t%C3%A9_G%C3%A9n%C3%A9rale.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.societegenerale.com/en/search",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "14810",
+            "displayUserCount": "14,810"
         }
     }
 ]
