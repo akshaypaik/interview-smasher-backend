@@ -1,13 +1,16 @@
 import Redis from "ioredis";
 import Logger from "../logs/Logger";
+import { environmentVariables } from "../configurations/EnvironmentVariables";
 
 const MAX_RETIRES = 5;
+
+const REDIS_URL = 'redis://redis-interview-smasher:6379';
 
 class RedisClient {
     public client: Redis;
 
     constructor() {
-        this.client = new Redis({
+        this.client = new Redis(environmentVariables.REDIS_URL, {
             retryStrategy: (times) => {
                 const delay = 1000; // Delay in milliseconds between retries
                 if (times >= MAX_RETIRES) {

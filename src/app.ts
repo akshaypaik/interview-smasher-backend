@@ -18,6 +18,9 @@ import { redisClient } from "./redis/redisClient";
 
 const app = express();
 
+//Load environment variables
+// environmentVariables.loadEnvironmentVariables();
+
 // cors
 app.use(cors({ origin: "http://localhost:5173" }));
 
@@ -63,9 +66,6 @@ process.on("unhandledRejection", function (reason, p) {
         Reason: JSON.stringify(reason),
     });
 });
-
-//Load environment variables
-environmentVariables.init();
 
 // Session
 const MongoDBStore = connectMongoDBSession(session);

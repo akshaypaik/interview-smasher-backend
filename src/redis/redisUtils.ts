@@ -9,6 +9,8 @@ class RedisUtils {
         if (this.client) {
             {
                 try {
+                    console.log(`setting redis cache for: ${entity}:${key}`);
+                    Logger.info(`setting redis cache for: ${entity}:${key}`);
                     this.client.set(`${entity}:${key}`, JSON.stringify(value));
                 } catch (redisError: any) {
                     console.error(`[RedisUtils] Redis error: ${redisError?.message}`);
@@ -42,6 +44,8 @@ class RedisUtils {
         if (this.client) {
             {
                 try {
+                    console.log(`setting expiry redis cache for: ${entity}:${key} with expiration seconds: ${expirationSeconds}`);
+                    Logger.info(`setting expiry redis cache for: ${entity}:${key} with expiration seconds: ${expirationSeconds}`);
                     this.client.expire(`${entity}:${key}`, `${expirationSeconds}`);
                 } catch (redisError: any) {
                     console.error(`[RedisUtils] Redis error while setting expiry for ${entity}:${key} : ${redisError?.message}`);
