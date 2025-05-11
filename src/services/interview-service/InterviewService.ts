@@ -1,8 +1,14 @@
 import User from "src/models/DBCollectionSchemaModel/User.model";
 import { db } from "../../db";
 import Logger from "../../logs/Logger";
+import { redisClient } from "../../redis/redisClient";
+import { redisUtils } from "../../redis/redisUtils";
 
 class InterviewService {
+
+    public redisClient = redisClient.client;
+    public redisEntityFavCompanies = "favoriteCompanies";
+
     async getInterviewCompaniesSearchResult(searchQuery: string, email: string, page: number = 1, limit: number = 12) {
         try {
             console.log(`[InterviewService] get search result for company: ${searchQuery}`);
@@ -166,10 +172,14 @@ class InterviewService {
             console.log(`[InterviewService] posting fav company details: ${favCompanyDetails}`);
             Logger.info(`[InterviewService] posting fav company details: ${favCompanyDetails}`);
             const favCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("favoriteCompanies");
-            if(favCompanyDetails.isApplied){
+            if (favCompanyDetails.isApplied) {
                 delete favCompanyDetails.isApplied;
             }
             await favCompaniesCollection.insertOne(favCompanyDetails);
+
+            // invalidate redis cache
+            redisUtils.setExpiry(`${this.redisEntityFavCompanies}`, `${favCompanyDetails?.user?.email}`, 0);
+
             console.log(`[InterviewService] posting fav company details completed`);
             Logger.info(`[InterviewService] posting fav company details completed`);
             let messageModel = {
@@ -198,6 +208,13 @@ class InterviewService {
         try {
             console.log("[InterviewService] get favorite companies api service started");
             Logger.info("[InterviewService] get favorite companies api service started");
+
+            // search redis for cached data
+            const cachedData: any = await redisUtils.getEntry(`${this.redisEntityFavCompanies}`, `${user.email}`);
+            if (cachedData?.length > 0) {
+                return cachedData;
+            }
+
             let favCompaniesDetails: [] = [];
             const favCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("favoriteCompanies");
             const response = await favCompaniesCollection.find({
@@ -206,6 +223,9 @@ class InterviewService {
             if (response && response.length > 0) {
                 favCompaniesDetails = response;
             }
+
+            redisUtils.setEntry(`${this.redisEntityFavCompanies}`, `${user.email}`, JSON.stringify(favCompaniesDetails));
+
             console.log("[InterviewService] get favorite companies api fetching completed");
             Logger.info("[InterviewService] get favorite companies api fetching completed");
             return favCompaniesDetails;
@@ -243,6 +263,10 @@ class InterviewService {
                 console.log("[InterviewService] favorite company successfully removed");
                 Logger.info("[InterviewService] favorite company successfully removed");
             }
+
+            // invalidate redis cache
+            redisUtils.setExpiry(`${this.redisEntityFavCompanies}`, `${favCompanyDetails?.user?.email}`, 0);
+
             console.log("[InterviewService] remove favorite companies api fetching completed");
             Logger.info("[InterviewService] remove favorite companies api fetching completed");
             return {
