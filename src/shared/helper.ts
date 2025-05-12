@@ -8,6 +8,11 @@ class HelperService {
         return hash.toString(CryptoJS.enc.Hex);
     }
 
+    getUTCTimeNow = () => {
+    const date = Date.now();
+    return new Date(date).toISOString();
+}
+
 }
 
 const helperService = new HelperService();

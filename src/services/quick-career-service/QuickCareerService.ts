@@ -4,6 +4,7 @@ import QuickCareerJobLink from "../../models/DBCollectionSchemaModel/QuickCareer
 import User from "../../models/DBCollectionSchemaModel/User.model";
 import { redisClient } from "../../redis/redisClient";
 import { redisUtils } from "../../redis/redisUtils";
+import { helperService } from "../../shared/helper";
 
 class QuickCareerService {
 
@@ -113,7 +114,8 @@ class QuickCareerService {
                 },
                 {
                     $set: {
-                        jobStatus: "Applied"
+                        jobStatus: "Applied",
+                        createdOn: helperService.getUTCTimeNow()
                     }
                 }
             );
