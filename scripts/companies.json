@@ -2878,5 +2878,85 @@
             "displayUserCount": "14,810",
             "ratingLink": "https://www.glassdoor.co.in/Reviews/Soci%C3%A9t%C3%A9-G%C3%A9n%C3%A9rale-Reviews-E10350.htm"
         }
+    },
+    {
+        "name": "hdfcBank",
+        "displayName": "HDFC Bank",
+        "description": "",
+        "companyId": "181",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/28/HDFC_Bank_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.hdfc.com/careers/current-vacancies",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.4",
+            "userCount": "9983",
+            "displayUserCount": "9,983",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/HDFC-Bank-Reviews-E100231.htm"
+        }
+    },
+    {
+        "name": "citiBank",
+        "displayName": "Citi",
+        "description": "",
+        "companyId": "182",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Citi.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://jobs.citi.com",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "39217",
+            "displayUserCount": "39,217",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Citi-Reviews-E8843.htm"
+        }
+    },
+    {
+        "name": "iciciBank",
+        "displayName": "ICICI Bank",
+        "description": "",
+        "companyId": "183",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/1/12/ICICI_Bank_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.icicicareers.com/CareerApplicant/Career/Home",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "14633",
+            "displayUserCount": "14,633",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/ICICI-Bank-Reviews-E11763.htm"
+        }
+    },
+    {
+        "name": "upgrad",
+        "displayName": "upGrad",
+        "description": "",
+        "companyId": "184",
+        "companyIconURL": "https://assets.upgrad.com/2160/_next/static/media/upgrad-header-logo.325f003e.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://jobs.upgrad.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "3058",
+            "displayUserCount": "3,058",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/upGrad-Reviews-E1152122.htm"
+        }
+    },
+    {
+        "name": "hsbc",
+        "displayName": "HSBC",
+        "description": "",
+        "companyId": "185",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/a/aa/HSBC_logo_%282018%29.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.hsbc.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "34163",
+            "displayUserCount": "34,163",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/HSBC-Reviews-E3482.htm"
+        }
     }
 ]
