@@ -4,8 +4,8 @@ class MessageBrokerQ {
 
     private connection;
     private channel;
-    private exchange = "user_notifications";
-    private routing_key = "fav_companies";
+    private exchange = "events";
+    private exchangeType = "topic";
 
     constructor() { }
 
@@ -14,12 +14,7 @@ class MessageBrokerQ {
             this.connection = await amqp.connect("amqp://localhost");
             this.channel = await this.connection.createChannel();
 
-            await this.channel.assertExchange(this.exchange, "direct", { durable: true });
-            await this.channel.assertQueue(`${this.exchange}_queue`, { durable: true });
-
-            await this.channel.bindQueue(`${this.exchange}_queue`, this.exchange, this.routing_key);
-            
-            // this.channel.publish(this.exchange, this.routing_key, Buffer.from(JSON.stringify(message)));
+            await this.channel.assertExchange(this.exchange, this.exchangeType, { durable: true });
 
             console.log("Message broker connection established.");
 
@@ -28,9 +23,9 @@ class MessageBrokerQ {
         }
     }
 
-    async publishMessage(message: any) {
-        await this.channel.publish(this.exchange, this.routing_key, Buffer.from(JSON.stringify(message)));
-        console.log(`Message broker published successfully for exchange: ${this.exchange}, routing key: ${this.routing_key} and
+    async publishMessage(routingKey: string, message: any) {
+        await this.channel.publish(this.exchange, routingKey, Buffer.from(JSON.stringify(message)), { persistent: true });
+        console.log(`Message broker published successfully for exchange: ${this.exchange}, routing key: ${routingKey} and
             message: ${JSON.stringify(message)}`);
     }
 

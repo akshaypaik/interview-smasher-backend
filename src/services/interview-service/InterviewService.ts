@@ -3,6 +3,7 @@ import { db } from "../../db";
 import Logger from "../../logs/Logger";
 import { redisClient } from "../../redis/redisClient";
 import { redisUtils } from "../../redis/redisUtils";
+import { messageBrokerQ } from "../../message-broker/MessageBrokerQ";
 
 class InterviewService {
 
@@ -204,6 +205,11 @@ class InterviewService {
                 statusMessage: "successully posted favorite company!",
                 statusCode: 0,
             };
+
+            console.log("[InterviewService] message broker publish initiated");
+            const result = await messageBrokerQ.publishMessage("event.quickcareer.favcompany", favCompanyDetails);
+            console.log("[InterviewService] message broker published with result: ", result);
+
             return messageModel;
         } catch (error) {
             console.log(
@@ -406,10 +412,10 @@ class InterviewService {
                 console.log("[InterviewService] applied company successfully removed");
                 Logger.info("[InterviewService] applied company successfully removed");
             }
-            
+
             redisUtils.setExpiry(`${this.redisEntityFavCompanies}`, `${appliedCompanyDetails?.user?.email}`, 0);
             redisUtils.setExpiryToAllKeys(`${this.redisEntitySearchResults}:${appliedCompanyDetails?.user?.email}`, 0);
-            
+
             console.log("[InterviewService] remove applied companies api fetching completed");
             Logger.info("[InterviewService] remove applied companies api fetching completed");
             return {

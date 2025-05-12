@@ -15,6 +15,7 @@ import helmet from "helmet";
 import path from "path";
 import QuickCareerRoutes from "./routes/QuickCareerRoutes";
 import { redisClient } from "./redis/redisClient";
+import { messageBrokerQ } from "./message-broker/MessageBrokerQ";
 
 const app = express();
 
@@ -114,6 +115,9 @@ app.use(sessionOptions);
 
 // Initialize DB
 db.initializeDB();
+
+//Message Broker
+messageBrokerQ.init();
 
 // Redis
 redisClient.init();
