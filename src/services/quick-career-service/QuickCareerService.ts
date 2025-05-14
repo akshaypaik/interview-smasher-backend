@@ -101,10 +101,10 @@ class QuickCareerService {
         }
     }
 
-    async updateStatusApplied(jobLinkDetails: QuickCareerJobLink) {
+    async updateStatusJobLink(jobLinkDetails: QuickCareerJobLink) {
         try {
-            console.log(`[QuickCareerService] updating job details link as applied: ${jobLinkDetails}`);
-            Logger.info(`[QuickCareerService] updating job details link as applied: ${jobLinkDetails}`);
+            console.log(`[QuickCareerService] updating job details link: ${jobLinkDetails}`);
+            Logger.info(`[QuickCareerService] updating job details link: ${jobLinkDetails}`);
             const quickCareerJobLinkCollection = db.dbConnector.db("InterviewSmasher").collection("quickCareerJobLink");
             await quickCareerJobLinkCollection.updateOne(
                 {
@@ -114,7 +114,7 @@ class QuickCareerService {
                 },
                 {
                     $set: {
-                        jobStatus: "Applied",
+                        jobStatus: jobLinkDetails.jobStatus,
                         createdOn: helperService.getUTCTimeNow()
                     }
                 }
@@ -123,10 +123,10 @@ class QuickCareerService {
             // invalidate redis cache
             redisUtils.setExpiry(`${this.redisEntity}`, `${jobLinkDetails?.user?.email}`, 0);
 
-            console.log(`[QuickCareerService] updating job details link as applied completed`);
-            Logger.info(`[QuickCareerService] updating job details link as applied completed`);
+            console.log(`[QuickCareerService] updating job details link completed`);
+            Logger.info(`[QuickCareerService] updating job details link completed`);
             let messageModel = {
-                statusMessage: "successully updated job details link as applied!",
+                statusMessage: "successully updated job details link!",
                 statusCode: 0,
             };
             return messageModel;
@@ -140,7 +140,7 @@ class QuickCareerService {
                 error
             );
             let messageModel = {
-                statusMessage: "Error updating job details link as applied!",
+                statusMessage: "Error updating job details link!",
                 statusCode: -1,
             };
             throw messageModel;

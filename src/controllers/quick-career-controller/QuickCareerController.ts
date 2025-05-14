@@ -30,10 +30,10 @@ class QuickCareerController {
         }
     }
 
-    public async updateStatusApplied(req: Request, res: Response) {
+    public async updateStatusJobLink(req: Request, res: Response) {
         try {
             const jobLinkDetails = req?.body;
-            const response = await quickCareerService.updateStatusApplied(jobLinkDetails);
+            const response = await quickCareerService.updateStatusJobLink(jobLinkDetails);
             res.send(response);
         } catch (error) {
             res.send(error);
