@@ -40,6 +40,16 @@ class QuickCareerController {
         }
     }
 
+    public async deleteQuickCareerJobLink(req: Request, res: Response) {
+        try {
+            const jobLinkDetails = req?.body;
+            const response = await quickCareerService.deleteQuickCareerJobLink(jobLinkDetails);
+            res.send(response);
+        } catch (error) {
+            res.send(error);
+        }
+    }
+
 }
 
 const quickCareerController = new QuickCareerController();

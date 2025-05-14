@@ -13,4 +13,6 @@ QuickCareerRoutes.get(`${quickCareerBaseURL}/getQuickCareerJobLink`, quickCareer
 
 QuickCareerRoutes.put(`${quickCareerBaseURL}/updateStatusJobLink`, quickCareerController.updateStatusJobLink);
 
+QuickCareerRoutes.post(`${quickCareerBaseURL}/deleteQuickCareerJobLink`, quickCareerController.deleteQuickCareerJobLink);
+
 export default QuickCareerRoutes;

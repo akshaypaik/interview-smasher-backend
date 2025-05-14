@@ -5,6 +5,7 @@ import User from "../../models/DBCollectionSchemaModel/User.model";
 import { redisClient } from "../../redis/redisClient";
 import { redisUtils } from "../../redis/redisUtils";
 import { helperService } from "../../shared/helper";
+import { ObjectId } from "mongodb";
 
 class QuickCareerService {
 
@@ -141,6 +142,42 @@ class QuickCareerService {
             );
             let messageModel = {
                 statusMessage: "Error updating job details link!",
+                statusCode: -1,
+            };
+            throw messageModel;
+        }
+    }
+
+    async deleteQuickCareerJobLink(jobLinkDetails: QuickCareerJobLink) {
+        try {
+            console.log(`[QuickCareerService] deleting job details career link: ${jobLinkDetails}`);
+            Logger.info(`[QuickCareerService] deleting job details career link: ${jobLinkDetails}`);
+            const quickCareerJobLinkCollection = db.dbConnector.db("InterviewSmasher").collection("quickCareerJobLink");
+            await quickCareerJobLinkCollection.deleteOne({
+                _id: new ObjectId(jobLinkDetails._id),
+            });
+            console.log(`[QuickCareerService] deleting job details career link completed`);
+            Logger.info(`[QuickCareerService] deleting job details career link completed`);
+            let messageModel = {
+                statusMessage: "successully deleted job details career link!",
+                statusCode: 0,
+            };
+
+            // invalidate redis cache
+            redisUtils.setExpiry(`${this.redisEntity}`, `${jobLinkDetails?.user?.email}`, 0);
+
+            return messageModel;
+        } catch (error) {
+            console.log(
+                "[QuickCareerService] deleteQuickCareerJobLink: error occured: ",
+                error
+            );
+            Logger.error(
+                "[QuickCareerService] deleteQuickCareerJobLink: error occured: ",
+                error
+            );
+            let messageModel = {
+                statusMessage: "Error while deleting job details career link!",
                 statusCode: -1,
             };
             throw messageModel;
