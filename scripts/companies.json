@@ -2958,5 +2958,37 @@
             "displayUserCount": "34,163",
             "ratingLink": "https://www.glassdoor.co.in/Reviews/HSBC-Reviews-E3482.htm"
         }
+    },
+    {
+        "name": "netApp",
+        "displayName": "NetApp",
+        "description": "",
+        "companyId": "186",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/9/9f/NetApp_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.netapp.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "5709",
+            "displayUserCount": "5,709",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/NetApp-Reviews-E5406.htm"
+        }
+    },
+    {
+        "name": "anzBank",
+        "displayName": "ANZ Bank",
+        "description": "",
+        "companyId": "187",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/e/e7/ANZ-brand.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.anz.com.au/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "6235",
+            "displayUserCount": "6,235",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/ANZ-Reviews-E5782.htm"
+        }
     }
 ]
