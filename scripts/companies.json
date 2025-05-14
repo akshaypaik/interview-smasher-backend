@@ -3086,5 +3086,117 @@
             "displayUserCount": "10,925",
             "ratingLink": "https://www.glassdoor.co.in/Reviews/Globant-Reviews-E150678.htm"
         }
+    },
+    {
+        "name": "luxoft",
+        "displayName": "Luxoft",
+        "description": "",
+        "companyId": "194",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/8/82/Luxoft_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://career.luxoft.com/locations/india",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "4962",
+            "displayUserCount": "4,962",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Luxoft-Bangalore-Reviews-EI_IE116344.0,6_IL.7,16_IM1091.htm"
+        }
+    },
+    {
+        "name": "amazonWebServices",
+        "displayName": "AWS",
+        "description": "",
+        "companyId": "195",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://aws.amazon.com/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "13049",
+            "displayUserCount": "13,049",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Amazon-AWS-Reviews-EI_IE6036.0,6_KO7,10.htm"
+        }
+    },
+    {
+        "name": "sapiens",
+        "displayName": "Sapiens",
+        "description": "",
+        "companyId": "196",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/1/15/Sapiens_logo.jpg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.sapiens.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "1196",
+            "displayUserCount": "1,196",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Sapiens-Reviews-E3798.htm"
+        }
+    },
+    {
+        "name": "juniperNetworks",
+        "displayName": "Juniper Networks",
+        "description": "",
+        "companyId": "197",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/3/31/Juniper_Networks_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://jobs.juniper.net/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "5026",
+            "displayUserCount": "5,026",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Juniper-Networks-Reviews-E7224.htm"
+        }
+    },
+    {
+        "name": "geVernova",
+        "displayName": "GE Vernova",
+        "description": "",
+        "companyId": "198",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/65/GE_Vernova_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.gevernova.com/global/en",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "2923",
+            "displayUserCount": "2.923",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/GE-Vernova-Reviews-E740889.htm"
+        }
+    },
+    {
+        "name": "warnerBrosDiscovery",
+        "displayName": "Warner Bros Discovery",
+        "description": "",
+        "companyId": "199",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/3/34/Warner_Bros._Discovery_logo.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.wbd.com/global/en",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "4863",
+            "displayUserCount": "4,863",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Warner-Bros-Discovery-Reviews-E12777.htm"
+        }
+    },
+    {
+        "name": "optum",
+        "displayName": "Optum",
+        "description": "",
+        "companyId": "200",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Optum_logo_2021.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.optum.in/about/careers.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.5",
+            "userCount": "15112",
+            "displayUserCount": "15,112",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Optum-Bangalore-Reviews-EI_IE2409113.0,5_IL.6,15_IM1091.htm"
+        }
     }
 ]
