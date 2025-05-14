@@ -2990,5 +2990,101 @@
             "displayUserCount": "6,235",
             "ratingLink": "https://www.glassdoor.co.in/Reviews/ANZ-Reviews-E5782.htm"
         }
+    },
+    {
+        "name": "bankOfAmerica",
+        "displayName": "Bank of America",
+        "description": "",
+        "companyId": "188",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/20/Bank_of_America_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.bankofamerica.com/en-us/job-search",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "45222",
+            "displayUserCount": "45,222",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Bank-of-America-Reviews-E8874.htm"
+        }
+    },
+    {
+        "name": "generalElectric",
+        "displayName": "GE",
+        "description": "",
+        "companyId": "189",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/f/ff/General_Electric_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.geappliances.com/pages/india",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "20602",
+            "displayUserCount": "20,602",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/GE-Reviews-E277.htm"
+        }
+    },
+    {
+        "name": "continental",
+        "displayName": "Continental",
+        "description": "",
+        "companyId": "190",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Continental_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.continental.com/en/career/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "10552",
+            "displayUserCount": "10,552",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Continental-Reviews-E3768.htm"
+        }
+    },
+    {
+        "name": "ikea",
+        "displayName": "IKEA",
+        "description": "",
+        "companyId": "191",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikea_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://jobs.ikea.com/en",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "16990",
+            "displayUserCount": "16,990",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/IKEA-Reviews-E3957.htm"
+        }
+    },
+    {
+        "name": "deutscheBank",
+        "displayName": "Deutsche Bank",
+        "description": "",
+        "companyId": "192",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Deutsche_Bank_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.db.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "15188",
+            "displayUserCount": "15,188",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Deutsche-Bank-Reviews-E3150.htm"
+        }
+    },
+    {
+        "name": "globant",
+        "displayName": "Globant",
+        "description": "",
+        "companyId": "193",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Globant_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.globant.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "10925",
+            "displayUserCount": "10,925",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Globant-Reviews-E150678.htm"
+        }
     }
 ]
