@@ -3198,5 +3198,165 @@
             "displayUserCount": "15,112",
             "ratingLink": "https://www.glassdoor.co.in/Reviews/Optum-Bangalore-Reviews-EI_IE2409113.0,5_IL.6,15_IM1091.htm"
         }
+    },
+    {
+        "name": "thermoFisherScientific",
+        "displayName": "Thermo Fisher Scientific",
+        "description": "",
+        "companyId": "201",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/5/50/Thermo_Fisher_Scientific_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://jobs.thermofisher.com/global/en",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "13869",
+            "displayUserCount": "13,869",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Thermo-Fisher-Scientific-India-Reviews-EI_IE658.0,24_IL.25,30_IN115.htm"
+        }
+    },
+    {
+        "name": "capitalOne",
+        "displayName": "Capital One",
+        "description": "",
+        "companyId": "202",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/9/98/Capital_One_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.capitalonecareers.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "19355",
+            "displayUserCount": "19,355",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Capital-One-Reviews-E3736.htm"
+        }
+    },
+    {
+        "name": "nasdaq",
+        "displayName": "Nasdaq",
+        "description": "",
+        "companyId": "203",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/8/87/NASDAQ_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.nasdaq.com/about/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "1502",
+            "displayUserCount": "1,502",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Nasdaq-Reviews-E12152.htm"
+        }
+    },
+    {
+        "name": "agoda",
+        "displayName": "Agoda",
+        "description": "",
+        "companyId": "204",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Agoda_logo_2019.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careersatagoda.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "2914",
+            "displayUserCount": "2,914",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Agoda-Reviews-E461386.htm"
+        }
+    },
+    {
+        "name": "foundever",
+        "displayName": "Foundever",
+        "description": "",
+        "companyId": "205",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Foundever_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://jobs.foundever.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "21509",
+            "displayUserCount": "21,509",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Foundever-Reviews-E11480.htm"
+        }
+    },
+    {
+        "name": "fordMotorCompany",
+        "displayName": "Ford Motor Company",
+        "description": "",
+        "companyId": "206",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Ford_Motor_Company_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.india.ford.com/about-ford/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "16191",
+            "displayUserCount": "16,191",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Ford-Motor-Company-Reviews-E263.htm"
+        }
+    },
+    {
+        "name": "novartis",
+        "displayName": "Novartis",
+        "description": "",
+        "companyId": "207",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/68/Novartis-Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.novartis.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "11866",
+            "displayUserCount": "11,866",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Novartis-Reviews-E6667.htm"
+        }
+    },
+    {
+        "name": "bainAndCompany",
+        "displayName": "Bain & Company",
+        "description": "",
+        "companyId": "208",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Bain_%26_Company_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.bain.com/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.3",
+            "userCount": "9236",
+            "displayUserCount": "9,236",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Bain-and-Company-Reviews-E3752.htm"
+        }
+    },
+    {
+        "name": "procterAndGamble",
+        "displayName": "Procter & Gamble",
+        "description": "",
+        "companyId": "209",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/8/85/Procter_%26_Gamble_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.pgcareers.com/in/en",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "19751",
+            "displayUserCount": "19,751",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Procter-and-Gamble-Reviews-E544.htm"
+        }
+    },
+    {
+        "name": "generalMills",
+        "displayName": "General Mills",
+        "description": "",
+        "companyId": "210",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/0/00/General_Mills_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.generalmills.com/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "4830",
+            "displayUserCount": "4,830",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/General-Mills-Reviews-E278.htm"
+        }
     }
 ]
