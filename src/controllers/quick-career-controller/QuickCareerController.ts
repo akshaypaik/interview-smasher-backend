@@ -50,6 +50,16 @@ class QuickCareerController {
         }
     }
 
+    public async updateQuickCareerJobLinkDetails(req: Request, res: Response) {
+        try {
+            const jobLinkDetails = req?.body;
+            const response = await quickCareerService.updateQuickCareerJobLinkDetails(jobLinkDetails);
+            res.send(response);
+        } catch (error) {
+            res.send(error);
+        }
+    }
+
 }
 
 const quickCareerController = new QuickCareerController();

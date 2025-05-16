@@ -3358,5 +3358,37 @@
             "displayUserCount": "4,830",
             "ratingLink": "https://www.glassdoor.co.in/Reviews/General-Mills-Reviews-E278.htm"
         }
+    },
+    {
+        "name": "photon",
+        "displayName": "Photon",
+        "description": "",
+        "companyId": "211",
+        "companyIconURL": "https://www.photon.com/themes/custom/photon/images/logo_photon.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.photon.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "2377",
+            "displayUserCount": "2,377",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Photon-Reviews-E100788.htm"
+        }
+    },
+    {
+        "name": "barclays",
+        "displayName": "Barclays",
+        "description": "",
+        "companyId": "212",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/7/7e/Barclays_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://home.barclays/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "22831",
+            "displayUserCount": "22,831",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Barclays-Reviews-E3456.htm"
+        }
     }
 ]

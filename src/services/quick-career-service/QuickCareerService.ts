@@ -184,6 +184,54 @@ class QuickCareerService {
         }
     }
 
+    async updateQuickCareerJobLinkDetails(jobLinkDetails: QuickCareerJobLink) {
+        try {
+            console.log(`[QuickCareerService] updating job details link for entire row: ${jobLinkDetails}`);
+            Logger.info(`[QuickCareerService] updating job details link for entire row: ${jobLinkDetails}`);
+            const quickCareerJobLinkCollection = db.dbConnector.db("InterviewSmasher").collection("quickCareerJobLink");
+            
+            const { _id, ...fieldsToUpdate } = jobLinkDetails;
+
+            await quickCareerJobLinkCollection.updateOne(
+                {
+                    company: jobLinkDetails.company,
+                    _id: new ObjectId(jobLinkDetails._id),
+                    "user.email": jobLinkDetails.user.email
+                },
+                {
+                    $set: {
+                        ...fieldsToUpdate,
+                    }
+                }
+            );
+
+            // invalidate redis cache
+            redisUtils.setExpiry(`${this.redisEntity}`, `${jobLinkDetails?.user?.email}`, 0);
+
+            console.log(`[QuickCareerService] updating job details link for entire row completed`);
+            Logger.info(`[QuickCareerService] updating job details link for entire row completed`);
+            let messageModel = {
+                statusMessage: "successully updated job details link for entire row!",
+                statusCode: 0,
+            };
+            return messageModel;
+        } catch (error) {
+            console.log(
+                "[QuickCareerService] updateStatusApplied: error occured: ",
+                error
+            );
+            Logger.error(
+                "[QuickCareerService] updateStatusApplied: error occured: ",
+                error
+            );
+            let messageModel = {
+                statusMessage: "Error updating job details link for entire row!",
+                statusCode: -1,
+            };
+            throw messageModel;
+        }
+    }
+
 }
 
 const quickCareerService = new QuickCareerService();
