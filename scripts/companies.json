@@ -1396,7 +1396,7 @@
         "displayName": "BigBasket",
         "description": "",
         "companyId": "88",
-        "companyIconURL": "https://logo.clearbit.com/bigbasket.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/a/a2/BigBasket_Logo.png",
         "isProductBased": true,
         "companyCareerPageURL": "https://www.bigbasket.com/careers/",
         "userRatings": {
@@ -1412,7 +1412,7 @@
         "displayName": "Pinterest",
         "description": "",
         "companyId": "89",
-        "companyIconURL": "https://logo.clearbit.com/pinterest.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/3/35/Pinterest_Logo.svg",
         "isProductBased": true,
         "companyCareerPageURL": "https://careers.pinterest.com/",
         "userRatings": {
@@ -1428,7 +1428,7 @@
         "displayName": "Nykaa",
         "description": "",
         "companyId": "90",
-        "companyIconURL": "https://logo.clearbit.com/nykaa.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/0/00/Nykaa_New_Logo.svg",
         "isProductBased": true,
         "companyCareerPageURL": "https://careers.nykaa.com/",
         "userRatings": {
@@ -1492,7 +1492,7 @@
         "displayName": "Naukri",
         "description": "Naukri is India’s largest job search portal and part of Info Edge India Ltd.",
         "companyId": "94",
-        "companyIconURL": "https://logo.clearbit.com/naukri.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/f/f3/Naukri_logo.svg",
         "isProductBased": true,
         "companyCareerPageURL": "https://careers.infoedge.in/",
         "userRatings": {
@@ -1508,7 +1508,7 @@
         "displayName": "Upstox",
         "description": "Upstox is a low-cost brokerage firm offering trading services in stocks, commodities, and mutual funds.",
         "companyId": "95",
-        "companyIconURL": "https://logo.clearbit.com/upstox.com",
+        "companyIconURL": "https://assets.upstox.com/website/images/upstox-new-logo.svg",
         "isProductBased": true,
         "companyCareerPageURL": "https://upstox.com/careers/",
         "userRatings": {
@@ -1524,7 +1524,7 @@
         "displayName": "PolicyBazaar",
         "description": "PolicyBazaar is an Indian insurance aggregator and a global financial technology company.",
         "companyId": "96",
-        "companyIconURL": "https://logo.clearbit.com/policybazaar.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/1/10/Policybazaar_Logo.gif",
         "isProductBased": true,
         "companyCareerPageURL": "https://www.policybazaar.com/careers/",
         "userRatings": {
@@ -1540,7 +1540,7 @@
         "displayName": "CRED",
         "description": "CRED is a members-only app that rewards users with exclusive offers for paying credit card bills on time.",
         "companyId": "97",
-        "companyIconURL": "https://logo.clearbit.com/cred.club",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/7/7c/CRED_%28FinTech_company%29_logo.png",
         "isProductBased": true,
         "companyCareerPageURL": "https://careers.cred.club/openings",
         "userRatings": {
@@ -1556,7 +1556,7 @@
         "displayName": "Unacademy",
         "description": "Unacademy is India’s largest learning platform offering courses for various competitive exams.",
         "companyId": "98",
-        "companyIconURL": "https://logo.clearbit.com/unacademy.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Unacademy_Logo.png",
         "isProductBased": true,
         "companyCareerPageURL": "https://unacademy.com/careers",
         "userRatings": {
@@ -1572,7 +1572,7 @@
         "displayName": "Meesho",
         "description": "Meesho is India’s largest social commerce platform.",
         "companyId": "99",
-        "companyIconURL": "https://logo.clearbit.com/meesho.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/3/33/Meesho_logo.png",
         "isProductBased": true,
         "companyCareerPageURL": "https://www.meesho.io/jobs",
         "userRatings": {
@@ -1588,7 +1588,7 @@
         "displayName": "Snapdeal",
         "description": "Snapdeal is one of India’s largest online marketplaces.",
         "companyId": "100",
-        "companyIconURL": "https://logo.clearbit.com/snapdeal.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/3/35/Snapdeal_Logo_new.png",
         "isProductBased": true,
         "companyCareerPageURL": "https://blog.snapdeal.com/index.php/careers/",
         "userRatings": {
@@ -1604,7 +1604,7 @@
         "displayName": "OYO",
         "description": "OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes.",
         "companyId": "101",
-        "companyIconURL": "https://logo.clearbit.com/oyorooms.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/1/19/OYO_Rooms_%28logo%29.png",
         "isProductBased": true,
         "companyCareerPageURL": "https://www.oyorooms.com/careers",
         "userRatings": {
@@ -1620,7 +1620,7 @@
         "displayName": "Goibibo",
         "description": "Goibibo is an Indian online travel booking platform.",
         "companyId": "102",
-        "companyIconURL": "https://logo.clearbit.com/goibibo.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Goibibo_logo.png",
         "isProductBased": true,
         "companyCareerPageURL": "https://careers.goibibo.com/",
         "userRatings": {
@@ -1636,7 +1636,7 @@
         "displayName": "Ixigo",
         "description": "Ixigo is an Indian AI-based travel app for booking flights, trains, and hotels.",
         "companyId": "103",
-        "companyIconURL": "https://logo.clearbit.com/ixigo.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Ixigo_logo.svg",
         "isProductBased": true,
         "companyCareerPageURL": "https://www.ixigo.com/careers",
         "userRatings": {
@@ -1652,7 +1652,7 @@
         "displayName": "Dunzo",
         "description": "Dunzo is an Indian delivery service company providing logistics and personal assistance.",
         "companyId": "104",
-        "companyIconURL": "https://logo.clearbit.com/dunzo.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Dunzo_Logo.svg",
         "isProductBased": true,
         "companyCareerPageURL": "https://www.dunzo.com/careers",
         "userRatings": {
@@ -1668,7 +1668,7 @@
         "displayName": "BrowserStack",
         "description": "BrowserStack is a cloud web and mobile testing platform.",
         "companyId": "105",
-        "companyIconURL": "https://logo.clearbit.com/browserstack.com",
+        "companyIconURL": "https://browserstack.wpenginepowered.com/wp-content/themes/browserstack/img/bstack-logo-global.svg",
         "isProductBased": true,
         "companyCareerPageURL": "https://www.browserstack.com/careers",
         "userRatings": {
@@ -1684,7 +1684,7 @@
         "displayName": "Mphasis",
         "description": "Mphasis is an IT services company providing infrastructure technology and applications outsourcing services.",
         "companyId": "106",
-        "companyIconURL": "https://logo.clearbit.com/mphasis.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/4/43/Mphasis_-_The_Next_Applied.png",
         "isProductBased": false,
         "companyCareerPageURL": "https://careers.mphasis.com/",
         "userRatings": {
@@ -1700,7 +1700,7 @@
         "displayName": "Hexaware",
         "description": "Hexaware is a global IT services company specializing in IT, BPO, and consulting services.",
         "companyId": "107",
-        "companyIconURL": "https://logo.clearbit.com/hexaware.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Hexaware_new_logo.svg",
         "isProductBased": false,
         "companyCareerPageURL": "https://hexaware.com/careers/",
         "userRatings": {
@@ -1716,7 +1716,7 @@
         "displayName": "Birlasoft",
         "description": "Birlasoft provides enterprise digital solutions and IT services.",
         "companyId": "108",
-        "companyIconURL": "https://logo.clearbit.com/birlasoft.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/4/45/Birlasoft_logo.png",
         "isProductBased": false,
         "companyCareerPageURL": "https://www.birlasoft.com/careers",
         "userRatings": {
@@ -1732,7 +1732,7 @@
         "displayName": "Sonata Software",
         "description": "Sonata Software is a global IT services company providing services in digital transformation.",
         "companyId": "109",
-        "companyIconURL": "https://logo.clearbit.com/sonata-software.com",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/c/c8/Sonata_Software_Logo.png",
         "isProductBased": false,
         "companyCareerPageURL": "https://www.sonata-software.com/about-us/careers",
         "userRatings": {
@@ -3389,6 +3389,70 @@
             "userCount": "22831",
             "displayUserCount": "22,831",
             "ratingLink": "https://www.glassdoor.co.in/Reviews/Barclays-Reviews-E3456.htm"
+        }
+    },
+    {
+        "name": "klausITSolutions",
+        "displayName": "Klaus IT Solutions",
+        "description": "",
+        "companyId": "213",
+        "companyIconURL": "https://klausit.com/wp-content/uploads/2022/08/Klaus_Logo_Final_-_1-removebg-preview.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://klausit.com/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "207",
+            "displayUserCount": "207",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Klaus-IT-Solutions-Reviews-E601484.htm"
+        }
+    },
+    {
+        "name": "cloverInfotech",
+        "displayName": "Clover Infotech",
+        "description": "",
+        "companyId": "214",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/3/31/Clover_mobile_app_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.cloverinfotech.com/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.3",
+            "userCount": "1083",
+            "displayUserCount": "1,083",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Clover-Infotech-Reviews-E323509.htm"
+        }
+    },
+    {
+        "name": "diligentCorporation",
+        "displayName": "Diligent Corporation",
+        "description": "",
+        "companyId": "215",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/7/78/Diligent_Corporation_company_logo.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.diligent.com/company/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.4",
+            "userCount": "783",
+            "displayUserCount": "783",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Diligent-Reviews-E500821.htm"
+        }
+    },
+    {
+        "name": "tekSystems",
+        "displayName": "TEKsystems",
+        "description": "",
+        "companyId": "216",
+        "companyIconURL": "https://www.teksystems.com/cdn-cgi/image/quality=95,format=webp/https://www.teksystems.com/-/media/teksystems/images/logos/teksystems-logo.svg?iar=0&amp;rev=a04ca0732d574f6e9ac09e5bf61d4264&amp;hash=6CD6804717F69F4BAEF33E9ADA2FD454",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.teksystems.com/en-in/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "12864",
+            "displayUserCount": "12,864",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/TEKsystems-Reviews-E23297.htm"
         }
     }
 ]
