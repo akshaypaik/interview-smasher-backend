@@ -107,6 +107,14 @@ class QuickCareerService {
             console.log(`[QuickCareerService] updating job details link: ${jobLinkDetails}`);
             Logger.info(`[QuickCareerService] updating job details link: ${jobLinkDetails}`);
             const quickCareerJobLinkCollection = db.dbConnector.db("InterviewSmasher").collection("quickCareerJobLink");
+            
+            let rowDate: any;
+            if(jobLinkDetails?.jobStatus === "Interview Scheduled"){
+                rowDate = jobLinkDetails?.createdOn;
+            }else{
+                rowDate = helperService.getUTCTimeNow();
+            }
+
             await quickCareerJobLinkCollection.updateOne(
                 {
                     company: jobLinkDetails.company,
@@ -116,7 +124,7 @@ class QuickCareerService {
                 {
                     $set: {
                         jobStatus: jobLinkDetails.jobStatus,
-                        createdOn: helperService.getUTCTimeNow()
+                        createdOn: rowDate
                     }
                 }
             );
