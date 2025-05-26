@@ -1,4 +1,6 @@
+import { redisClient } from "../redis/redisClient";
 import Logger from "../logs/Logger";
+import { redisUtils } from "../redis/redisUtils";
 
 const MAX_REQUEST_COUNT = 120;
 
@@ -9,8 +11,10 @@ interface UserInfo {
     count: number;
 }
 
-class RateLimiter{
-    
+class RateLimiter {
+
+    public redisClient = redisClient.client;
+    // not using this local object intead using redis for state management.
     public userInfo: UserInfo = {
         email: "",
         startTime: new Date(),
@@ -19,7 +23,9 @@ class RateLimiter{
 
     };
 
-    public setUserInfo(userDetails: any){
+    public setUserInfo(userDetails: any, apiURL: string) {
+        const redisEntity = `rateLimiter:${userDetails?.email}`
+        const redisKey = `${apiURL}`;
         const userInfo = {
             email: userDetails.email,
             startTime: Date.now(),
@@ -27,35 +33,43 @@ class RateLimiter{
             endTime: Date.now() + 60 * 1000,    // 60 minute
             count: 1
         }
-        this.userInfo[userDetails.email] = userInfo;
+        // this.userInfo[userDetails.email] = userInfo;
+        redisUtils.setEntry(redisEntity, redisKey, JSON.stringify(userInfo));
     }
-    
-    public async checkRateLimiter(userDetails: any, res: any){
+
+    public async checkRateLimiter(userDetails: any, res: any, apiURL: string) {
         console.log(`check rate limiter started for user: ${userDetails.email}`);
-        if(!this.userInfo[userDetails.email]){
-            console.log(`setting user info object rate limiter for user: ${userDetails.email}`);
-            Logger.info(`setting user info object rate limiter for user: ${userDetails.email}`);
-            this.setUserInfo(userDetails);
+        const redisEntity = `rateLimiter:${userDetails?.email}`
+        const redisKey = `${apiURL}`;
+        let userInfo: any = await redisUtils.getEntry(redisEntity, redisKey);
+        if (userInfo) {
+            userInfo = JSON.parse(userInfo);
+        }
+        if (!userInfo) {
+            console.log(`setting user info object rate limiter for user: ${userInfo?.email}`);
+            Logger.info(`setting user info object rate limiter for user: ${userInfo?.email}`);
+            this.setUserInfo(userDetails, apiURL);
             return true;
         }
-        else if(this.userInfo[userDetails.email].count < MAX_REQUEST_COUNT 
-            && Date.now() > this.userInfo[userDetails.email].startTime 
-            && Date.now() < this.userInfo[userDetails.email].endTime){
+        else if (userInfo.count < MAX_REQUEST_COUNT
+            && Date.now() > userInfo.startTime
+            && Date.now() < userInfo.endTime) {
             // allow api access
-            this.userInfo[userDetails.email].count += 1; 
-            console.log(`check rate limiter count: ${this.userInfo[userDetails.email].count}`);
-            Logger.info(`check rate limiter count: ${this.userInfo[userDetails.email].count}`);
-            return true;
-        } 
-        else if(Date.now() > this.userInfo[userDetails.email].endTime){
-            this.setUserInfo(userDetails);
+            userInfo.count += 1;
+            console.log(`check rate limiter count: ${userInfo.count}`);
+            Logger.info(`check rate limiter count: ${userInfo.count}`);
+            redisUtils.setEntry(redisEntity, redisKey, JSON.stringify(userInfo));
             return true;
         }
-        else{
+        else if (Date.now() > userInfo.endTime) {
+            this.setUserInfo(userDetails, apiURL);
+            return true;
+        }
+        else {
             console.log(`check rate limiter ended with a deny for user: ${userDetails.email}`);
             Logger.error(`check rate limiter ended with a deny for user: ${userDetails.email}`);
             return false;
-           
+
         }
     }
 }

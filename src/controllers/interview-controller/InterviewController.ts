@@ -12,7 +12,7 @@ class InterviewController {
             const userDetails = {
                 email: req?.query?.email ? req?.query?.email?.toString() : "default"
             }
-            const isValidReq = await rateLimiter.checkRateLimiter(userDetails, res);
+            const isValidReq = await rateLimiter.checkRateLimiter(userDetails, res, "getInterviewCompaniesSearchResults");
             if (!isValidReq) {
                 res.status(429).send({
                     message: "Too many request. please try again after some time!"
