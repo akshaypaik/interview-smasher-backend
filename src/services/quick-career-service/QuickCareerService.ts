@@ -77,6 +77,7 @@ class QuickCareerService {
                         displayName: jobEntry.company
                     });
                     jobEntry['companyIconURL'] = response?.companyIconURL ? response.companyIconURL : undefined;
+                    jobEntry['companyId'] = response?.companyId ? response.companyId : undefined;
                 }
             }
             console.log("[QuickCareerService] get job link details api fetching completed");
@@ -107,12 +108,42 @@ class QuickCareerService {
             console.log(`[QuickCareerService] updating job details link: ${jobLinkDetails}`);
             Logger.info(`[QuickCareerService] updating job details link: ${jobLinkDetails}`);
             const quickCareerJobLinkCollection = db.dbConnector.db("InterviewSmasher").collection("quickCareerJobLink");
-            
+
             let rowDate: any;
-            if(jobLinkDetails?.jobStatus === "Interview Scheduled"){
+            if (jobLinkDetails?.jobStatus === "Interview Scheduled") {
                 rowDate = jobLinkDetails?.createdOn;
-            }else{
+            } else {
                 rowDate = helperService.getUTCTimeNow();
+            }
+
+            if (jobLinkDetails?.jobStatus === "Applied") {
+                console.log(`[QuickCareerService] updating applied company entry in appliedCompanies collection for: 
+                    ${JSON.stringify(jobLinkDetails)}`)
+                const appliedCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("appliedCompanies");
+                const companiesCollection = db.dbConnector.db("InterviewSmasher").collection("companies");
+                const companyDetails = await companiesCollection.findOne({
+                    companyId: jobLinkDetails?.companyId
+                })
+                const updatedCompanyDetails = {
+                    ...companyDetails,
+                    isApplied: true,
+                    user: jobLinkDetails?.user
+                }
+                await appliedCompaniesCollection.insertOne(updatedCompanyDetails);
+            } else {
+                const appliedCompaniesCollection = db.dbConnector.db("InterviewSmasher").collection("appliedCompanies");
+                const response = await appliedCompaniesCollection.findOne({
+                    companyId: jobLinkDetails?.companyId,
+                    "user.email": jobLinkDetails?.user.email
+                });
+                if (response && response?.companyId) {
+                    const response = await appliedCompaniesCollection.deleteOne({
+                        companyId: jobLinkDetails.companyId,
+                        "user.email": jobLinkDetails.user.email
+                    });
+                    console.log("[QuickCareerService] deleted already applied company from appliedCompanies collection: ",
+                        response);
+                }
             }
 
             await quickCareerJobLinkCollection.updateOne(
@@ -197,7 +228,7 @@ class QuickCareerService {
             console.log(`[QuickCareerService] updating job details link for entire row: ${jobLinkDetails}`);
             Logger.info(`[QuickCareerService] updating job details link for entire row: ${jobLinkDetails}`);
             const quickCareerJobLinkCollection = db.dbConnector.db("InterviewSmasher").collection("quickCareerJobLink");
-            
+
             const { _id, ...fieldsToUpdate } = jobLinkDetails;
 
             await quickCareerJobLinkCollection.updateOne(

@@ -9,5 +9,6 @@ export default interface QuickCareerJobLink {
     jobLink: string;
     jobStatus: string;
     user: User,
-    createdOn: any
+    createdOn: any,
+    companyId: string
 }
