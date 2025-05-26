@@ -3454,5 +3454,229 @@
             "displayUserCount": "12,864",
             "ratingLink": "https://www.glassdoor.co.in/Reviews/TEKsystems-Reviews-E23297.htm"
         }
+    },
+    {
+        "name": "tracxn",
+        "displayName": "Tracxn",
+        "description": "",
+        "companyId": "217",
+        "companyIconURL": "https://cdn.tracxn.com/images/static/tracxn-logo-full-100x22.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.tracxn.com/jobs/Careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.1",
+            "userCount": "691",
+            "displayUserCount": "691",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Tracxn-Reviews-E986542.htm"
+        }
+    },
+    {
+        "name": "burnsAndMcDonnell",
+        "displayName": "Burns & McDonnell",
+        "description": "",
+        "companyId": "218",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Burns-%26-McDonnell_logo.webp",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.burnsmcd.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "2037",
+            "displayUserCount": "2,037",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Burns-and-McDonnell-Reviews-E26324.htm"
+        }
+    },
+    {
+        "name": "arrowElectronics",
+        "displayName": "Arrow Electronics",
+        "description": "",
+        "companyId": "219",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/0/04/Arrow_Electronics_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "http://careers.arrow.com/us/en",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "3037",
+            "displayUserCount": "3,037",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Arrow-Electronics-Reviews-E56.htm"
+        }
+    },
+    {
+        "name": "emiratesGroup",
+        "displayName": "Emirates Group",
+        "description": "",
+        "companyId": "220",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Emirates_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.emiratesgroupcareers.com/search-and-apply/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "5745",
+            "displayUserCount": "5,745",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/The-Emirates-Group-Reviews-E23433.htm"
+        }
+    },
+    {
+        "name": "deltaAirlines ",
+        "displayName": "Delta Air Lines",
+        "description": "",
+        "companyId": "221",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Delta_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.delta.com/us/en/careers/overview",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "8742",
+            "displayUserCount": "8,742",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Delta-Air-Lines-Reviews-E197.htm"
+        }
+    },
+    {
+        "name": "siemensGamesa",
+        "displayName": "Siemens Gamesa",
+        "description": "",
+        "companyId": "222",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Siemens_Gamesa_logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.siemensgamesa.com/global/en/home/career.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "1921",
+            "displayUserCount": "1,921",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Siemens-Gamesa-Reviews-E1625622.htm"
+        }
+    },
+    {
+        "name": "3m",
+        "displayName": "3M",
+        "description": "",
+        "companyId": "223",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/1/15/3M_wordmark.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.3mindia.in/3M/en_IN/careers-in/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "7898",
+            "displayUserCount": "7,898",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/3M-Reviews-E446.htm"
+        }
+    },
+    {
+        "name": "londonStockExchangeGroup",
+        "displayName": "LSEG",
+        "description": "",
+        "companyId": "224",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/4/40/London_Stock_Exchange_Group_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.lseg.com/en/careers/where-we-work/bengaluru-india",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "3174",
+            "displayUserCount": "3,174",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/LSEG-London-Stock-Exchange-Group-Reviews-E11860.htm"
+        }
+    },
+    {
+        "name": "tysonFoods",
+        "displayName": "Tyson Foods",
+        "description": "",
+        "companyId": "225",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/4/40/Tyson_Foods_corporate_logo_%282024%29.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.tysonfoods.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "3330",
+            "displayUserCount": "3,330",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Tyson-Foods-Reviews-E1975.htm"
+        }
+    },
+    {
+        "name": "cargill",
+        "displayName": "Cargill",
+        "description": "",
+        "companyId": "226",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/3/30/Cargill_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.cargill.com/en/search-jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "9314",
+            "displayUserCount": "9,314",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Cargill-Reviews-E2739.htm"
+        }
+    },
+    {
+        "name": "telstra",
+        "displayName": "Telstra",
+        "description": "",
+        "companyId": "227",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/c/c1/Telstra_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.telstra.com.au/careers/in",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "5356",
+            "displayUserCount": "5,356",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Telstra-Reviews-E6563.htm"
+        }
+    },
+    {
+        "name": "moodysCorporation",
+        "displayName": "Moody's Corporation",
+        "description": "",
+        "companyId": "228",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/1/12/Moody%27s_new_logo.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.moodys.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "4139",
+            "displayUserCount": "4,139",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Moody-s-Reviews-E11303.htm"
+        }
+    },
+    {
+        "name": "kaplan",
+        "displayName": "Kaplan",
+        "description": "",
+        "companyId": "229",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Kaplan%2C_Inc._logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://kaplan.com/about/work-with-us",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "2678",
+            "displayUserCount": "2,678",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Kaplan-Reviews-E11978.htm"
+        }
+    },
+    {
+        "name": "sopraSteria",
+        "displayName": "Sopra Steria",
+        "description": "",
+        "companyId": "230",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/6/62/Sopra_Steria_logo_2.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.soprasteria.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "8827",
+            "displayUserCount": "8,827",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Sopra-Steria-Reviews-E466295.htm"
+        }
     }
 ]
