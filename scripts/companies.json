@@ -3678,5 +3678,85 @@
             "displayUserCount": "8,827",
             "ratingLink": "https://www.glassdoor.co.in/Reviews/Sopra-Steria-Reviews-E466295.htm"
         }
+    },
+    {
+        "name": "target",
+        "displayName": "Target",
+        "description": "",
+        "companyId": "231",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Target_%282018%29.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://corporate.target.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "93271",
+            "displayUserCount": "93,271",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Target-Reviews-E194.htm"
+        }
+    },
+    {
+        "name": "lululemon",
+        "displayName": "Lululemon",
+        "description": "",
+        "companyId": "232",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/22/Lululemon_Athletica_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.lululemon.com/en_US/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "10569",
+            "displayUserCount": "10,569",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/lululemon-Reviews-E42589.htm"
+        }
+    },
+    {
+        "name": "finastra",
+        "displayName": "Finastra",
+        "description": "",
+        "companyId": "233",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/63/Finastra_Logo_2024.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.finastra.com/careers/life-at-finastra",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "3289",
+            "displayUserCount": "3,289",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Finastra-Reviews-E1689268.htm"
+        }
+    },
+    {
+        "name": "broadridgeIndia",
+        "displayName": "Broadridge India",
+        "description": "",
+        "companyId": "234",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/4/41/Logo_for_Broadridge_2024.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://broadridge.wd5.myworkdayjobs.com/Careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "3288",
+            "displayUserCount": "3,288",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Broadridge-Reviews-E42559.htm"
+        }
+    },
+    {
+        "name": "skfGroup",
+        "displayName": "SKF Group",
+        "description": "",
+        "companyId": "235",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/f/f8/SKF_logotype_blue_2025.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://career.skf.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "1697",
+            "displayUserCount": "1,697",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/SKF-Reviews-E3974.htm"
+        }
     }
 ]

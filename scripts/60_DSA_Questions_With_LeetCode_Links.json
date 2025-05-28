@@ -1,0 +1,482 @@
+[
+  {
+    "problemId": 1,
+    "problem": "Two Sum",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Arrays & Strings",
+    "leetCodeLink": "https://leetcode.com/problems/two-sum/"
+  },
+  {
+    "problemId": 2,
+    "problem": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Arrays & Strings",
+    "leetCodeLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+  },
+  {
+    "problemId": 3,
+    "problem": "Contains Duplicate",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Arrays & Strings",
+    "leetCodeLink": "https://leetcode.com/problems/contains-duplicate/"
+  },
+  {
+    "problemId": 4,
+    "problem": "Product of Array Except Self",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Arrays & Strings",
+    "leetCodeLink": "https://leetcode.com/problems/product-of-array-except-self/"
+  },
+  {
+    "problemId": 5,
+    "problem": "Maximum Subarray (Kadane's Algo)",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Arrays & Strings",
+    "leetCodeLink": "https://leetcode.com/problems/maximum-subarray/"
+  },
+  {
+    "problemId": 6,
+    "problem": "Move Zeroes",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Arrays & Strings",
+    "leetCodeLink": "https://leetcode.com/problems/move-zeroes/"
+  },
+  {
+    "problemId": 7,
+    "problem": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Arrays & Strings",
+    "leetCodeLink": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+  },
+  {
+    "problemId": 8,
+    "problem": "Group Anagrams",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Arrays & Strings",
+    "leetCodeLink": "https://leetcode.com/problems/group-anagrams/"
+  },
+  {
+    "problemId": 9,
+    "problem": "Valid Palindrome",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Arrays & Strings",
+    "leetCodeLink": "https://leetcode.com/problems/valid-palindrome/"
+  },
+  {
+    "problemId": 10,
+    "problem": "Rotate Image (Matrix)",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Arrays & Strings",
+    "leetCodeLink": "https://leetcode.com/problems/rotate-image/"
+  },
+  {
+    "problemId": 11,
+    "problem": "First Unique Character in a String",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Hashing & Maps",
+    "leetCodeLink": "https://leetcode.com/problems/first-unique-character-in-a-string/"
+  },
+  {
+    "problemId": 12,
+    "problem": "Intersection of Two Arrays",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Hashing & Maps",
+    "leetCodeLink": "https://leetcode.com/problems/intersection-of-two-arrays/"
+  },
+  {
+    "problemId": 13,
+    "problem": "Top K Frequent Elements",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Hashing & Maps",
+    "leetCodeLink": "https://leetcode.com/problems/top-k-frequent-elements/"
+  },
+  {
+    "problemId": 14,
+    "problem": "Isomorphic Strings",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Hashing & Maps",
+    "leetCodeLink": "https://leetcode.com/problems/isomorphic-strings/"
+  },
+  {
+    "problemId": 15,
+    "problem": "Subarray Sum Equals K",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Hashing & Maps",
+    "leetCodeLink": "https://leetcode.com/problems/subarray-sum-equals-k/"
+  },
+  {
+    "problemId": 16,
+    "problem": "Longest Consecutive Sequence",
+    "difficulty": "Hard",
+    "status": "Yet to be solved",
+    "category": "Hashing & Maps",
+    "leetCodeLink": "https://leetcode.com/problems/longest-consecutive-sequence/"
+  },
+  {
+    "problemId": 17,
+    "problem": "Maximum Sum Subarray of Size K",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Sliding Window",
+    "leetCodeLink": "https://leetcode.com/problems/maximum-sum-subarray-of-size-k/"
+  },
+  {
+    "problemId": 18,
+    "problem": "Longest Subarray with Sum <= K",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Sliding Window",
+    "leetCodeLink": "https://leetcode.com/problems/longest-subarray-with-sum-<=-k/"
+  },
+  {
+    "problemId": 19,
+    "problem": "Minimum Size Subarray Sum",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Sliding Window",
+    "leetCodeLink": "https://leetcode.com/problems/minimum-size-subarray-sum/"
+  },
+  {
+    "problemId": 20,
+    "problem": "Longest Repeating Character Replacement",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Sliding Window",
+    "leetCodeLink": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+  },
+  {
+    "problemId": 21,
+    "problem": "Permutation in String",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Sliding Window",
+    "leetCodeLink": "https://leetcode.com/problems/permutation-in-string/"
+  },
+  {
+    "problemId": 22,
+    "problem": "Subset Sum / Power Set",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Recursion & Backtracking",
+    "leetCodeLink": "https://leetcode.com/problems/subset-sum-power-set/"
+  },
+  {
+    "problemId": 23,
+    "problem": "Permutations",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Recursion & Backtracking",
+    "leetCodeLink": "https://leetcode.com/problems/permutations/"
+  },
+  {
+    "problemId": 24,
+    "problem": "Combination Sum",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Recursion & Backtracking",
+    "leetCodeLink": "https://leetcode.com/problems/combination-sum/"
+  },
+  {
+    "problemId": 25,
+    "problem": "N-Queens",
+    "difficulty": "Hard",
+    "status": "Yet to be solved",
+    "category": "Recursion & Backtracking",
+    "leetCodeLink": "https://leetcode.com/problems/n-queens/"
+  },
+  {
+    "problemId": 26,
+    "problem": "Word Search",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Recursion & Backtracking",
+    "leetCodeLink": "https://leetcode.com/problems/word-search/"
+  },
+  {
+    "problemId": 27,
+    "problem": "Letter Combinations of a Phone Number",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Recursion & Backtracking",
+    "leetCodeLink": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/"
+  },
+  {
+    "problemId": 28,
+    "problem": "Reverse Linked List",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Linked List",
+    "leetCodeLink": "https://leetcode.com/problems/reverse-linked-list/"
+  },
+  {
+    "problemId": 29,
+    "problem": "Detect Cycle in Linked List",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Linked List",
+    "leetCodeLink": "https://leetcode.com/problems/detect-cycle-in-linked-list/"
+  },
+  {
+    "problemId": 30,
+    "problem": "Merge Two Sorted Lists",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Linked List",
+    "leetCodeLink": "https://leetcode.com/problems/merge-two-sorted-lists/"
+  },
+  {
+    "problemId": 31,
+    "problem": "Palindrome Linked List",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Linked List",
+    "leetCodeLink": "https://leetcode.com/problems/palindrome-linked-list/"
+  },
+  {
+    "problemId": 32,
+    "problem": "Remove N-th Node from End",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Linked List",
+    "leetCodeLink": "https://leetcode.com/problems/remove-n-th-node-from-end/"
+  },
+  {
+    "problemId": 33,
+    "problem": "LRU Cache",
+    "difficulty": "Hard",
+    "status": "Yet to be solved",
+    "category": "Linked List",
+    "leetCodeLink": "https://leetcode.com/problems/lru-cache/"
+  },
+  {
+    "problemId": 34,
+    "problem": "Maximum Depth of Binary Tree",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Trees & Binary Trees",
+    "leetCodeLink": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+  },
+  {
+    "problemId": 35,
+    "problem": "Invert Binary Tree",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Trees & Binary Trees",
+    "leetCodeLink": "https://leetcode.com/problems/invert-binary-tree/"
+  },
+  {
+    "problemId": 36,
+    "problem": "Symmetric Tree",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Trees & Binary Trees",
+    "leetCodeLink": "https://leetcode.com/problems/symmetric-tree/"
+  },
+  {
+    "problemId": 37,
+    "problem": "Level Order Traversal (BFS)",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Trees & Binary Trees",
+    "leetCodeLink": "https://leetcode.com/problems/level-order-traversal/"
+  },
+  {
+    "problemId": 38,
+    "problem": "Validate BST",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Trees & Binary Trees",
+    "leetCodeLink": "https://leetcode.com/problems/validate-bst/"
+  },
+  {
+    "problemId": 39,
+    "problem": "Lowest Common Ancestor (BST)",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Trees & Binary Trees",
+    "leetCodeLink": "https://leetcode.com/problems/lowest-common-ancestor-bst/"
+  },
+  {
+    "problemId": 40,
+    "problem": "Diameter of Binary Tree",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Trees & Binary Trees",
+    "leetCodeLink": "https://leetcode.com/problems/diameter-of-binary-tree/"
+  },
+  {
+    "problemId": 41,
+    "problem": "Serialize and Deserialize Binary Tree",
+    "difficulty": "Hard",
+    "status": "Yet to be solved",
+    "category": "Trees & Binary Trees",
+    "leetCodeLink": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+  },
+  {
+    "problemId": 42,
+    "problem": "Clone Graph",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Graphs",
+    "leetCodeLink": "https://leetcode.com/problems/clone-graph/"
+  },
+  {
+    "problemId": 43,
+    "problem": "Number of Islands",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Graphs",
+    "leetCodeLink": "https://leetcode.com/problems/number-of-islands/"
+  },
+  {
+    "problemId": 44,
+    "problem": "Course Schedule (Topological Sort)",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Graphs",
+    "leetCodeLink": "https://leetcode.com/problems/course-schedule/"
+  },
+  {
+    "problemId": 45,
+    "problem": "Pacific Atlantic Water Flow",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Graphs",
+    "leetCodeLink": "https://leetcode.com/problems/pacific-atlantic-water-flow/"
+  },
+  {
+    "problemId": 46,
+    "problem": "Graph Valid Tree",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Graphs",
+    "leetCodeLink": "https://leetcode.com/problems/graph-valid-tree/"
+  },
+  {
+    "problemId": 47,
+    "problem": "Word Ladder",
+    "difficulty": "Hard",
+    "status": "Yet to be solved",
+    "category": "Graphs",
+    "leetCodeLink": "https://leetcode.com/problems/word-ladder/"
+  },
+  {
+    "problemId": 48,
+    "problem": "Climbing Stairs",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Dynamic Programming",
+    "leetCodeLink": "https://leetcode.com/problems/climbing-stairs/"
+  },
+  {
+    "problemId": 49,
+    "problem": "House Robber",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Dynamic Programming",
+    "leetCodeLink": "https://leetcode.com/problems/house-robber/"
+  },
+  {
+    "problemId": 50,
+    "problem": "Coin Change",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Dynamic Programming",
+    "leetCodeLink": "https://leetcode.com/problems/coin-change/"
+  },
+  {
+    "problemId": 51,
+    "problem": "Longest Increasing Subsequence",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Dynamic Programming",
+    "leetCodeLink": "https://leetcode.com/problems/longest-increasing-subsequence/"
+  },
+  {
+    "problemId": 52,
+    "problem": "Longest Common Subsequence",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Dynamic Programming",
+    "leetCodeLink": "https://leetcode.com/problems/longest-common-subsequence/"
+  },
+  {
+    "problemId": 53,
+    "problem": "Edit Distance",
+    "difficulty": "Hard",
+    "status": "Yet to be solved",
+    "category": "Dynamic Programming",
+    "leetCodeLink": "https://leetcode.com/problems/edit-distance/"
+  },
+  {
+    "problemId": 54,
+    "problem": "0/1 Knapsack Problem",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Dynamic Programming",
+    "leetCodeLink": ""
+  },
+  {
+    "problemId": 55,
+    "problem": "Partition Equal Subset Sum",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Dynamic Programming",
+    "leetCodeLink": "https://leetcode.com/problems/partition-equal-subset-sum/"
+  },
+  {
+    "problemId": 56,
+    "problem": "Decode Ways",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Dynamic Programming",
+    "leetCodeLink": "https://leetcode.com/problems/decode-ways/"
+  },
+  {
+    "problemId": 57,
+    "problem": "Word Break",
+    "difficulty": "Medium",
+    "status": "Yet to be solved",
+    "category": "Dynamic Programming",
+    "leetCodeLink": "https://leetcode.com/problems/word-break/"
+  },
+  {
+    "problemId": 58,
+    "problem": "Valid Parentheses",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Stacks & Queues",
+    "leetCodeLink": "https://leetcode.com/problems/valid-parentheses/"
+  },
+  {
+    "problemId": 59,
+    "problem": "Min Stack",
+    "difficulty": "Easy",
+    "status": "Yet to be solved",
+    "category": "Stacks & Queues",
+    "leetCodeLink": "https://leetcode.com/problems/min-stack/"
+  },
+  {
+    "problemId": 60,
+    "problem": "Largest Rectangle in Histogram",
+    "difficulty": "Hard",
+    "status": "Yet to be solved",
+    "category": "Stacks & Queues",
+    "leetCodeLink": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+  }
+]
