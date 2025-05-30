@@ -62,6 +62,9 @@ class UserService {
                     lastName: userDetailsResult.lastName,
                     phoneNumber: userDetailsResult.phoneNumber,
                     profilePicURL: userDetailsResult?.profilePicURL,
+                    githubProfileURL: userDetailsResult?.githubProfileURL,
+                    linkedInProfileURL: userDetailsResult?.linkedInProfileURL,
+                    portfolioWebsiteURL: userDetailsResult?.portfolioWebsiteURL,
                     token: token
                 };
                 console.log(
@@ -121,7 +124,10 @@ class UserService {
                 {
                     $set: {
                         firstName: userDetails.firstName,
-                        lastName: userDetails.lastName
+                        lastName: userDetails.lastName,
+                        githubProfileURL: userDetails?.githubProfileURL,
+                        linkedInProfileURL: userDetails?.linkedInProfileURL,
+                        portfolioWebsiteURL: userDetails?.portfolioWebsiteURL
                     }
                 }
             );

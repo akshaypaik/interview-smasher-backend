@@ -8,4 +8,7 @@ export default class User{
     public phoneNumber?: number;
     public password!: string;
     public profilePicURL?: string;
+    public githubProfileURL?: string;
+    public linkedInProfileURL?: string;
+    public portfolioWebsiteURL?: string;
 }

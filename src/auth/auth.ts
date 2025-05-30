@@ -12,7 +12,10 @@ class Auth {
             firstName: userDetails.firstName,
             lastName: userDetails.lastName,
             phoneNumber: userDetails.phoneNumber,
-            profilePicURL: userDetails.profilePicURL
+            profilePicURL: userDetails.profilePicURL,
+            githubProfileURL: userDetails?.githubProfileURL,
+            linkedInProfileURL: userDetails?.linkedInProfileURL,
+            portfolioWebsiteURL: userDetails?.portfolioWebsiteURL
         }
         const token = jwt.sign(
             payload,

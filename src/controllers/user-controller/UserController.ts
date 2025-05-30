@@ -29,6 +29,9 @@ class UserController {
                 userModel["lastName"] = decoded.lastName;
                 userModel["phoneNumber"] = decoded.phoneNumber;
                 userModel["profilePicURL"] = decoded?.profilePicURL;
+                userModel["githubProfileURL"] = decoded?.githubProfileURL;
+                userModel["linkedInProfileURL"] = decoded?.linkedInProfileURL;
+                userModel["portfolioWebsiteURL"] = decoded?.portfolioWebsiteURL;
             }
             res.send(userModel);
         } catch (error) {
@@ -105,7 +108,7 @@ class UserController {
 
     public async checkEmailExists(req: Request, res: Response) {
         let email = req?.query?.email as string;
-        if(!email){
+        if (!email) {
             res.send(400).send({
                 message: "Invalid request. email is missing"
             })

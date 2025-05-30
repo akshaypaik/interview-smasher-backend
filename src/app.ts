@@ -16,6 +16,7 @@ import path from "path";
 import QuickCareerRoutes from "./routes/QuickCareerRoutes";
 import { redisClient } from "./redis/redisClient";
 import { messageBrokerQ } from "./message-broker/MessageBrokerQ";
+import PreparationRoutes from "./routes/PreparationRoutes";
 
 const app = express();
 
@@ -128,5 +129,6 @@ app.use(TopicsRoutes);
 app.use(InterviewRoutes);
 app.use(UserRoutes);
 app.use(QuickCareerRoutes);
+app.use(PreparationRoutes);
 
 export { app };
