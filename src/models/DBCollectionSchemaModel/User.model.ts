@@ -1,3 +1,5 @@
+import SubscriptionInfo from "./SubscribtionInfo.model";
+
 export default class User{
     public username!: string;
     public email!: string;
@@ -11,4 +13,5 @@ export default class User{
     public githubProfileURL?: string;
     public linkedInProfileURL?: string;
     public portfolioWebsiteURL?: string;
+    public subscriptionInfo!: SubscriptionInfo;
 }
