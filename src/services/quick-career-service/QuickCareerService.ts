@@ -6,6 +6,7 @@ import { redisClient } from "../../redis/redisClient";
 import { redisUtils } from "../../redis/redisUtils";
 import { helperService } from "../../shared/helper";
 import { ObjectId } from "mongodb";
+import moment from 'moment';
 
 class QuickCareerService {
 
@@ -108,6 +109,21 @@ class QuickCareerService {
             console.log(`[QuickCareerService] updating job details link: ${jobLinkDetails}`);
             Logger.info(`[QuickCareerService] updating job details link: ${jobLinkDetails}`);
             const quickCareerJobLinkCollection = db.dbConnector.db("InterviewSmasher").collection("quickCareerJobLink");
+
+
+            if (jobLinkDetails?.jobStatus === "Application Rejected") {
+                const averageApplicationResponseTimeCollection = db.dbConnector.db("InterviewSmasher").collection("averageApplicationResponseTime");
+                const date1 = moment.utc(jobLinkDetails?.createdOn);
+                const date2 = moment.utc(helperService.getUTCTimeNow());
+                const applicationResponseTime = date2.diff(date1, 'days');
+                const responseTimeObj = {
+                    ...jobLinkDetails,
+                    applicationAppliedOn: jobLinkDetails?.createdOn,
+                    applicationRejectedOn: helperService.getUTCTimeNow(),
+                    applicationResponseTime: applicationResponseTime
+                }
+                await averageApplicationResponseTimeCollection.insertOne(responseTimeObj);
+            }
 
             let rowDate: any;
             if (jobLinkDetails?.jobStatus === "Interview Scheduled") {
