@@ -1,12 +1,11 @@
 import { Response, Request } from "express";
-import User from "../../models/DBCollectionSchemaModel/User.model";
 import { upcomingInterviewService } from "../../services/interview-service/UpcomingInterviewService";
 
 class UpcomingInterviewController {
     public async getUpcomingInterviews(req: Request, res: Response) {
         try {
             const userEmail: any = req?.query?.email ? req?.query?.email : "";
-            const useDetails: User = {
+            const useDetails: any = {
                 email: userEmail,
                 userId: "",
                 username: "",

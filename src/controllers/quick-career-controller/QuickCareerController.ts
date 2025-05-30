@@ -1,6 +1,5 @@
 import { Response, Request } from "express";
 import { quickCareerService } from "../../services/quick-career-service/QuickCareerService";
-import User from "../../models/DBCollectionSchemaModel/User.model";
 
 class QuickCareerController {
 
@@ -17,7 +16,7 @@ class QuickCareerController {
     public async getQuickCareerJobLink(req: Request, res: Response) {
         try {
             const userEmail: any = req?.query?.email ? req?.query?.email : "";
-            const userDetails: User = {
+            const userDetails: any = {
                 email: userEmail,
                 userId: "",
                 username: "",

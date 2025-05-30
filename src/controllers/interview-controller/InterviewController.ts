@@ -1,6 +1,5 @@
 import { Response, Request } from "express";
 import { interviewService } from "../../services/interview-service/InterviewService";
-import User from "src/models/DBCollectionSchemaModel/User.model";
 import { rateLimiter } from "../../auth/rate-limiter";
 import { sanitizeInput } from "../../auth/sanitize";
 
@@ -65,11 +64,11 @@ class InterviewController {
     public async getFavoriteCompanies(req: Request, res: Response) {
         try {
             const userEmail: any = req?.query?.email ? req?.query?.email : "";
-            const useDetails: User = {
+            const useDetails: any = {
                 email: userEmail,
                 userId: "",
                 username: "",
-                password: ""
+                password: "",
             }
             const response = await interviewService.getFavoriteCompanies(useDetails);
             res.send(response);
@@ -101,7 +100,7 @@ class InterviewController {
     public async getAppliedCompanies(req: Request, res: Response) {
         try {
             const userEmail: any = req?.query?.email ? req?.query?.email : "";
-            const useDetails: User = {
+            const useDetails: any = {
                 email: userEmail,
                 userId: "",
                 username: "",
