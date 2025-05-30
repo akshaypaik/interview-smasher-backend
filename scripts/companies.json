@@ -4222,5 +4222,117 @@
             "displayUserCount": "1,852",
             "ratingLink": "https://www.glassdoor.co.in/Reviews/AXA-XL-Reviews-E5891.htm"
         }
+    },
+    {
+        "name": "licIndia",
+        "displayName": "Life Insurance Corporation of India",
+        "description": "",
+        "companyId": "265",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/4/4f/Life_Insurance_Corporation_of_India_%28logo%29.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://licindia.in/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.3",
+            "userCount": "821",
+            "displayUserCount": "821",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Life-Insurance-Corporation-of-India-Reviews-E411761.htm"
+        }
+    },
+    {
+        "name": "questGlobal",
+        "displayName": "Quest Global",
+        "description": "",
+        "companyId": "266",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Quest_Software_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.quest-global.com/global/en",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "4426",
+            "displayUserCount": "4,426",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Quest-Global-Reviews-E432989.htm"
+        }
+    },
+    {
+        "name": "cars24.com",
+        "displayName": "CARS24.com",
+        "description": "",
+        "companyId": "267",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Cars24logo.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.cars24.com",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "1629",
+            "displayUserCount": "1,629",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/CARS24-com-Reviews-E1316104.htm"
+        }
+    },
+    {
+        "name": "relianceIndustries",
+        "displayName": "Reliance Industries",
+        "description": "",
+        "companyId": "268",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/0/0e/Reliance_Industries.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.ril.com/rilcareers/index.aspx",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "7477",
+            "displayUserCount": "7,477",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Reliance-Industries-Reviews-E10052.htm"
+        }
+    },
+    {
+        "name": "freshworks",
+        "displayName": "Freshworks",
+        "description": "",
+        "companyId": "269",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Freshworks-vector-logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.freshworks.com/company/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "2806",
+            "displayUserCount": "2,806",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Freshworks-Reviews-E1680273.htm"
+        }
+    },
+    {
+        "name": "tallySolutions",
+        "displayName": "Tally Solutions",
+        "description": "",
+        "companyId": "270",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/0/09/Tally_-_Logo.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://tallysolutions.com/careers/opportunities",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.4",
+            "userCount": "652",
+            "displayUserCount": "652",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Tally-Solutions-Reviews-E370961.htm"
+        }
+    },
+    {
+        "name": "firstsource",
+        "displayName": "Firstsource",
+        "description": "",
+        "companyId": "271",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/4/49/Firstsource.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.firstsource.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "3579",
+            "displayUserCount": "3,579",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Firstsource-Solutions-Reviews-E214162.htm"
+        }
     }
 ]
