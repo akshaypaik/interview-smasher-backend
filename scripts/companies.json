@@ -3998,5 +3998,229 @@
             "displayUserCount": "545",
             "ratingLink": "https://www.glassdoor.co.in/Reviews/Trelleborg-Reviews-E10376.htm"
         }
+    },
+    {
+        "name": "rohdeAndSchwarz",
+        "displayName": "Rohde & Schwarz",
+        "description": "",
+        "companyId": "251",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/1/16/RS_Logo.jpg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.rohde-schwarz.com/fi/career/career-overview/career-overview_257552.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "821",
+            "displayUserCount": "821",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Rohde-and-Schwarz-Reviews-E12926.htm"
+        }
+    },
+    {
+        "name": "splunk",
+        "displayName": "Splunk",
+        "description": "",
+        "companyId": "252",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Splunk_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.splunk.com/en_us/careers.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "2112",
+            "displayUserCount": "2,112",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Splunk-Reviews-E117313.htm"
+        }
+    },
+    {
+        "name": "kimberlyClark",
+        "displayName": "Kimberly-Clark",
+        "description": "",
+        "companyId": "253",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/20/Kimberly-Clark_Logo.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.kimberly-clark.com/en/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "5007",
+            "displayUserCount": "5,007",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Kimberly-Clark-Reviews-E383.htm"
+        }
+    },
+    {
+        "name": "commonwealthBankOfAustralia",
+        "displayName": "Commonwealth Bank",
+        "description": "",
+        "companyId": "254",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/9/9c/Commonwealth_Bank_logo_2020.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.commbank.com.au/about-us/careers.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.5",
+            "userCount": "7999",
+            "displayUserCount": "7,999",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Commonwealth-Bank-of-Australia-Bangalore-Reviews-EI_IE7922.0,30_IL.31,40_IM1091.htm"
+        }
+    },
+    {
+        "name": "ringCentral",
+        "displayName": "RingCentral",
+        "description": "",
+        "companyId": "255",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/a/aa/RingCentral_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.ringcentral.com/company/careers/overview.html",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.4",
+            "userCount": "2065",
+            "displayUserCount": "2,065",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/RingCentral-Reviews-E197577.htm"
+        }
+    },
+    {
+        "name": "dassaultSystemes",
+        "displayName": "Dassault Systèmes",
+        "description": "",
+        "companyId": "256",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/3/31/Dassault_Syst%C3%A8mes_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.3ds.com/careers/jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "5031",
+            "displayUserCount": "5,031",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Dassault-Syst%C3%A8mes-Reviews-E6162.htm"
+        }
+    },
+    {
+        "name": "kyndrylIndia",
+        "displayName": "Kyndryl India",
+        "description": "",
+        "companyId": "257",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Kyndryl_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.kyndryl.com/in/en/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "5257",
+            "displayUserCount": "5,257",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Kyndryl-Reviews-E5905801.htm"
+        }
+    },
+    {
+        "name": "hashiCorp",
+        "displayName": "HashiCorp",
+        "description": "",
+        "companyId": "258",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/a/a0/HashiCorp_horizontal_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.hashicorp.com/en/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "457",
+            "displayUserCount": "457",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/HashiCorp-Reviews-E1359860.htm"
+        }
+    },
+    {
+        "name": "extremeNetworks",
+        "displayName": "Extreme Networks",
+        "description": "",
+        "companyId": "259",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Extreme_Networks_logo_-_new.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.extremenetworks.com/about-extreme-networks/career",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.0",
+            "userCount": "1137",
+            "displayUserCount": "1,137",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Extreme-Networks-Reviews-E8799.htm"
+        }
+    },
+    {
+        "name": "broadcom",
+        "displayName": "Broadcom",
+        "description": "",
+        "companyId": "260",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/5/58/Broadcom_logo_%282016-present%29.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.broadcom.com/company/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.2",
+            "userCount": "6463",
+            "displayUserCount": "6,463",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Broadcom-Reviews-E6926.htm"
+        }
+    },
+    {
+        "name": "valueLabs",
+        "displayName": "ValueLabs",
+        "description": "",
+        "companyId": "261",
+        "companyIconURL": "https://www.valuelabs.com/wp-content/plugins/wp-posts-blocks/images/navbar/valuelabs-logo-black.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.valuelabs.com/faqs/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "3436",
+            "displayUserCount": "3,436",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/ValueLabs-Reviews-E253864.htm"
+        }
+    },
+    {
+        "name": "allstate",
+        "displayName": "Allstate",
+        "description": "",
+        "companyId": "262",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/3/30/Allstate_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.allstatecorporation.com/careers.aspx",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.4",
+            "userCount": "1171",
+            "displayUserCount": "1,171",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Allstate-Reviews-E2341.htm"
+        }
+    },
+    {
+        "name": "docusign",
+        "displayName": "Docusign",
+        "description": "",
+        "companyId": "263",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Docusign_Full_Color.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.docusign.com/jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "3898",
+            "displayUserCount": "3,898",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Docusign-Reviews-E307604.htm"
+        }
+    },
+    {
+        "name": "axaXL",
+        "displayName": "AXA XL",
+        "description": "",
+        "companyId": "264",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/7/7e/AXA_lo.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://axaxl.com/about-us/careers-at-axa-xl",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "1852",
+            "displayUserCount": "1,852",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/AXA-XL-Reviews-E5891.htm"
+        }
     }
 ]
