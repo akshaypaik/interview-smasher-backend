@@ -3758,5 +3758,245 @@
             "displayUserCount": "1,697",
             "ratingLink": "https://www.glassdoor.co.in/Reviews/SKF-Reviews-E3974.htm"
         }
+    },
+    {
+        "name": "mcafee",
+        "displayName": "McAfee",
+        "description": "",
+        "companyId": "236",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/b/b3/McAfee-TM-h-logo-red-rgb.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.mcafee.com/global/en",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "2689",
+            "displayUserCount": "2,689",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/McAfee-Reviews-E2244.htm"
+        }
+    },
+    {
+        "name": "lamResearch",
+        "displayName": "Lam Research",
+        "description": "",
+        "companyId": "237",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Lam_Research_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.lamresearch.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "2566",
+            "displayUserCount": "2,566",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Lam-Research-Reviews-E1582.htm"
+        }
+    },
+    {
+        "name": "thoughtworks",
+        "displayName": "Thoughtworks",
+        "description": "",
+        "companyId": "238",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Thoughtworks_logo.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.thoughtworks.com/en-in/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "5329",
+            "displayUserCount": "5,329",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Thoughtworks-Reviews-E38334.htm"
+        }
+    },
+    {
+        "name": "fujitsu",
+        "displayName": "Fujitsu",
+        "description": "",
+        "companyId": "239",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/5/53/Fujitsu-Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.fujitsu.com/in/about/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "7592",
+            "displayUserCount": "7,592",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Fujitsu-Reviews-E3524.htm"
+        }
+    },
+    {
+        "name": "capco",
+        "displayName": "Capco",
+        "description": "",
+        "companyId": "240",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/6/66/Capco_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.capco.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "3801",
+            "displayUserCount": "3,801",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Capco-Reviews-E400565.htm"
+        }
+    },
+    {
+        "name": "cvent",
+        "displayName": "Cvent",
+        "description": "",
+        "companyId": "241",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cvent-logo-2.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.cvent.com/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "2593",
+            "displayUserCount": "2,593",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Cvent-Reviews-E104683.htm"
+        }
+    },
+    {
+        "name": "nielsen",
+        "displayName": "Nielsen",
+        "description": "",
+        "companyId": "242",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Nielsen_2021.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.nielsen.com/careers/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.3",
+            "userCount": "9797",
+            "displayUserCount": "9,797",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Nielsen-Reviews-E3776.htm"
+        }
+    },
+    {
+        "name": "fico",
+        "displayName": "FICO",
+        "description": "",
+        "companyId": "243",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Fair_Isaac_Corporation_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.fico.com/en/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "1777",
+            "displayUserCount": "1,777",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/FICO-Reviews-E1387.htm"
+        }
+    },
+    {
+        "name": "ebay",
+        "displayName": "eBay",
+        "description": "",
+        "companyId": "244",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://jobs.ebayinc.com/us/en",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "6595",
+            "displayUserCount": "6,595",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/eBay-Reviews-E7853.htm"
+        }
+    },
+    {
+        "name": "citrix",
+        "displayName": "Citrix",
+        "description": "",
+        "companyId": "245",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/0/03/Citrix_Systems_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.linkedin.com/jobs/citrix-jobs/?currentJobId=4208846568&originalSubdomain=in",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "2.9",
+            "userCount": "57",
+            "displayUserCount": "57",
+            "ratingLink": "https://www.glassdoor.co.in/Overview/Working-at-Citrix-EI_IE10287794.11,17.htm"
+        }
+    },
+    {
+        "name": "aristaNetworks",
+        "displayName": "Arista Networks",
+        "description": "",
+        "companyId": "246",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/9/99/Arista-networks-logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.arista.com/en/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.1",
+            "userCount": "1232",
+            "displayUserCount": "1,232",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Arista-Networks-Reviews-E295128.htm"
+        }
+    },
+    {
+        "name": "uipath",
+        "displayName": "UiPath",
+        "description": "",
+        "companyId": "247",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/8/80/UiPath_2019_Corporate_Logo.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.uipath.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "1287",
+            "displayUserCount": "1,287",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/UiPath-Reviews-E1102519.htm"
+        }
+    },
+    {
+        "name": "blueYonder",
+        "displayName": "Blue Yonder",
+        "description": "",
+        "companyId": "248",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/d/dd/Blue_Yonder_Logo.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.blueyonder.com/us/en",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "3536",
+            "displayUserCount": "3,536",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Blue-Yonder-Reviews-E6191.htm"
+        }
+    },
+    {
+        "name": "nutanix",
+        "displayName": "Nutanix",
+        "description": "",
+        "companyId": "249",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Nutanix-Logo-Charcoal-Gray-Digital.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.nutanix.com/company/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "2563",
+            "displayUserCount": "2,563",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Nutanix-Reviews-E429159.htm"
+        }
+    },
+    {
+        "name": "trelleborgGroup",
+        "displayName": "Trelleborg Group",
+        "description": "",
+        "companyId": "250",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Trelleborg_company_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.trelleborg.com/en/career",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.8",
+            "userCount": "545",
+            "displayUserCount": "545",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Trelleborg-Reviews-E10376.htm"
+        }
     }
 ]
