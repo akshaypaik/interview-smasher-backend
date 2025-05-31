@@ -4366,5 +4366,117 @@
             "displayUserCount": "890",
             "ratingLink": "https://www.glassdoor.co.in/Reviews/Roku-Reviews-E26760.htm"
         }
+    },
+    {
+        "name": "humana",
+        "displayName": "Humana",
+        "description": "",
+        "companyId": "274",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Humana_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://careers.humana.com/us/en",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "7820",
+            "displayUserCount": "7,820",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Humana-Reviews-E340.htm"
+        }
+    },
+    {
+        "name": "tataTechnologies",
+        "displayName": "Tata Technologies",
+        "description": "",
+        "companyId": "275",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/e/e3/Tata_Technologies_Logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.tatatechnologies.com/in/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.7",
+            "userCount": "3146",
+            "displayUserCount": "3,146",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Tata-Technologies-Bangalore-Reviews-EI_IE327596.0,17_IL.18,27_IM1091.htm"
+        }
+    },
+    {
+        "name": "googleCloud",
+        "displayName": "Google Cloud",
+        "description": "",
+        "companyId": "276",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg",
+        "isProductBased": true,
+        "companyCareerPageURL": "https://www.google.com/about/careers/applications/cloud",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "4.2",
+            "userCount": "1809",
+            "displayUserCount": "1,809",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Google-Cloud-Reviews-E3162960.htm"
+        }
+    },
+    {
+        "name": "blinkit",
+        "displayName": "Blinkit",
+        "description": "",
+        "companyId": "277",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Blinkit-yellow-rounded.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://blinkit.com/careers/jobs",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.4",
+            "userCount": "911",
+            "displayUserCount": "911",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Blinkit-Reviews-E1007293.htm"
+        }
+    },
+    {
+        "name": "larsenAndToubro",
+        "displayName": "Larsen & Toubro",
+        "description": "",
+        "companyId": "278",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/en/a/a1/Larsen%26Toubro_logo.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.larsentoubro.com/corporate/careers/",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.6",
+            "userCount": "8904",
+            "displayUserCount": "8,904",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/Larsen-and-Toubro-Reviews-E41782.htm"
+        }
+    },
+    {
+        "name": "sbi",
+        "displayName": "State Bank of India",
+        "description": "",
+        "companyId": "279",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/3/33/State_Bank_of_India.svg",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://sbi.co.in/web/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.5",
+            "userCount": "3804",
+            "displayUserCount": "3,804",
+            "ratingLink": "https://www.glassdoor.co.in/Reviews/SBI-Reviews-E8899.htm"
+        }
+    },
+    {
+        "name": "hackerrank",
+        "displayName": "HackerRank",
+        "description": "",
+        "companyId": "280",
+        "companyIconURL": "https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png",
+        "isProductBased": false,
+        "companyCareerPageURL": "https://www.hackerrank.com/careers",
+        "userRatings": {
+            "totalRating": "5",
+            "rating": "3.9",
+            "userCount": "313",
+            "displayUserCount": "313",
+            "ratingLink": "https://www.glassdoor.co.in/Overview/Working-at-HackerRank-EI_IE811012.11,21.htm"
+        }
     }
 ]
