@@ -127,7 +127,9 @@ class QuickCareerService {
 
             let rowDate: any;
             if (jobLinkDetails?.jobStatus === "Interview Scheduled") {
+                const interviewScheduleCollection = db.dbConnector.db("InterviewSmasher").collection("interviewSchedule");
                 rowDate = jobLinkDetails?.createdOn;
+                interviewScheduleCollection.insertOne(jobLinkDetails);
             } else {
                 rowDate = helperService.getUTCTimeNow();
             }
